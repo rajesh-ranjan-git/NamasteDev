@@ -9,6 +9,17 @@ setTimeout(function cb() {
   console.log("Callback with 0 secs");
 }, 0);
 
+const x = () => {
+  console.log("x called");
+};
+
+const y = (y) => {
+  console.log("y called");
+  x();
+};
+
+y();
+
 console.log("End");
 
 let startDate = new Date().getTime();
