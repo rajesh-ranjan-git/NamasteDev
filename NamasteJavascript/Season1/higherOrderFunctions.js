@@ -8,6 +8,24 @@ function y(x) {
 
 y(x);
 
+function b() {
+  console.log("b called");
+}
+
+function a(b) {
+  console.log("a called");
+
+  b();
+
+  function c() {
+    console.log("c called");
+  }
+
+  return c;
+}
+
+a(b)();
+
 // Bad Code
 console.log("Using Bad Approach");
 const radius = [3, 1, 2, 4];
