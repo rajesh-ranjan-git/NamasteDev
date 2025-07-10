@@ -34,28 +34,46 @@ const pr6 = new Promise((resolve, reject) => {
   }, 3000);
 });
 
-// Promise.all([pr1, pr2, pr3]).then((res) => console.log(res)).catch((err) => console.log(err));
+Promise.all([pr1, pr2, pr3])
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
 
-// Promise.all([pr1, pr2, pr3]).then((res) => console.log(res)).catch((err) => console.log(err));
+Promise.all([pr1, pr2, pr3])
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
 
-// Promise.allSettled([pr1, pr2, pr3]).then((res) => console.log(res)).catch((err) => console.log(err));
+Promise.allSettled([pr1, pr2, pr3])
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
 
-// Promise.allSettled([pr1, pr4, pr3]).then((res) => console.log(res)).catch((err) => console.log(err));
+Promise.allSettled([pr1, pr4, pr3])
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
 
-// Promise.allSettled([pr4, pr5, pr6]).then((res) => console.log(res)).catch((err) => console.log(err));
+Promise.allSettled([pr4, pr5, pr6])
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
 
-// Promise.race([pr2, pr4, pr3])
-//   .then((res) => console.log(res))
-//   .catch((err) => console.log(err));
+Promise.race([pr2, pr4, pr3])
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
 
-// Promise.race([pr1, pr4, pr3])
-//   .then((res) => console.log(res))
-//     .catch((err) => console.log(err));
+Promise.race([pr1, pr4, pr3])
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
 
 Promise.any([pr1, pr5, pr6])
   .then((res) => console.log(res))
   .catch((err) => console.log(err));
 
-// Promise.any([pr4, pr5, pr6])
-//   .then((res) => console.log(res))
-//   .catch((err) => console.log(err));
+Promise.any([pr4, pr5, pr6])
+  .then((res) => console.log(res))
+  .catch((err) => console.log(err));
+
+// To access errors list
+Promise.any([pr4, pr5, pr6])
+  .then((res) => console.log(res))
+  .catch((err) => {
+    console.log(err);
+    console.log(err.errors);
+  });
