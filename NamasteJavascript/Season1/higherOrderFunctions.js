@@ -8,20 +8,22 @@ function y(x) {
 
 y(x);
 
-function b() {
-  console.log("b called");
-}
-
+// Higher Order Function
 function a(b) {
   console.log("a called");
 
-  b();
+  b(); // Callback Function
 
+  // First Class Function
   function c() {
     console.log("c called");
   }
 
   return c;
+}
+
+function b() {
+  console.log("b called");
 }
 
 a(b)();
