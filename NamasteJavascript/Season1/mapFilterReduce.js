@@ -352,3 +352,12 @@ console.log(
     return acc;
   }, [])
 );
+
+// Using Arrow functions - shorthand and reduce without return
+console.log("Using Arrow functions - shorthand and reduce without return");
+console.log(
+  users.reduce(
+    (acc, curr) => (curr.age < 30 ? (acc.push(curr.firstName), acc) : acc),
+    []
+  )
+);
