@@ -4,100 +4,100 @@
 // Everything in javascript is ultimately an object
 
 // Object prototypal inheritance
-// console.log(Object);
-// console.log(Object.__proto__);
-// console.log(Object.__proto__.__proto__);
-// console.log(Object.prototype);
-// console.log(Object.__proto__.__proto__.__proto__);
-// console.log(Object.prototype.__proto__);
+console.log(Object);
+console.log(Object.__proto__);
+console.log(Object.__proto__.__proto__);
+console.log(Object.prototype);
+console.log(Object.__proto__.__proto__.__proto__);
+console.log(Object.prototype.__proto__);
 
 // Function prototypal inheritance
-// console.log(Function);
+console.log(Function);
 
-// console.log(Function.__proto__);
-// console.log(Function.prototype);
-// console.log(Object.__proto__);
+console.log(Function.__proto__);
+console.log(Function.prototype);
+console.log(Object.__proto__);
 
-// console.log(Function.__proto__.__proto__);
-// console.log(Function.prototype.__proto__);
-// console.log(Object.prototype);
+console.log(Function.__proto__.__proto__);
+console.log(Function.prototype.__proto__);
+console.log(Object.prototype);
 
-// console.log(Function.__proto__.__proto__.__proto__);
-// console.log(Function.prototype.__proto__.__proto__);
-// console.log(Object.prototype.__proto__);
+console.log(Function.__proto__.__proto__.__proto__);
+console.log(Function.prototype.__proto__.__proto__);
+console.log(Object.prototype.__proto__);
 
 // Number prototypal inheritance
-// console.log(Number);
+console.log(Number);
 
-// console.log(Number.prototype);
+console.log(Number.prototype);
 
-// console.log(Number.__proto__);
-// console.log(Object.__proto__);
+console.log(Number.__proto__);
+console.log(Object.__proto__);
 
-// console.log(Number.__proto__.__proto__);
-// console.log(Number.prototype.__proto__);
-// console.log(Object.prototype);
+console.log(Number.__proto__.__proto__);
+console.log(Number.prototype.__proto__);
+console.log(Object.prototype);
 
-// console.log(Number.__proto__.__proto__.__proto__);
-// console.log(Number.prototype.__proto__.__proto__);
-// console.log(Object.prototype.__proto__);
+console.log(Number.__proto__.__proto__.__proto__);
+console.log(Number.prototype.__proto__.__proto__);
+console.log(Object.prototype.__proto__);
 
 // String prototypal inheritance
-// console.log(String);
+console.log(String);
 
-// console.log(String.prototype);
+console.log(String.prototype);
 
-// console.log(String.__proto__);
-// console.log(Object.__proto__);
+console.log(String.__proto__);
+console.log(Object.__proto__);
 
-// console.log(String.__proto__.__proto__);
-// console.log(String.prototype.__proto__);
-// console.log(Object.prototype);
+console.log(String.__proto__.__proto__);
+console.log(String.prototype.__proto__);
+console.log(Object.prototype);
 
-// console.log(String.__proto__.__proto__.__proto__);
-// console.log(String.prototype.__proto__.__proto__);
-// console.log(Object.prototype.__proto__);
+console.log(String.__proto__.__proto__.__proto__);
+console.log(String.prototype.__proto__.__proto__);
+console.log(Object.prototype.__proto__);
 
 // Boolean prototypal inheritance
-// console.log(Boolean);
-// console.log(Boolean.__proto__);
-// console.log(Boolean.prototype);
-// console.log(Boolean.__proto__.__proto__);
-// console.log(Boolean.prototype.__proto__);
-// console.log(Boolean.__proto__.__proto__.__proto__);
-// console.log(Boolean.prototype.__proto__.__proto__);
+console.log(Boolean);
+console.log(Boolean.__proto__);
+console.log(Boolean.prototype);
+console.log(Boolean.__proto__.__proto__);
+console.log(Boolean.prototype.__proto__);
+console.log(Boolean.__proto__.__proto__.__proto__);
+console.log(Boolean.prototype.__proto__.__proto__);
 
 // Variables
 const a = 10;
 
-// console.log(a);
+console.log(a);
 
-// console.log(a.__proto__);
-// console.log(Number.prototype); // Same as a.__proto__
+console.log(a.__proto__);
+console.log(Number.prototype); // Same as a.__proto__
 
-// console.log(Number.__proto__.__proto__); // Same as a.__proto__
-// console.log(a.__proto__.__proto__);
-// console.log(Object.prototype); // Same as a.__proto__.__proto__
+console.log(Number.__proto__.__proto__); // Same as a.__proto__
+console.log(a.__proto__.__proto__);
+console.log(Object.prototype); // Same as a.__proto__.__proto__
 
-// console.log(a.__proto__.__proto__.__proto__);
-// console.log(Object.prototype.__proto__);
+console.log(a.__proto__.__proto__.__proto__);
+console.log(Object.prototype.__proto__);
 
 // Functions
 function fn() {
   console.log("function");
 }
 
-// console.log(fn);
+console.log(fn);
 
-// console.log(fn.prototype);
+console.log(fn.prototype);
 
-// console.log(fn.__proto__);
+console.log(fn.__proto__);
 
-// console.log(fn.__proto__.__proto__);
-// console.log(fn.prototype.__proto__);
+console.log(fn.__proto__.__proto__);
+console.log(fn.prototype.__proto__);
 
-// console.log(fn.__proto__.__proto__.__proto__);
-// console.log(fn.prototype.__proto__.__proto__);
+console.log(fn.__proto__.__proto__.__proto__);
+console.log(fn.prototype.__proto__.__proto__);
 
 // Objects
 const person = {
@@ -111,13 +111,13 @@ const person = {
   },
 };
 
-// console.log(person);
+console.log(person);
 
-// console.log(person.__proto__);
-// console.log(Object.prototype);
+console.log(person.__proto__);
+console.log(Object.prototype);
 
-// console.log(person.__proto__.__proto__);
-// console.log(Object.prototype.__proto__);
+console.log(person.__proto__.__proto__);
+console.log(Object.prototype.__proto__);
 
 const person2 = {
   firstName: "Sayantanee",
@@ -131,3 +131,19 @@ console.log(person2.firstName);
 console.log(person2.lastName);
 console.log(person2.age); // Inherited from person
 person2.getDetails(); // Inherited from person
+
+// Application of Prototypal Inheritance
+Object.prototype.getFullName = function () {
+  console.log(this.firstName + " " + this.lastName);
+};
+
+person.getFullName(); // getFullName is now available to every object in this javascript code
+
+Array.prototype.getArrayLength = function () {
+  console.log(this.length);
+};
+
+const arr = [4, 6, 7, 3, 6, 3];
+arr.getArrayLength(); // getArrayLength is now available to every array in this file
+
+// Usage : See polyfills for useCallback, apply and bind
