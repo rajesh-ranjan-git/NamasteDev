@@ -34,7 +34,7 @@ const person1 = {
   },
 };
 
-person1.getName();
+person1.getName(); // this function is called method because it is associated with an object, when it will be in global space it is called a function
 
 const person2 = {
   name: "Sayantanee",
@@ -42,7 +42,7 @@ const person2 = {
 
 person1.getName.call(person2); // this keyword reference to the object that is calling the function : person2
 
-// this keyword inside arrow functions - arrow function does not its own this keyword bind and it points to its lexical context
+// this keyword inside arrow functions - arrow function does not have its own this keyword bind and it points to its lexical context
 const c = () => {
   console.log(this);
 };
@@ -60,16 +60,29 @@ obj2.e(); // it will point to window instead of obj2 (lexical context)
 
 // this keyword inside nested arrow functions
 const obj3 = {
-  d: 30,
-  e: function () {
-    const f = () => {
+  f: 30,
+  g: function () {
+    const h = () => {
       console.log(this); // points to lexical context which is obj3
     };
 
-    f();
+    h();
   },
 };
 
-obj3.e();
+obj3.g();
+
+const obj4 = {
+  i: 30,
+  j: () => {
+    const k = () => {
+      console.log(this); // points to lexical context which is obj4, but since its lexical context is also arrow function, it will points to its lexical scope with is window
+    };
+
+    k();
+  },
+};
+
+obj4.j();
 
 // this keyword inside DOM - points to the HTML element that calls it
