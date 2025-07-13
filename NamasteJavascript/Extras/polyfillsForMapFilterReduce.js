@@ -3,7 +3,7 @@ const arr = [3, 6, 8, 2, 5];
 // map
 const doubleArr = arr.map((item) => 2 * item);
 
-// console.log(doubleArr);
+console.log(doubleArr);
 
 // Polyfill for map
 Array.prototype.myMap = function (callback) {
@@ -17,11 +17,11 @@ Array.prototype.myMap = function (callback) {
 };
 
 const myDoubleArr = arr.myMap((item) => 2 * item);
-// console.log(myDoubleArr);
+console.log(myDoubleArr);
 
 // reduce
 const filteredArr = arr.filter((item) => item > 3);
-// console.log(filteredArr);
+console.log(filteredArr);
 
 // Polyfill for filter
 Array.prototype.myFilter = function (callback) {
@@ -36,8 +36,8 @@ Array.prototype.myFilter = function (callback) {
   return temp;
 };
 
-// const myFilteredArr = arr.myFilter((item) => item > 3);
-// console.log(myFilteredArr);
+const myFilteredArr = arr.myFilter((item) => item > 3);
+console.log(myFilteredArr);
 
 // reduce
 const sum = arr.reduce((acc, curr) => acc + curr, 0);
