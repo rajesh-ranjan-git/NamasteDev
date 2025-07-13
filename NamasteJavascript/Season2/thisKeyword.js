@@ -1,7 +1,7 @@
 "use strict"; // to run this javascript file in strict mode
 
 // this in global space
-// console.log(this); // global object, window in browsers, global in nodejs and can be different for different JS engines wherever we run this javascript (SpiderMonkey or chakra)
+console.log(this); // global object, window in browsers, global in nodejs and can be different for different JS engines wherever we run this javascript (SpiderMonkey or chakra)
 
 // this inside a function
 function x() {
@@ -11,9 +11,10 @@ function x() {
 // this in strict mode - (this substitution - if the value of this keyword is undefined or null, it will be replaced with global object only in non-strict mode)
 
 // this value depends on how this is called (window)
-// x(); // undefined - when called without any reference
-// window.x(); // window -- when called with window reference
+x(); // undefined - when called without any reference
+window.x(); // window -- when called with window reference
 
+// from here strict or non-script mode does not matter
 // this inside an object's method
 
 const obj1 = {
@@ -23,7 +24,7 @@ const obj1 = {
   },
 };
 
-// obj1.b();
+obj1.b();
 
 // call, apply, and bind methods (sharing methods)
 const person1 = {
@@ -33,20 +34,20 @@ const person1 = {
   },
 };
 
-// person1.getName();
+person1.getName();
 
 const person2 = {
   name: "Sayantanee",
 };
 
-// person1.getName.call(person2); // this keyword reference to the object that is calling the function : person2
+person1.getName.call(person2); // this keyword reference to the object that is calling the function : person2
 
 // this inside arrow functions - arrow function does not its own this bind and it points to its lexical context
 const c = () => {
   console.log(this);
 };
 
-// c();
+c();
 
 const obj2 = {
   d: 20,
