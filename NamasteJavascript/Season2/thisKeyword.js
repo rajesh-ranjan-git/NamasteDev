@@ -24,7 +24,7 @@ const obj1 = {
   },
 };
 
-obj1.b();
+obj1.b(); // points to object itself
 
 // call, apply, and bind methods (sharing methods)
 const person1 = {
