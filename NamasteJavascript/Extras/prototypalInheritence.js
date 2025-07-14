@@ -124,7 +124,7 @@ const person2 = {
   lastName: "Mohanta",
 };
 
-// This is not recommended at all as it will lead to performance and other issues since we are overriding javascript in-built things
+// This is not recommended at all as it will lead to performance and other issues since we are overriding javascript in-built things as by default person will have object prototype which are essential to the object.
 person2.__proto__ = person;
 
 console.log(person2.firstName);
