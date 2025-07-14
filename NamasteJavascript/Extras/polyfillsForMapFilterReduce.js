@@ -28,16 +28,17 @@ Array.prototype.myFilter = function (callback) {
   const temp = [];
 
   for (let i = 0; i < this.length; i++) {
-    if (callback(this[i])) {
-      temp.push(this[i]);
-    }
+    // if (callback(this[i])) {
+    //   temp.push(this[i]);
+    // }
+    callback(this[i]) ? temp.push(this[i]) : null;
   }
 
   return temp;
 };
 
 const myFilteredArr = arr.myFilter((item) => item > 3);
-console.log(myFilteredArr);
+console.log("myFilteredArr : ", myFilteredArr);
 
 // reduce
 const sum = arr.reduce((acc, curr) => acc + curr, 0);
