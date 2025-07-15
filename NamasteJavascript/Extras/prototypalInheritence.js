@@ -1,7 +1,7 @@
 // Prototypal Inheritance is very different in javascript than inheritance other languages
 // It means inheriting properties from one object to other
 // It is done using __proto__ property which is made available to every object in javascript which is same as prototype property
-// Everything in javascript is ultimately an object
+// Everything in javascript is ultimately an object as everything ultimately gets inherited from Object class and Object's prototype points to null.
 
 // Object prototypal inheritance
 console.log(Object);
