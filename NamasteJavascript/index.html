@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namaste JavaScript</title>
+
+    <style>
+      div {
+        min-width: 100px;
+        min-height: 100px;
+        padding: 30px;
+        border: 1px solid white;
+      }
+    </style>
   </head>
   <body
     style="
@@ -24,6 +33,10 @@
     </button> -->
     <!-- <button id="alertButtonId" onclick="alert(this.id)">Click Me</button> -->
     <!-- <button id="alertButtonId" onclick="alert(this.onclick)">Click Me</button> -->
+
+    <div id="grandParent">
+      <div id="parent"><div id="child"></div></div>
+    </div>
   </body>
 
   <!-- Season 01 -->
@@ -56,5 +69,6 @@
   <!-- <script src="Extras/callApplyBind.js"></script> -->
   <!-- <script src="Extras/polyfillsCallApplyBind.js"></script> -->
   <!-- <script src="Extras/polyfillsForMapFilterReduce.js"></script> -->
-  <script src="Extras/funcitonCurrying.js"></script>
+  <!-- <script src="Extras/funcitonCurrying.js"></script> -->
+  <script src="Extras/eventBubblingAndCapturing.js"></script>
 </html>
