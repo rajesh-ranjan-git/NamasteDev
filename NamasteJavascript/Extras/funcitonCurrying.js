@@ -45,11 +45,11 @@ const sumWithBind = function (a, b) {
 const sumTwoNumbersWithBind = sumWithBind.bind(this, 5);
 sumTwoNumbersWithBind(7);
 
-let sumThreeNumbersWithBind = sumWithBind.bind(this, 7);
-sumThreeNumbersWithBind(9);
+// let sumTwoNumbersWithBind = sumWithBind.bind(this, 7);
+// sumTwoNumbersWithBind(9);
 
-let sumFourNumbersWithBind = sumThreeNumbersWithBind.bind(this, 8);
-sumFourNumbersWithBind();
+let sumThreeNumbersWithBind = sumTwoNumbersWithBind.bind(this, 8);
+sumThreeNumbersWithBind();
 
 // sum(1)(2)(3)(4)...
 const sum = function (a) {
