@@ -6,7 +6,8 @@ function sumTwoNumbers(x, y) {
 
 console.log(sumTwoNumbers(3, 4));
 
-function sum(a) {
+// Using closure
+function sumWithClosure(a) {
   return function (b) {
     return function (c) {
       return a + b + c;
@@ -14,7 +15,7 @@ function sum(a) {
   };
 }
 
-console.log(sum(2)(3)(4));
+console.log(sumWithClosure(2)(3)(4));
 
 function sendAutoEmail(to) {
   return function (subject) {
@@ -35,3 +36,37 @@ step2("Hey Rajesh, here is something for you!");
 let step1Arrow = sendAutoEmail("sayantaneemohanta@gmailcom");
 let step2Arrow = step1Arrow("New order confirmation");
 step2Arrow("Hey Rajesh, here is something for you!");
+
+// Using bind
+const sumWithBind = function (a, b) {
+  console.log(a + b);
+};
+
+const sumTwoNumbersWithBind = sumWithBind.bind(this, 5);
+sumTwoNumbersWithBind(7);
+
+let sumThreeNumbersWithBind = sumWithBind.bind(this, 7);
+sumThreeNumbersWithBind(9);
+
+let sumFourNumbersWithBind = sumThreeNumbersWithBind.bind(this, 8);
+sumFourNumbersWithBind();
+
+// sum(1)(2)(3)(4)...
+const sum = function (a) {
+  return function (b) {
+    if (b || b === 0) {
+      return sum(a + b);
+    }
+
+    return a;
+  };
+};
+
+console.log(sum(3)());
+console.log(sum(0)());
+console.log(sum(0)(0)());
+console.log(sum(3)(2)());
+console.log(sum(3)(0)());
+console.log(sum(3)(2)(5)());
+console.log(sum(3)(2)(5)(7)());
+console.log(sum(3)(2)(5)(7)(0)());
