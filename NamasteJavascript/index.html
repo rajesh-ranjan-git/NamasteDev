@@ -11,6 +11,42 @@
         min-height: 100px;
         padding: 30px;
         border: 1px solid white;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        color: #000;
+        list-style-type: none;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      li {
+        background-color: lightseagreen;
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        transition: all 0.3s;
+        cursor: pointer;
+      }
+
+      li:hover {
+        background-color: #fff;
+        color: lightseagreen;
+        border: 1px solid lightseagreen;
       }
     </style>
   </head>
@@ -34,9 +70,21 @@
     <!-- <button id="alertButtonId" onclick="alert(this.id)">Click Me</button> -->
     <!-- <button id="alertButtonId" onclick="alert(this.onclick)">Click Me</button> -->
 
-    <div id="grandParent">
+    <!-- Event Bubbling and capturing -->
+    <!-- <div id="grandParent">
       <div id="parent"><div id="child"></div></div>
-    </div>
+    </div> -->
+
+    <!-- Event delegation -->
+    <ul id="categories">
+      <li id="pc">PC</li>
+      <li id="laptop">Laptop</li>
+      <li id="mobile">Mobile</li>
+      <li id="tv">TV</li>
+      <li id="speaker">Speaker</li>
+    </ul>
+
+    <div id="content"></div>
   </body>
 
   <!-- Season 01 -->
@@ -70,6 +118,6 @@
   <!-- <script src="Extras/polyfillsCallApplyBind.js"></script> -->
   <!-- <script src="Extras/polyfillsForMapFilterReduce.js"></script> -->
   <!-- <script src="Extras/funcitonCurrying.js"></script> -->
-  <script src="Extras/eventBubblingAndCapturing.js"></script>
-  <!-- <script src="Extras/eventDelegation.js"></script> -->
+  <!-- <script src="Extras/eventBubblingAndCapturing.js"></script> -->
+  <script src="Extras/eventDelegation.js"></script>
 </html>
