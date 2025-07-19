@@ -18,6 +18,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
       }
 
       ul {
@@ -84,7 +86,17 @@
       <li id="speaker">Speaker</li>
     </ul>
 
-    <div id="content"></div>
+    <!-- <div id="content"></div> -->
+
+    <div id="inputDiv">
+      <input type="text" data-uppercase />
+      <input type="text" />
+      <input type="text" />
+      <input type="text" data-uppercase />
+    </div>
+
+    <!-- Debouncing and Throttling -->
+    <!-- <input type="text" /> -->
   </body>
 
   <!-- Season 01 -->
@@ -120,4 +132,5 @@
   <!-- <script src="Extras/funcitonCurrying.js"></script> -->
   <!-- <script src="Extras/eventBubblingAndCapturing.js"></script> -->
   <script src="Extras/eventDelegation.js"></script>
+  <!-- <script src="Extras/debouncingThrottling.js"></script> -->
 </html>

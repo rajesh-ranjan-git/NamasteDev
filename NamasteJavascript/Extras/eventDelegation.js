@@ -20,3 +20,10 @@ document.querySelector("#categories").addEventListener("click", (e) => {
 
 // Limitation of event delegation
 // Not all the events bubble up (e.g. focus, scroll, blur, mouseenter, mouseleave, load, unload etc) which needs to be handled separately.
+
+// data attribute - are used to set specific properties to elements
+document.querySelector("#inputDiv").addEventListener("keyup", (e) => {
+  if (e.target.dataset.uppercase !== undefined) {
+    e.target.value = e.target.value.toUpperCase();
+  }
+});
