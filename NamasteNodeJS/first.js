@@ -1,11 +1,11 @@
 var name = "Namaste Node JS";
 var a = 10;
-var b = 10;
+var b = 20;
 
 console.log(name);
 console.log(a + b);
 
-// console.log(window); // window is only available on web and not provided by Node JS, instead Node JS provides global, with NOde JS we will get ReferenceError : window is not defined
+// console.log(window); // window is only available on web and not provided by Node JS, instead Node JS provides global, with Node JS we will get ReferenceError : window is not defined
 console.log(this); // With browsers it gives the global object window but with Node JS it gives an empty object and not window or global
 // console.log(self); // With browsers it gives the global object window but with Node JS it throws ReferenceError : self is not defined
 // console.log(frames); // With browsers it gives the global object window but with Node JS it throws ReferenceError : frames is not defined
