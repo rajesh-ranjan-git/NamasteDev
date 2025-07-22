@@ -10,6 +10,10 @@
 // const calculateSum = require("./sum");
 // const obj = require("./sum");
 // const { x, calculateSum } = require("./sum");
+// const multiply = require("./multiply/multiply");
+// const {x, calculateSum ,multiply} = require("./multiply/index");
+const { x, calculateSum, multiply } = require("./multiply");
+const data = require("./data.json");
 
 // ES modules - Latest way to import modules, as per ECMAScript this will soon be the standard going forward
 // It supports asynchronous operations by default and does not block the code  for importing modules
@@ -17,14 +21,16 @@
 // By default used by frameworks like React, Angular, Next JS etc
 // Typ is compulsory while declaring variables (var, let or const)
 
-import { x, calculateSum } from "./sum";
+// import { x, calculateSum } from "./sum.js";
+// import { calculateSum } from "./sum.js";
+// import multiply from "./multiply/multiply.js";
 
 console.log("Main file");
 
 var a = 10;
 var b = 20;
 
-x = 30; // Will not work with ES syntax
+// x = 30; // Will not work with ES syntax
 
 // calculateSum(a, b);
 // console.log(obj.x);
@@ -32,3 +38,8 @@ x = 30; // Will not work with ES syntax
 
 console.log(x);
 calculateSum(a, b);
+
+multiply(3, 4);
+
+console.log(JSON.stringify(data));
+console.log(data);

@@ -1,12 +1,17 @@
 // export var x = "Hello World";
 var x = "Hello World";
 
-// ES pattern export
-export function calculateSum(a, b) {
+// Common JS pattern
+function calculateSum(a, b) {
   console.log(a + b);
 }
 
-console.log(module.exports); // By default an empty object {}
+// ES pattern export
+// export function calculateSum(a, b) {
+//   console.log(a + b);
+// }
+
+// console.log(module.exports); // By default an empty object {}
 // module.exports = calculateSum;
 
 // Common JS export
