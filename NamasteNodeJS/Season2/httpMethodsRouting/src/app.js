@@ -18,6 +18,30 @@ app.post("/hello", (req, res) => {
   });
 });
 
+app.put("/hello", (req, res) => {
+  res.send({
+    status: "ok",
+    method: "put",
+    message: "Hello Hello Hello...!",
+  });
+});
+
+app.patch("/hello", (req, res) => {
+  res.send({
+    status: "ok",
+    method: "patch",
+    message: "Hello Hello Hello...!",
+  });
+});
+
+app.delete("/hello", (req, res) => {
+  res.send({
+    status: "ok",
+    method: "delete",
+    message: "Hello Hello Hello...!",
+  });
+});
+
 app.get("/test", (req, res) => {
   res.send({
     status: "ok",
