@@ -5,12 +5,14 @@ import { signIn } from "../controllers/user.js";
 
 const app = express();
 
+app.use(express.json());
+
 app.post("/signup", signUp);
 
 app.post("/signin", signIn);
 
-app.use("/", (req, res) => {
-  res.send({
+app.get("/", (req, res) => {
+  res.status(200).send({
     status: "ok",
     message: "Server is running...!",
   });

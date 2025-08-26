@@ -1,57 +1,144 @@
 import User from "../models/user.js";
+import { signUpReqValidator } from "../utils/requestValidator.js";
 
-export const signUp = (req, res) => {
+export const signUp = async (req, res) => {
+  const body = req.body;
+  // const body = signUpReqValidator(req);
+
+  if (!body) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID REQUEST",
+    });
+    return;
+  }
+
+  if (!body.firstName || !body.email || !body.password) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID REQUEST",
+    });
+    return;
+  }
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(body.email.trim().toLowerCase())) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID EMAIL",
+    });
+    return;
+  }
+
+  if (
+    body.gender &&
+    !["male", "female", "other"].includes(body.gender.trim().toLowerCase())
+  ) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID GENDER",
+    });
+    return;
+  }
+
   try {
+    const existingUser = await User.findOne({ email: body.email });
+
+    if (existingUser) {
+      res.status(400).send({
+        status: "fail",
+        message: "USER ALREADY EXISTS",
+      });
+      return;
+    }
+
     const user = new User({
-      firstName: "Rajesh",
-      lastName: "Ranjan",
-      age: 29,
-      email: "rajesh@ranjan.com",
-      password: "rajesh@ranjan",
-      city: "Noida",
+      firstName: body.firstName,
+      lastName: body.lastName,
+      email: body.email,
+      password: body.password,
+      age: body.age,
+      gender: body.gender,
+      city: body.city,
+      designation: body.designation,
+      skills: body.skills,
+      hobbies: body.hobbies,
     });
 
     user.save();
 
-    res.send({
+    res.status(201).send({
       status: "ok",
-      message: "User created successfully...! ",
+      message: "USER CREATED",
     });
+    return;
   } catch (error) {
-    console.error("An Error occurred while creating user : ", error);
-    res.send({
+    console.error("AN ERROR OCCURRED", error);
+    res.status(500).send({
       status: "fail",
       error: error,
-      message: "An Error occurred while creating user...! ",
+      message: "AN ERROR OCCURRED",
     });
+    return;
   }
 };
 
-export const signIn = (req, res) => {
-  try {
-    const user = {
-      email: "rajesh@ranjan.com",
-      password: "rajesh@ranjan",
-    };
+export const signIn = async (req, res) => {
+  const body = req.body;
 
-    if (user.password === "rajesh@ranjan") {
-      res.send({
-        status: "ok",
-        message: "Sign In successful...! ",
-      });
-    } else {
-      res.send({
+  if (!body) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID REQUEST",
+    });
+    return;
+  } else if (!body.email || !body.password) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID REQUEST",
+    });
+    return;
+  }
+
+  try {
+    const existingUser = await User.findOne({ email: body.email });
+
+    if (!existingUser) {
+      res.status(404).send({
         status: "fail",
-        message: "Incorrect password..!",
+        message: "NO USER FOUND",
       });
+      return;
     }
-    console.log("Sign In successful..!")
+
+    if (!existingUser.email && !existingUser.password) {
+      res.status(500).send({
+        status: "fail",
+        message: "INCONSISTENT USER DATA FOUND",
+      });
+      return;
+    }
+
+    if (body.password === existingUser.password) {
+      res.status(200).send({
+        status: "ok",
+        message: "SIGN IN SUCCESS",
+      });
+      return;
+    } else {
+      res.status(400).send({
+        status: "fail",
+        message: "SIGN IN FAILED",
+      });
+      return;
+    }
   } catch (error) {
-    console.error("An Error occurred while signing in : ", error);
-    res.send({
+    // console.error("AN ERROR OCCURRED", error);
+    res.status(500).send({
       status: "fail",
       error: error,
-      message: "An Error occurred while signing in...! ",
+      message: "AN ERROR OCCURRED",
     });
+    return;
   }
 };
