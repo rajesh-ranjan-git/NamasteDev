@@ -1,5 +1,5 @@
-export const signUpRequestValidator = (req) => {
-  const body = req.body;
+export const signUpRequestValidator = (req, res) => {
+  const body = req?.body;
 
   if (!body) {
     res.status(400).send({
@@ -9,7 +9,7 @@ export const signUpRequestValidator = (req) => {
     return;
   }
 
-  if (!body.firstName || !body.email || !body.password) {
+  if (!body?.firstName || !body?.email || !body?.password) {
     res.status(400).send({
       status: "fail",
       message: "INVALID REQUEST",
@@ -18,7 +18,7 @@ export const signUpRequestValidator = (req) => {
   }
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(body.email.trim().toLowerCase())) {
+  if (!emailRegex.test(body?.email.trim().toLowerCase())) {
     res.status(400).send({
       status: "fail",
       message: "INVALID EMAIL",
@@ -28,8 +28,8 @@ export const signUpRequestValidator = (req) => {
 
   const nameRegex = /^[A-Za-z.-]+$/;
   if (
-    !nameRegex.test(body.firstName.trim().toLowerCase()) ||
-    (body.lastName && !nameRegex.test(body.lastName.trim().toLowerCase()))
+    !nameRegex.test(body?.firstName.trim().toLowerCase()) ||
+    (body?.lastName && !nameRegex.test(body?.lastName.trim().toLowerCase()))
   ) {
     res.status(400).send({
       status: "fail",
@@ -39,7 +39,7 @@ export const signUpRequestValidator = (req) => {
   }
 
   const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%&]).{6,}$/;
-  if (body.password && !passwordRegex.test(body.password)) {
+  if (body?.password && !passwordRegex.test(body?.password)) {
     res.status(400).send({
       status: "fail",
       message: "INVALID PASSWORD COMBINATION",
@@ -47,7 +47,7 @@ export const signUpRequestValidator = (req) => {
     return;
   }
 
-  if (body.age && typeof body.age !== Number) {
+  if (body?.age && typeof body?.age !== "number") {
     res.status(400).send({
       status: "fail",
       message: "INVALID AGE",
@@ -56,8 +56,8 @@ export const signUpRequestValidator = (req) => {
   }
 
   if (
-    body.gender &&
-    !["male", "female", "other"].includes(body.gender.trim().toLowerCase())
+    body?.gender &&
+    !["male", "female", "other"].includes(body?.gender.trim().toLowerCase())
   ) {
     res.status(400).send({
       status: "fail",
@@ -66,12 +66,5 @@ export const signUpRequestValidator = (req) => {
     return;
   }
 
-  const cityRegex = /^[A-Za-z]+$/;
-  if (body.city && !cityRegex.test(body.city)) {
-    res.status(400).send({
-      status: "fail",
-      message: "INVALID CITY",
-    });
-    return;
-  }
+  return body;
 };

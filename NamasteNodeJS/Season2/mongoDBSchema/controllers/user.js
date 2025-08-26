@@ -2,10 +2,14 @@ import User from "../models/user.js";
 import { signUpRequestValidator } from "../utils/requestValidators.js";
 
 export const signUp = async (req, res) => {
-  const body = signUpRequestValidator(req);
+  const body = signUpRequestValidator(req, res);
+
+  if (!body) {
+    return;
+  }
 
   try {
-    const existingUser = await User.findOne({ email: body.email });
+    const existingUser = await User.findOne({ email: body?.email });
 
     if (existingUser) {
       res.status(400).send({
@@ -16,16 +20,16 @@ export const signUp = async (req, res) => {
     }
 
     const user = new User({
-      firstName: body.firstName,
-      lastName: body.lastName,
-      email: body.email,
-      password: body.password,
-      age: body.age,
-      gender: body.gender,
-      city: body.city,
-      designation: body.designation,
-      skills: body.skills,
-      hobbies: body.hobbies,
+      firstName: body?.firstName,
+      lastName: body?.lastName,
+      email: body?.email,
+      password: body?.password,
+      age: body?.age,
+      gender: body?.gender,
+      city: body?.city,
+      designation: body?.designation,
+      skills: body?.skills,
+      hobbies: body?.hobbies,
     });
 
     user.save();
