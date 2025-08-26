@@ -38,7 +38,7 @@ export const signUpRequestValidator = (req, res) => {
     return;
   }
 
-  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%&]).{6,}$/;
+  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%&]).{6,}$/;
   if (body?.password && !passwordRegex.test(body?.password)) {
     res.status(400).send({
       status: "fail",
@@ -62,6 +62,46 @@ export const signUpRequestValidator = (req, res) => {
     res.status(400).send({
       status: "fail",
       message: "INVALID GENDER",
+    });
+    return;
+  }
+
+  return body;
+};
+
+export const signInRequestValidator = (req, res) => {
+  const body = req?.body;
+
+  if (!body) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID REQUEST",
+    });
+    return;
+  }
+
+  if (!body?.email || !body?.password) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID REQUEST",
+    });
+    return;
+  }
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(body?.email.trim().toLowerCase())) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID EMAIL",
+    });
+    return;
+  }
+
+  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%&]).{6,}$/;
+  if (body?.password && !passwordRegex.test(body?.password)) {
+    res.status(400).send({
+      status: "fail",
+      message: "INVALID PASSWORD COMBINATION",
     });
     return;
   }

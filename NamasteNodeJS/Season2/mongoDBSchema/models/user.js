@@ -23,14 +23,15 @@ const userSchema = mongoose.Schema(
       required: true,
       unique: true,
       trim: true,
-      match: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
       lowercase: true,
+      match: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
     },
     password: {
       type: String,
       required: true,
       minlength: 2,
       maxlength: 100,
+      match: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%&]).{6,}$/,
     },
     age: {
       type: Number,

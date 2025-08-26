@@ -1,5 +1,6 @@
 import User from "../models/user.js";
 import { signUpRequestValidator } from "../utils/requestValidators.js";
+import { signInRequestValidator } from "../utils/requestValidators.js";
 
 export const signUp = async (req, res) => {
   const body = signUpRequestValidator(req, res);
@@ -51,19 +52,9 @@ export const signUp = async (req, res) => {
 };
 
 export const signIn = async (req, res) => {
-  const body = req.body;
+  const body = signInRequestValidator(req, res);
 
   if (!body) {
-    res.status(400).send({
-      status: "fail",
-      message: "INVALID REQUEST",
-    });
-    return;
-  } else if (!body.email || !body.password) {
-    res.status(400).send({
-      status: "fail",
-      message: "INVALID REQUEST",
-    });
     return;
   }
 
