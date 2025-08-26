@@ -1,45 +1,8 @@
 import User from "../models/user.js";
-import { signUpReqValidator } from "../utils/requestValidator.js";
+import { signUpRequestValidator } from "../utils/requestValidators.js";
 
 export const signUp = async (req, res) => {
-  const body = req.body;
-  // const body = signUpReqValidator(req);
-
-  if (!body) {
-    res.status(400).send({
-      status: "fail",
-      message: "INVALID REQUEST",
-    });
-    return;
-  }
-
-  if (!body.firstName || !body.email || !body.password) {
-    res.status(400).send({
-      status: "fail",
-      message: "INVALID REQUEST",
-    });
-    return;
-  }
-
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!emailRegex.test(body.email.trim().toLowerCase())) {
-    res.status(400).send({
-      status: "fail",
-      message: "INVALID EMAIL",
-    });
-    return;
-  }
-
-  if (
-    body.gender &&
-    !["male", "female", "other"].includes(body.gender.trim().toLowerCase())
-  ) {
-    res.status(400).send({
-      status: "fail",
-      message: "INVALID GENDER",
-    });
-    return;
-  }
+  const body = signUpRequestValidator(req);
 
   try {
     const existingUser = await User.findOne({ email: body.email });
@@ -133,7 +96,7 @@ export const signIn = async (req, res) => {
       return;
     }
   } catch (error) {
-    // console.error("AN ERROR OCCURRED", error);
+    console.error("AN ERROR OCCURRED", error);
     res.status(500).send({
       status: "fail",
       error: error,
