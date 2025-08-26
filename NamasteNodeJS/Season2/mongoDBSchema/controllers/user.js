@@ -69,10 +69,10 @@ export const signIn = async (req, res) => {
       return;
     }
 
-    if (!existingUser.email && !existingUser.password) {
+    if (!existingUser.email || !existingUser.password) {
       res.status(500).send({
         status: "fail",
-        message: "INCONSISTENT USER DATA FOUND",
+        message: "INCONSISTENT USER DATA FOUND IN DATABASE",
       });
       return;
     }
