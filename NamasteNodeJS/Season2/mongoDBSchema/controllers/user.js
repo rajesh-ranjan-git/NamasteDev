@@ -59,7 +59,7 @@ export const signIn = async (req, res) => {
   }
 
   try {
-    const existingUser = await User.findOne({ email: body.email });
+    const existingUser = await User.findOne({ email: body?.email });
 
     if (!existingUser) {
       res.status(404).send({
@@ -69,7 +69,7 @@ export const signIn = async (req, res) => {
       return;
     }
 
-    if (!existingUser.email || !existingUser.password) {
+    if (!existingUser?.email || !existingUser?.password) {
       res.status(500).send({
         status: "fail",
         message: "INCONSISTENT USER DATA FOUND IN DATABASE",
@@ -77,7 +77,7 @@ export const signIn = async (req, res) => {
       return;
     }
 
-    if (body.password === existingUser.password) {
+    if (body?.password === existingUser?.password) {
       res.status(200).send({
         status: "ok",
         message: "SIGN IN SUCCESS",
