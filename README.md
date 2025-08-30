@@ -7,4 +7,5 @@
 ### Project - DevTinder
 
 - Done with backend
-- Started frontend
+- Done with frontend
+- Starting with deployment
