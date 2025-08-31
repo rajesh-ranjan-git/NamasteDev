@@ -8,4 +8,5 @@
 
 - Done with backend
 - Done with frontend
-- Starting with deployment
+- Dine with deployment
+- Working on some additional concepts
