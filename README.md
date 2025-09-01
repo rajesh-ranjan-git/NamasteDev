@@ -8,5 +8,5 @@
 
 - Done with backend
 - Done with frontend
-- Dine with deployment
+- Done with deployment
 - Done with Namaste Node JS
