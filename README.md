@@ -9,4 +9,4 @@
 - Done with backend
 - Done with frontend
 - Dine with deployment
-- Working on some additional concepts
+- Done with Namaste Node JS
