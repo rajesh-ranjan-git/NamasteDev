@@ -39,13 +39,13 @@
 - Connect your application to the Database "Connection-url"/devTinder
 - Call the connectDB function and connect to database before starting application on 7777
 - Create a userSchema & user Model
-- Create POST /sigup API to add data to database
+- Create POST /signUp API to add data to database
 - Push some documents using API calls from postman
 - Error Handling using try , catch
 
 - JS object vs JSON (difference)
 - Add the express.json middleware to your app
-- Make your signup API dynamic to receive data from the end user
+- Make your signUp API dynamic to receive data from the end user
 - User.findOne with duplicate email ids, which object returned
 - API- Get user by email
 - API - Feed API - GET /feed - get all the users from the database
@@ -63,13 +63,13 @@
 - Create a custom validate function for gender
 - Improve the DB schema - PUT all appropriate validations on each field in Schema
 - Add timestamps to the userSchema
-- Add API level validation on Patch request & Signup post api
+- Add API level validation on Patch request & signUp post api
 - DATA Sanitizing - Add API validation for each field
 - Install validator
 - Explore validator library function and Use validator functions for password, email, photoURL
 - NEVER TRUST req.body
 
-- Validate data in Signup API
+- Validate data in signUp API
 - Install bcrypt package
 - Create PasswordHash using bcrypt.hash & save the user is encrypted password
 - Create login API
@@ -85,7 +85,7 @@
 - Add the userAuth middle ware in profile API and a new sendConnectionRequest API
 - Set the expiry of JWT token and cookies to 7 days
 - Create userSchema method to getJWT()
-- Create UserSchema method to comparepassword(passwordInputByUser)
+- Create UserSchema method to comparePassword(passwordInputByUser)
 
 - Explore tinder APIs
 - Create a list all API you can think of in Dev Tinder
