@@ -79,10 +79,10 @@
 - just send a dummy cookie to user
 - create GET /profile API and check if you get the cookie back
 - install jsonwebtoken
-- IN login API, after email and password validation, create e JWT token and send it to user in cookies
-- read the cookies inside your profile API and find the logged in user
+- In login API, after email and password validation, create a JWT token and send it to user in cookies
+- Read the cookies inside your profile API and find the logged in user
 - userAuth Middleware
-- Add the userAuth middle ware in profile API and a new sendConnectionRequest API
+- Add the userAuth middleware in profile API and a new sendConnectionRequest API
 - Set the expiry of JWT token and cookies to 7 days
 - Create userSchema method to getJWT()
 - Create UserSchema method to comparePassword(passwordInputByUser)
@@ -92,12 +92,12 @@
 - Group multiple routes under respective routers
 - Read documentation for express.Router
 - Create routes folder for managing auth,profile, request routers
-- create authRouter, profileRouter, requestRouter
+- Create authRouter, profileRouter, requestRouter
 - Import these routers in app.js
 - Create POST /logout API
 - Create PATCH /profile/edit
 - Create PATCH /profile/password API => forgot password API
-- Make you validate all data in every POST, PATCH apis
+- Validate all data in every POST, PATCH apis
 
 - Create Connection Request Schema
 - Send Connection Request API
@@ -107,7 +107,7 @@
 - schema.pre("save") function
 - Read more about indexes in MongoDB
 - Why do we need index in DB?
-- What is the advantages and disadvantage of creating?
+- What is the advantages and disadvantage of creating indexes?
 - Read this article about compound indexes - https://www.mongodb.com/docs/manual/core/indexes/index-types/index-compound/
 - ALWAYS THINK ABOUT CORNER CASES
 
@@ -115,7 +115,7 @@
 - Thought process - POST vs GET
 - Read about ref and populate https://mongoosejs.com/docs/populate.html
 - Create GET /user/requests/received with all the checks
-- Create GET GET /user/connections
+- Create GET /user/connections
 
 - Logic for GET /feed API
 - Explore the $nin , $and, $ne and other query operators
