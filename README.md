@@ -4,7 +4,7 @@
 
 ## Namaste Node JS
 
-### Project - DevTinder
+### Project - DevTinder (Work in progress)
 
 - Done with backend
 - Done with frontend
