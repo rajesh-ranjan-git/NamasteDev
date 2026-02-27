@@ -61,10 +61,10 @@ def extract_and_create_readme(html_file_path, target_class="text-lg dark:text-wh
         readme_lines.append(f"## {section.get('main_heading')}\n")
 
         for sub in section["subheadings"]:
-            readme_lines.append(f"### [x] {sub.get('title')}\n")
+            readme_lines.append(f"### {sub.get('title')} [x] \n")
 
             if sub.get("description"):
-                readme_lines.append(f"- {sub.get("description")}\n")
+                readme_lines.append(f"- [x] {sub.get("description")}\n")
 
             readme_lines.append("")
 

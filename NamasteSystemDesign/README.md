@@ -4,768 +4,768 @@
 
 ## 1. Networking
 
-### [x] Important Guidelines
+### Important Guidelines [x] 
 
-- Important guidelines for Namaste Frontend System Design
-
-
-### [x] Networking - Akshay & Chirag's ExperiencePreview
-
-- Akshay and Chirag are sharing their experience on Networking.
+- [x] Important guidelines for Namaste Frontend System Design
 
 
-### [x] How the Web Works
+### Networking - Akshay & Chirag's ExperiencePreview [x] 
 
-- Explore the fundamental mechanics powering the internet, unveiling the intricate workings behind web functionality.
-
-
-### [x] Communication Protocols
-
-- Delve into diverse communication protocols shaping internet interactions, laying the groundwork for efficient data exchange.
+- [x] Akshay and Chirag are sharing their experience on Networking.
 
 
-### [x] REST APIs
+### How the Web Works [x] 
 
-- Uncover the principles of REST APIs, mastering the art of building robust and scalable interfaces for web applications.
-
-
-### [x] GraphQL
-
-- Explore the power of GraphQL, enabling efficient data querying and manipulation for modern web applications.
+- [x] Explore the fundamental mechanics powering the internet, unveiling the intricate workings behind web functionality.
 
 
-### [x] gRPC
+### Communication Protocols [x] 
 
-- Master gRPC, a high-performance remote procedure call framework, optimizing communication between distributed systems.
+- [x] Delve into diverse communication protocols shaping internet interactions, laying the groundwork for efficient data exchange.
+
+
+### REST APIs [x] 
+
+- [x] Uncover the principles of REST APIs, mastering the art of building robust and scalable interfaces for web applications.
+
+
+### GraphQL [x] 
+
+- [x] Explore the power of GraphQL, enabling efficient data querying and manipulation for modern web applications.
+
+
+### gRPC [x] 
+
+- [x] Master gRPC, a high-performance remote procedure call framework, optimizing communication between distributed systems.
 
 
 ---
 
 ## 2. Communication
 
-### [x] Communication - Akshay & Chirag's ExperiencePreview
+### Communication - Akshay & Chirag's ExperiencePreview [x] 
 
-- Akshay and Chirag are sharing their experience with Communication.
-
-
-### [x] Communication Overview
-
-- Explore the foundational aspects of communication protocols, shaping seamless data exchange in modern frontend systems.
+- [x] Akshay and Chirag are sharing their experience with Communication.
 
 
-### [x] Short Polling
+### Communication Overview [x] 
 
-- Learn the short polling technique to acquire updated data at regular intervals, optimizing real-time updates in frontend applications.
-
-
-### [x] Long Polling
-
-- Understand long polling mechanisms, facilitating continuous connections to servers for real-time data updates in frontend interfaces.
+- [x] Explore the foundational aspects of communication protocols, shaping seamless data exchange in modern frontend systems.
 
 
-### [x] Web Sockets
+### Short Polling [x] 
 
-- Master Web Sockets for establishing persistent, bidirectional communication channels between clients and servers in frontend systems.
-
-
-### [x] Server Side Events
-
-- Explore Server-Sent Events enabling servers to push data to frontend clients, facilitating seamless real-time updates.
+- [x] Learn the short polling technique to acquire updated data at regular intervals, optimizing real-time updates in frontend applications.
 
 
-### [x] WebHooks
+### Long Polling [x] 
 
-- Grasp WebHooks' capabilities in facilitating instant notifications and triggering events in frontend systems, enhancing responsiveness.
+- [x] Understand long polling mechanisms, facilitating continuous connections to servers for real-time data updates in frontend interfaces.
+
+
+### Web Sockets [x] 
+
+- [x] Master Web Sockets for establishing persistent, bidirectional communication channels between clients and servers in frontend systems.
+
+
+### Server Side Events [x] 
+
+- [x] Explore Server-Sent Events enabling servers to push data to frontend clients, facilitating seamless real-time updates.
+
+
+### WebHooks [x] 
+
+- [x] Grasp WebHooks' capabilities in facilitating instant notifications and triggering events in frontend systems, enhancing responsiveness.
 
 
 ---
 
 ## 3. Security
 
-### [x] Security - Akshay & Chirag's ExperiencePreview
+### Security - Akshay & Chirag's ExperiencePreview [x] 
 
-- Akshay and Chirag are sharing their experience on security.
-
-
-### [x] Security Overview
-
-- Journey through crucial security principles, setting the foundation for a secure frontend. This foundational episode introduces pivotal concepts shaping the security landscape.
+- [x] Akshay and Chirag are sharing their experience on security.
 
 
-### [x] Cross-site Scripting (XSS)Resources
+### Security Overview [x] 
 
-- Discover the nuances of XSS vulnerabilities, empowering you to fortify your frontend against malicious script injections that threaten user security.
-
-
-### [x] iFrame ProtectionResources
-
-- Secure your frontend against iFrame-based threats by mastering techniques to safeguard embedded content and prevent potential vulnerabilities.
+- [x] Journey through crucial security principles, setting the foundation for a secure frontend. This foundational episode introduces pivotal concepts shaping the security landscape.
 
 
-### [x] Security HeadersResources
+### Cross-site Scripting (XSS)Resources [x] 
 
-- Implement security headers effectively to fortify your frontend against various threats, leveraging key configurations for enhanced protection.
-
-
-### [x] Client-side SecurityResources
-
-- Master best practices and tools for ensuring robust client-side security in your frontend architecture.
+- [x] Discover the nuances of XSS vulnerabilities, empowering you to fortify your frontend against malicious script injections that threaten user security.
 
 
-### [x] Secure Communication (HTTPs)Resources
+### iFrame ProtectionResources [x] 
 
-- Safeguard data transfer using advanced HTTP security measures, ensuring secure communication in your frontend applications.
-
-
-### [x] Dependency SecurityResources
-
-- Learn to identify and mitigate vulnerabilities in third-party dependencies, fortifying your frontend against potential risks.
+- [x] Secure your frontend against iFrame-based threats by mastering techniques to safeguard embedded content and prevent potential vulnerabilities.
 
 
-### [x] Compliance & RegulationResources
+### Security HeadersResources [x] 
 
-- Navigate complex compliance standards, ensuring your frontend adheres to regulations, mitigating legal and security risks effectively.
-
-
-### [x] Input Validation and SanitizationResources
-
-- Master the art of input validation and sanitization, safeguarding your frontend against various security threats originating from user inputs.
+- [x] Implement security headers effectively to fortify your frontend against various threats, leveraging key configurations for enhanced protection.
 
 
-### [x] Server-Side Request Forgery (SSRF)Resources
+### Client-side SecurityResources [x] 
 
-- Identify and counter SSRF threats, ensuring robust security for your frontend servers against unauthorized requests.
-
-
-### [x] Server-side JavaScript Injection (SSJI)Resources
-
-- Protect your frontend against malicious server-side JavaScript injections, preserving system integrity.
+- [x] Master best practices and tools for ensuring robust client-side security in your frontend architecture.
 
 
-### [x] Feature Policy | Permissions-PolicyResources
+### Secure Communication (HTTPs)Resources [x] 
 
-- Leverage feature and permissions policies for strengthened frontend security, managing browser behaviors and permissions effectively.
-
-
-### [x] Subresource Integrity (SRI)Resources
-
-- Ensure resource integrity by implementing SRI, safeguarding resources loaded into your frontend against tampering.
+- [x] Safeguard data transfer using advanced HTTP security measures, ensuring secure communication in your frontend applications.
 
 
-### [x] Cross-Origin Resource Sharing (CORS)Resources
+### Dependency SecurityResources [x] 
 
-- Manage CORS effectively for secure cross-origin data sharing within your frontend applications.
+- [x] Learn to identify and mitigate vulnerabilities in third-party dependencies, fortifying your frontend against potential risks.
 
 
-### [x] Cross-Site Request Forgery (CSRF)Resources
+### Compliance & RegulationResources [x] 
 
-- Prevent Cross-Site Request Forgery (CSRF) attacks for enhanced security.
+- [x] Navigate complex compliance standards, ensuring your frontend adheres to regulations, mitigating legal and security risks effectively.
+
+
+### Input Validation and SanitizationResources [x] 
+
+- [x] Master the art of input validation and sanitization, safeguarding your frontend against various security threats originating from user inputs.
+
+
+### Server-Side Request Forgery (SSRF)Resources [x] 
+
+- [x] Identify and counter SSRF threats, ensuring robust security for your frontend servers against unauthorized requests.
+
+
+### Server-side JavaScript Injection (SSJI)Resources [x] 
+
+- [x] Protect your frontend against malicious server-side JavaScript injections, preserving system integrity.
+
+
+### Feature Policy | Permissions-PolicyResources [x] 
+
+- [x] Leverage feature and permissions policies for strengthened frontend security, managing browser behaviors and permissions effectively.
+
+
+### Subresource Integrity (SRI)Resources [x] 
+
+- [x] Ensure resource integrity by implementing SRI, safeguarding resources loaded into your frontend against tampering.
+
+
+### Cross-Origin Resource Sharing (CORS)Resources [x] 
+
+- [x] Manage CORS effectively for secure cross-origin data sharing within your frontend applications.
+
+
+### Cross-Site Request Forgery (CSRF)Resources [x] 
+
+- [x] Prevent Cross-Site Request Forgery (CSRF) attacks for enhanced security.
 
 
 ---
 
 ## 4. Testing
 
-### [x] Testing - Akshay & Chirag's ExperiencePreview
+### Testing - Akshay & Chirag's ExperiencePreview [x] 
 
-- Akshay and Chirag are sharing their experience on Testing.
-
-
-### [x] Testing Overview
-
-- Explore the pivotal role of testing in frontend development, grasping the fundamentals shaping robust testing strategies.
+- [x] Akshay and Chirag are sharing their experience on Testing.
 
 
-### [x] Unit & Integration Testing
+### Testing Overview [x] 
 
-- Master the art of unit testing, dissecting individual components to ensure their functionality in isolation.
-
-
-### [x] E2E and Automation Testing
-
-- Master end-to-end testing methodologies to simulate user scenarios, ensuring holistic frontend functionality.
+- [x] Explore the pivotal role of testing in frontend development, grasping the fundamentals shaping robust testing strategies.
 
 
-### [x] A/B Testing
+### Unit & Integration Testing [x] 
 
-- Discover A/B testing strategies to compare variations and optimize frontend design and functionality.
-
-
-### [x] Performance Testing
-
-- Performance testing ensures software functions optimally under diverse conditions, simulating scenarios to identify and address bottlenecks, guaranteeing a seamless user experience.
+- [x] Master the art of unit testing, dissecting individual components to ensure their functionality in isolation.
 
 
-### [x] Test-Driven Development Overview
+### E2E and Automation Testing [x] 
 
-- Understand the principles and advantages of test-driven development (TDD) as a foundational approach in frontend design.
-
-
-### [x] Security Testing
-
-- Security testing safeguards software by detecting and addressing vulnerabilities, ensuring data protection and resistance against cyber threats.
+- [x] Master end-to-end testing methodologies to simulate user scenarios, ensuring holistic frontend functionality.
 
 
-### [x] [BONUS] Namaste React - Time for Test
+### A/B Testing [x] 
 
-- Reliability is paramount, and in this episode, we cover testing for React components. You'll learn how to ensure your components work as expected and your app remains robust.
+- [x] Discover A/B testing strategies to compare variations and optimize frontend design and functionality.
+
+
+### Performance Testing [x] 
+
+- [x] Performance testing ensures software functions optimally under diverse conditions, simulating scenarios to identify and address bottlenecks, guaranteeing a seamless user experience.
+
+
+### Test-Driven Development Overview [x] 
+
+- [x] Understand the principles and advantages of test-driven development (TDD) as a foundational approach in frontend design.
+
+
+### Security Testing [x] 
+
+- [x] Security testing safeguards software by detecting and addressing vulnerabilities, ensuring data protection and resistance against cyber threats.
+
+
+### [BONUS] Namaste React - Time for Test [x] 
+
+- [x] Reliability is paramount, and in this episode, we cover testing for React components. You'll learn how to ensure your components work as expected and your app remains robust.
 
 
 ---
 
 ## 5. Performance
 
-### [x] Performance Overview
+### Performance Overview [x] 
 
-- Explore the fundamentals of performance optimization crucial for enhancing the speed and efficiency of frontend systems.
-
-
-### [x] Performance Importance
-
-- It is crucial to prioritize performance when developing software or web applications. This can greatly affect the user experience and overall success of the product.
+- [x] Explore the fundamentals of performance optimization crucial for enhancing the speed and efficiency of frontend systems.
 
 
-### [x] Performance Monitoring
+### Performance Importance [x] 
 
-- Grasp the importance of performance monitoring for tracking, analyzing, and optimizing frontend system performance.
-
-
-### [x] Performance Tools
-
-- Explore various tools and utilities dedicated to optimizing and measuring frontend system performance.
+- [x] It is crucial to prioritize performance when developing software or web applications. This can greatly affect the user experience and overall success of the product.
 
 
-### [x] Network Optimization
+### Performance Monitoring [x] 
 
-- Understand network optimization strategies for minimizing latency and optimizing data transfer in frontend applications.
-
-
-### [x] Rendering Pattern
-
-- Understand different rendering patterns, enabling efficient rendering and improving user experience in frontend applications.
+- [x] Grasp the importance of performance monitoring for tracking, analyzing, and optimizing frontend system performance.
 
 
-### [x] Build Optimization
+### Performance Tools [x] 
 
-- Grasp build optimization techniques for streamlining the build process and reducing load times in frontend systems.
+- [x] Explore various tools and utilities dedicated to optimizing and measuring frontend system performance.
+
+
+### Network Optimization [x] 
+
+- [x] Understand network optimization strategies for minimizing latency and optimizing data transfer in frontend applications.
+
+
+### Rendering Pattern [x] 
+
+- [x] Understand different rendering patterns, enabling efficient rendering and improving user experience in frontend applications.
+
+
+### Build Optimization [x] 
+
+- [x] Grasp build optimization techniques for streamlining the build process and reducing load times in frontend systems.
 
 
 ---
 
 ## 6. Database & Caching
 
-### [x] Database & Caching - Akshay & Chirag's ExperiencePreview
+### Database & Caching - Akshay & Chirag's ExperiencePreview [x] 
 
-- Akshay and Chirag are sharing their experience with Databases and caching.
-
-
-### [x] Database & Caching Overview
-
-- Explore the foundational aspects of databases and caching, pivotal for efficient data storage and retrieval in frontend systems.
+- [x] Akshay and Chirag are sharing their experience with Databases and caching.
 
 
-### [x] Local StorageResources
+### Database & Caching Overview [x] 
 
-- Master local storage techniques for storing persistent data within the user's browser, enhancing offline capabilities.
-
-
-### [x] Session StorageResources
-
-- Understand session storage mechanisms for storing temporary data within the user's browser session, ensuring data availability during the session.
+- [x] Explore the foundational aspects of databases and caching, pivotal for efficient data storage and retrieval in frontend systems.
 
 
-### [x] Cookie StorageResources
+### Local StorageResources [x] 
 
-- Grasp cookie storage methods for managing and storing small pieces of data in the user's browser, facilitating personalized experiences.
-
-
-### [x] Indexed DBResources
-
-- Master Indexed DB, enabling frontend applications to manage large amounts of structured data within the user's browser.
+- [x] Master local storage techniques for storing persistent data within the user's browser, enhancing offline capabilities.
 
 
-### [x] NormalizationResources
+### Session StorageResources [x] 
 
-- Understand normalization principles for organizing data in databases, optimizing data storage and retrieval efficiency.
-
-
-### [x] HTTP CachingResources
-
-- Grasp HTTP caching methodologies for storing web server responses in browsers, optimizing data retrieval and system performance.
+- [x] Understand session storage mechanisms for storing temporary data within the user's browser session, ensuring data availability during the session.
 
 
-### [x] Service Working CachingResources
+### Cookie StorageResources [x] 
 
-- Master service working caching techniques for storing static assets and enhancing the offline capabilities of frontend applications.
-
-
-### [x] API CachingResources
-
-- Understand API caching strategies for caching API responses, reducing server load and enhancing frontend application responsiveness.
+- [x] Grasp cookie storage methods for managing and storing small pieces of data in the user's browser, facilitating personalized experiences.
 
 
-### [x] State ManagementResources
+### Indexed DBResources [x] 
 
-- Explore state management techniques for maintaining and managing application states, ensuring seamless user experiences in frontend systems.
+- [x] Master Indexed DB, enabling frontend applications to manage large amounts of structured data within the user's browser.
+
+
+### NormalizationResources [x] 
+
+- [x] Understand normalization principles for organizing data in databases, optimizing data storage and retrieval efficiency.
+
+
+### HTTP CachingResources [x] 
+
+- [x] Grasp HTTP caching methodologies for storing web server responses in browsers, optimizing data retrieval and system performance.
+
+
+### Service Working CachingResources [x] 
+
+- [x] Master service working caching techniques for storing static assets and enhancing the offline capabilities of frontend applications.
+
+
+### API CachingResources [x] 
+
+- [x] Understand API caching strategies for caching API responses, reducing server load and enhancing frontend application responsiveness.
+
+
+### State ManagementResources [x] 
+
+- [x] Explore state management techniques for maintaining and managing application states, ensuring seamless user experiences in frontend systems.
 
 
 ---
 
 ## 7. Logging & Monitoring
 
-### [x] Logging And Monitoring - Akshay & Chirag's ExperiencePreview
+### Logging And Monitoring - Akshay & Chirag's ExperiencePreview [x] 
 
-- Akshay and Chirag are sharing their experience on Logging And Monitoring.
-
-
-### [x] Logging & Monitoring Overview
-
-- Explore the foundational principles of logging and monitoring, vital for maintaining the health and performance of frontend systems.
+- [x] Akshay and Chirag are sharing their experience on Logging And Monitoring.
 
 
-### [x] Telemetry
+### Logging & Monitoring Overview [x] 
 
-- Master telemetry methodologies for collecting and analyzing frontend system data, enabling informed decision-making.
-
-
-### [x] Alerting
-
-- Understand alerting mechanisms, ensuring timely notifications for potential issues or anomalies in frontend systems.
+- [x] Explore the foundational principles of logging and monitoring, vital for maintaining the health and performance of frontend systems.
 
 
-### [x] Fixing
+### Telemetry [x] 
 
-- Grasp effective strategies and best practices for addressing issues and anomalies detected in frontend systems through monitoring.
+- [x] Master telemetry methodologies for collecting and analyzing frontend system data, enabling informed decision-making.
+
+
+### Alerting [x] 
+
+- [x] Understand alerting mechanisms, ensuring timely notifications for potential issues or anomalies in frontend systems.
+
+
+### Fixing [x] 
+
+- [x] Grasp effective strategies and best practices for addressing issues and anomalies detected in frontend systems through monitoring.
 
 
 ---
 
 ## 8. Accessibility
 
-### [x] Accessibility Overview
+### Accessibility Overview [x] 
 
-- Learn vital accessibility principles for inclusive frontend design.
-
-
-### [x] Keyboard Accessibility
-
-- Optimize frontend interfaces for keyboard navigation.
+- [x] Learn vital accessibility principles for inclusive frontend design.
 
 
-### [x] Screen Reader
+### Keyboard Accessibility [x] 
 
-- Develop interfaces compatible with screen readers.
-
-
-### [x] Focus Management
-
-- Explore the importance of focus management and colour contrast in front-end design.
+- [x] Optimize frontend interfaces for keyboard navigation.
 
 
-### [x] Color Contrast
+### Screen Reader [x] 
 
-- Explore the importance of colour contrast in front-end design.
-
-
-### [x] Accessibility Tools
-
-- Let's learn about tools to improve accessibility.
+- [x] Develop interfaces compatible with screen readers.
 
 
-### [x] How to fix accessibility
+### Focus Management [x] 
 
-- Learn how to improve website accessibility using both manual and automated testing tools.
+- [x] Explore the importance of focus management and colour contrast in front-end design.
+
+
+### Color Contrast [x] 
+
+- [x] Explore the importance of colour contrast in front-end design.
+
+
+### Accessibility Tools [x] 
+
+- [x] Let's learn about tools to improve accessibility.
+
+
+### How to fix accessibility [x] 
+
+- [x] Learn how to improve website accessibility using both manual and automated testing tools.
 
 
 ---
 
 ## 9. Offline Support
 
-### [x] Service Workers
+### Service Workers [x] 
 
-- Grasp the role of service workers in enabling offline functionalities and background synchronization for frontend applications.
+- [x] Grasp the role of service workers in enabling offline functionalities and background synchronization for frontend applications.
 
 
-### [x] Progressive Web Applications (PWAs)
+### Progressive Web Applications (PWAs) [x] 
 
-- Master PWAs, enabling frontend applications to offer app-like experiences with offline capabilities, enhancing user engagement.
+- [x] Master PWAs, enabling frontend applications to offer app-like experiences with offline capabilities, enhancing user engagement.
 
 
 ---
 
 ## 10. Low Level Design
 
-### [x] Component DesignResources
+### Component DesignResources [x] 
 
-- Grasp modular component-based design techniques for frontend applications.
-
-
-### [x] Config driven UIResources
-
-- This lightning talk introduces config-driven UI
+- [x] Grasp modular component-based design techniques for frontend applications.
 
 
-### [x] Shimmer UIResources
+### Config driven UIResources [x] 
 
-- Shimmer UI: A Better Way to Show Loading States
-
-
-### [x] Routing & Protected Routes
-
-- Master seamless navigation techniques in frontend interfaces.
+- [x] This lightning talk introduces config-driven UI
 
 
-### [x] State Management + Libraries
+### Shimmer UIResources [x] 
 
-- Understand complex state handling in frontend systems.
-
-
-### [x] Multi Language Support
-
-- How does multi-language support work?
+- [x] Shimmer UI: A Better Way to Show Loading States
 
 
-### [x] Infinite Scroll
+### Routing & Protected Routes [x] 
 
-- Implement dynamic content loading techniques in frontend interfaces.
-
-
-### [x] Accordion
-
-- A user interface device that’s frequently used in web and mobile applications to arrange and show content in a user-friendly and space-efficient way.
+- [x] Master seamless navigation techniques in frontend interfaces.
 
 
-### [x] Reddit Nested Comments
+### State Management + Libraries [x] 
 
-- Design threaded discussions for frontend commenting systems.
-
-
-### [x] Image Slider
-
-- LLD Image Slider
+- [x] Understand complex state handling in frontend systems.
 
 
-### [x] Pagination Part-1
+### Multi Language Support [x] 
 
-- Enable user-friendly content browsing through pagination.
-
-
-### [x] Pagination Part-2
-
-- Coding part of pagination.
+- [x] How does multi-language support work?
 
 
-### [x] Real-Time Updates
+### Infinite Scroll [x] 
 
-- Real-Time Updates
-
-
-### [x] YouTube Live Stream Chat UI
-
-- YouTube Live Stream Chat UI
+- [x] Implement dynamic content loading techniques in frontend interfaces.
 
 
-### [x] Autocomplete & Search Bar
+### Accordion [x] 
 
-- Implement efficient data retrieval with autocomplete and search functionalities.
+- [x] A user interface device that’s frequently used in web and mobile applications to arrange and show content in a user-friendly and space-efficient way.
+
+
+### Reddit Nested Comments [x] 
+
+- [x] Design threaded discussions for frontend commenting systems.
+
+
+### Image Slider [x] 
+
+- [x] LLD Image Slider
+
+
+### Pagination Part-1 [x] 
+
+- [x] Enable user-friendly content browsing through pagination.
+
+
+### Pagination Part-2 [x] 
+
+- [x] Coding part of pagination.
+
+
+### Real-Time Updates [x] 
+
+- [x] Real-Time Updates
+
+
+### YouTube Live Stream Chat UI [x] 
+
+- [x] YouTube Live Stream Chat UI
+
+
+### Autocomplete & Search Bar [x] 
+
+- [x] Implement efficient data retrieval with autocomplete and search functionalities.
 
 
 ---
 
 ## 11. High Level Design
 
-### [x] HLD Overview
+### HLD Overview [x] 
 
-- Grasp essentials of high-level design principles.
-
-
-### [x] HLD - Photo Sharing App (Instagram)
-
-- Design frontend for photo sharing.
+- [x] Grasp essentials of high-level design principles.
 
 
-### [x] HLD - E-commerce App (Amazon, Flipkart)
+### HLD - Photo Sharing App (Instagram) [x] 
 
-- Architect frontend for e-commerce platforms.
-
-
-### [x] HLD - News Media Feed (Facebook, Twitter)
-
-- Architect frontend for social media feeds.
+- [x] Design frontend for photo sharing.
 
 
-### [x] HLD - Video Streaming (Netflix)
+### HLD - E-commerce App (Amazon, Flipkart) [x] 
 
-- Design frontend for video streaming.
-
-
-### [x] HLD - Music Streaming (Spotify)
-
-- Design frontend for music streaming.
+- [x] Architect frontend for e-commerce platforms.
 
 
-### [x] HLD - Live Commentary (CricInfo, Crickbuzz)
+### HLD - News Media Feed (Facebook, Twitter) [x] 
 
-- Architect frontend for live commentary.
-
-
-### [x] HLD - Email Client
-
-- Learn about the frontend architect for your Gmail or Outlook.
+- [x] Architect frontend for social media feeds.
 
 
-### [x] HLD - Diagram Tools (Excalidraw)
+### HLD - Video Streaming (Netflix) [x] 
 
-- Architect frontend for diagramming.
-
-
-### [x] HLD - Analytics Dashboard (Google Analytics)
-
-- Architect frontend for analytics.
+- [x] Design frontend for video streaming.
 
 
-### [x] HLD - Google Docs
+### HLD - Music Streaming (Spotify) [x] 
 
-- Architect frontend for collaborative documents.
-
-
-### [x] HLD - Google Sheets
-
-- Design frontend for collaborative spreadsheets.
+- [x] Design frontend for music streaming.
 
 
-### [x] Microfrontend
+### HLD - Live Commentary (CricInfo, Crickbuzz) [x] 
 
-- High-Level Design of Microfrontend architecture.
+- [x] Architect frontend for live commentary.
 
 
-### [x] HLD Kanban Board
+### HLD - Email Client [x] 
 
-- Design a scalable Kanban Board system at a high level.
+- [x] Learn about the frontend architect for your Gmail or Outlook.
+
+
+### HLD - Diagram Tools (Excalidraw) [x] 
+
+- [x] Architect frontend for diagramming.
+
+
+### HLD - Analytics Dashboard (Google Analytics) [x] 
+
+- [x] Architect frontend for analytics.
+
+
+### HLD - Google Docs [x] 
+
+- [x] Architect frontend for collaborative documents.
+
+
+### HLD - Google Sheets [x] 
+
+- [x] Design frontend for collaborative spreadsheets.
+
+
+### Microfrontend [x] 
+
+- [x] High-Level Design of Microfrontend architecture.
+
+
+### HLD Kanban Board [x] 
+
+- [x] Design a scalable Kanban Board system at a high level.
 
 
 ---
 
 ## 12. System Design [Bonus]
 
-### [x] Real DOM vs Virtual DOM
+### Real DOM vs Virtual DOM [x] 
 
-- Understand the key differences between Real DOM and Virtual DOM in React.
-
-
-### [x] Real DOM vs Shadow DOM
-
-- Learn how Shadow DOM differs from the Real DOM and why it’s used in Web Components.
+- [x] Understand the key differences between Real DOM and Virtual DOM in React.
 
 
-### [x] Minification vs Compression
+### Real DOM vs Shadow DOM [x] 
 
-- Learn how Minification and Compression optimize your web app’s performance.
-
-
-### [x] SPA vs MPA
-
-- Compare Single Page Applications (SPA) and Multi Page Applications (MPA).
+- [x] Learn how Shadow DOM differs from the Real DOM and why it’s used in Web Components.
 
 
-### [x] Tree Shaking vs Dead Code Elimination
+### Minification vs Compression [x] 
 
-- Discover how modern bundlers remove unused code to optimize performance.
-
-
-### [x] WebPage Rendering Cycle
-
-- Understand how browsers render a webpage from start to finish.
+- [x] Learn how Minification and Compression optimize your web app’s performance.
 
 
-### [x] Reflow & Repaint
+### SPA vs MPA [x] 
 
-- Learn the difference between Reflow and Repaint in the browser.
-
-
-### [x] HTML Parsing vs CSS Parsing
-
-- Compare how browsers parse HTML and CSS files.
+- [x] Compare Single Page Applications (SPA) and Multi Page Applications (MPA).
 
 
-### [x] DOM vs BOM
+### Tree Shaking vs Dead Code Elimination [x] 
 
-- Understand the difference between DOM and BOM in web development.
-
-
-### [x] CSS Positioning
-
-- Master CSS positioning with real-world examples.
+- [x] Discover how modern bundlers remove unused code to optimize performance.
 
 
-### [x] Why Most Candidates Get Rejected in LLD Round
+### WebPage Rendering Cycle [x] 
 
-- Understand common mistakes in LLD interviews.
-
-
-### [x] Time Breakups in System Design Interview
-
-- Learn how to manage time effectively in System Design interviews.
+- [x] Understand how browsers render a webpage from start to finish.
 
 
-### [x] Radio Framework
+### Reflow & Repaint [x] 
 
-- Understand the Radio Framework design and architecture.
-
-
-### [x] How to approach LLD Machine Coding Problems
-
-- Learn a structured approach to crack LLD machine coding rounds.
+- [x] Learn the difference between Reflow and Repaint in the browser.
 
 
-### [x] System Design Expectations from Early in Career Developers
+### HTML Parsing vs CSS Parsing [x] 
 
-- What interviewers expect from junior developers in system design.
-
-
-### [x] Understanding Quality Check - UT, CT, E2E
-
-- Learn Unit Testing, Component Testing, and End-to-End testing.
+- [x] Compare how browsers parse HTML and CSS files.
 
 
-### [x] System Design Expectations from Senior Developers
+### DOM vs BOM [x] 
 
-- What senior developers are expected to demonstrate in system design.
+- [x] Understand the difference between DOM and BOM in web development.
 
 
-### [x] System Design Skills to Showcase on Your Resume
+### CSS Positioning [x] 
 
-- Highlight the most impactful system design skills on your resume.
+- [x] Master CSS positioning with real-world examples.
+
+
+### Why Most Candidates Get Rejected in LLD Round [x] 
+
+- [x] Understand common mistakes in LLD interviews.
+
+
+### Time Breakups in System Design Interview [x] 
+
+- [x] Learn how to manage time effectively in System Design interviews.
+
+
+### Radio Framework [x] 
+
+- [x] Understand the Radio Framework design and architecture.
+
+
+### How to approach LLD Machine Coding Problems [x] 
+
+- [x] Learn a structured approach to crack LLD machine coding rounds.
+
+
+### System Design Expectations from Early in Career Developers [x] 
+
+- [x] What interviewers expect from junior developers in system design.
+
+
+### Understanding Quality Check - UT, CT, E2E [x] 
+
+- [x] Learn Unit Testing, Component Testing, and End-to-End testing.
+
+
+### System Design Expectations from Senior Developers [x] 
+
+- [x] What senior developers are expected to demonstrate in system design.
+
+
+### System Design Skills to Showcase on Your Resume [x] 
+
+- [x] Highlight the most impactful system design skills on your resume.
 
 
 ---
 
 ## 13. Bonus Masterclass
 
-### [x] Bonus - Salary Negotiation Masterclass
+### Bonus - Salary Negotiation Masterclass [x] 
 
-- Salary Negotiation Masterclass
-
-
-### [x] Bonus - Resume Masterclass
-
-- Resume Masterclass
+- [x] Salary Negotiation Masterclass
 
 
-### [x] Bonus - Personal Branding Masterclass
+### Bonus - Resume Masterclass [x] 
 
-- Personal Branding Masterclass
+- [x] Resume Masterclass
 
 
-### [x] Bonus - LinkedIn Masterclass
+### Bonus - Personal Branding Masterclass [x] 
 
-- LinkedIn Masterclass
+- [x] Personal Branding Masterclass
+
+
+### Bonus - LinkedIn Masterclass [x] 
+
+- [x] LinkedIn Masterclass
 
 
 ---
 
 ## 14. Interview Questions [Addon]
 
-### [x] Networking Interview Questions
+### Networking Interview Questions [x] 
 
-- Interview Questions for Networking
-
-
-### [x] Communication Protocol Interview Questions
-
-- Communication Protocol Interview Questions
+- [x] Interview Questions for Networking
 
 
-### [x] Security Interview Questions
+### Communication Protocol Interview Questions [x] 
 
-- Practice interview questions of security.
-
-
-### [x] Testing Interview Questions
-
-- Common testing questions asked in frontend interviews.
+- [x] Communication Protocol Interview Questions
 
 
-### [x] Performance Interview Questions
+### Security Interview Questions [x] 
 
-- Top web performance questions asked in interviews.
-
-
-### [x] Database & Caching Interview Questions
-
-- Database & Caching Interview Questions
+- [x] Practice interview questions of security.
 
 
-### [x] Logging & Monitoring Interview Questions
+### Testing Interview Questions [x] 
 
-- Interview Questions for Logging & Monitoring
-
-
-### [x] Accessibility Interview Questions
-
-- Key accessibility concepts and interview questions.
+- [x] Common testing questions asked in frontend interviews.
 
 
-### [x] Offline Support Interview Questions
+### Performance Interview Questions [x] 
 
-- Interview questions on offline capabilities and PWAs.
+- [x] Top web performance questions asked in interviews.
+
+
+### Database & Caching Interview Questions [x] 
+
+- [x] Database & Caching Interview Questions
+
+
+### Logging & Monitoring Interview Questions [x] 
+
+- [x] Interview Questions for Logging & Monitoring
+
+
+### Accessibility Interview Questions [x] 
+
+- [x] Key accessibility concepts and interview questions.
+
+
+### Offline Support Interview Questions [x] 
+
+- [x] Interview questions on offline capabilities and PWAs.
 
 
 ---
 
 ## 15. Live Sessions
 
-### [x] Live Q&A (January'25)
+### Live Q&A (January'25) [x] 
 
-- A candid discussion addressing early learner questions about system design fundamentals and project planning.
-
-
-### [x] Live Q&A (February'25)
-
-- We deep-dived into component architecture, folder structure, and state management strategies.
+- [x] A candid discussion addressing early learner questions about system design fundamentals and project planning.
 
 
-### [x] Live Q&A (March'25)
+### Live Q&A (February'25) [x] 
 
-- A deep dive into performance optimization, caching, and frontend load strategies.
-
-
-### [x] Live Q&A on Security (April'25)
-
-- Focused on frontend security covering common threats and how to protect your apps.
+- [x] We deep-dived into component architecture, folder structure, and state management strategies.
 
 
-### [x] Live Q&A on Database & Caching (May'25)
+### Live Q&A (March'25) [x] 
 
-- Discussed front-end interaction with databases, caching strategies, and optimizing data access.
-
-
-### [x] Live Q&A on Web Peformance (June'25)
-
-- A focused Live Q&A on Web Performance. We discussed performance optimization techniques, best practices for frontend development, and solved real-world performance bottlenecks raised by learners.
+- [x] A deep dive into performance optimization, caching, and frontend load strategies.
 
 
-### [x] Live Q&A on MicroFrontend (August'25)
+### Live Q&A on Security (April'25) [x] 
 
-- Breaking a large frontend into smaller, independently deployable apps.
-
-
-### [x] Live Q&A (Sep'25)
-
-- Interactive Q&A session from Sep 2025.
+- [x] Focused on frontend security covering common threats and how to protect your apps.
 
 
-### [x] Mastering Communication in Frontend System Design [LIVE]
+### Live Q&A on Database & Caching (May'25) [x] 
 
-- Mastering Communication in Frontend System Design
-
-
-### [x] Frontend System Design Live Session (Jan'26)
-
-- Frontend System Design Live Session (Jan'26)
+- [x] Discussed front-end interaction with databases, caching strategies, and optimizing data access.
 
 
-### [x] Mastering Accessibility in Frontend System Design
+### Live Q&A on Web Peformance (June'25) [x] 
+
+- [x] A focused Live Q&A on Web Performance. We discussed performance optimization techniques, best practices for frontend development, and solved real-world performance bottlenecks raised by learners.
+
+
+### Live Q&A on MicroFrontend (August'25) [x] 
+
+- [x] Breaking a large frontend into smaller, independently deployable apps.
+
+
+### Live Q&A (Sep'25) [x] 
+
+- [x] Interactive Q&A session from Sep 2025.
+
+
+### Mastering Communication in Frontend System Design [LIVE] [x] 
+
+- [x] Mastering Communication in Frontend System Design
+
+
+### Frontend System Design Live Session (Jan'26) [x] 
+
+- [x] Frontend System Design Live Session (Jan'26)
+
+
+### Mastering Accessibility in Frontend System Design [x] 
 
 
 ---
