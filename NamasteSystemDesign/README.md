@@ -7,12 +7,12 @@
 ### Important Guidelines
 
 - Important guidelines for Namaste Frontend System Design
-- [ ] Pending
+- [x] Pending
 
-### Networking - Akshay & Chirag's ExperiencePreview
+### Networking - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience on Networking.
-- [ ] Pending
+- [x] Pending
 
 ### How the Web Works
 
@@ -43,7 +43,7 @@
 
 ## 2. Communication
 
-### Communication - Akshay & Chirag's ExperiencePreview
+### Communication - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience with Communication.
 - [ ] Pending
@@ -82,7 +82,7 @@
 
 ## 3. Security
 
-### Security - Akshay & Chirag's ExperiencePreview
+### Security - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience on security.
 - [ ] Pending
@@ -92,72 +92,72 @@
 - Journey through crucial security principles, setting the foundation for a secure frontend. This foundational episode introduces pivotal concepts shaping the security landscape.
 - [ ] Pending
 
-### Cross-site Scripting (XSS)Resources
+### Cross-site Scripting (XSS)
 
 - Discover the nuances of XSS vulnerabilities, empowering you to fortify your frontend against malicious script injections that threaten user security.
 - [ ] Pending
 
-### iFrame ProtectionResources
+### iFrame Protection
 
 - Secure your frontend against iFrame-based threats by mastering techniques to safeguard embedded content and prevent potential vulnerabilities.
 - [ ] Pending
 
-### Security HeadersResources
+### Security Headers
 
 - Implement security headers effectively to fortify your frontend against various threats, leveraging key configurations for enhanced protection.
 - [ ] Pending
 
-### Client-side SecurityResources
+### Client-side Security
 
 - Master best practices and tools for ensuring robust client-side security in your frontend architecture.
 - [ ] Pending
 
-### Secure Communication (HTTPs)Resources
+### Secure Communication (HTTPs)
 
 - Safeguard data transfer using advanced HTTP security measures, ensuring secure communication in your frontend applications.
 - [ ] Pending
 
-### Dependency SecurityResources
+### Dependency Security
 
 - Learn to identify and mitigate vulnerabilities in third-party dependencies, fortifying your frontend against potential risks.
 - [ ] Pending
 
-### Compliance & RegulationResources
+### Compliance & Regulation
 
 - Navigate complex compliance standards, ensuring your frontend adheres to regulations, mitigating legal and security risks effectively.
 - [ ] Pending
 
-### Input Validation and SanitizationResources
+### Input Validation and Sanitization
 
 - Master the art of input validation and sanitization, safeguarding your frontend against various security threats originating from user inputs.
 - [ ] Pending
 
-### Server-Side Request Forgery (SSRF)Resources
+### Server-Side Request Forgery (SSRF)
 
 - Identify and counter SSRF threats, ensuring robust security for your frontend servers against unauthorized requests.
 - [ ] Pending
 
-### Server-side JavaScript Injection (SSJI)Resources
+### Server-side JavaScript Injection (SSJI)
 
 - Protect your frontend against malicious server-side JavaScript injections, preserving system integrity.
 - [ ] Pending
 
-### Feature Policy | Permissions-PolicyResources
+### Feature Policy | Permissions-Policy
 
 - Leverage feature and permissions policies for strengthened frontend security, managing browser behaviors and permissions effectively.
 - [ ] Pending
 
-### Subresource Integrity (SRI)Resources
+### Subresource Integrity (SRI)
 
 - Ensure resource integrity by implementing SRI, safeguarding resources loaded into your frontend against tampering.
 - [ ] Pending
 
-### Cross-Origin Resource Sharing (CORS)Resources
+### Cross-Origin Resource Sharing (CORS)
 
 - Manage CORS effectively for secure cross-origin data sharing within your frontend applications.
 - [ ] Pending
 
-### Cross-Site Request Forgery (CSRF)Resources
+### Cross-Site Request Forgery (CSRF)
 
 - Prevent Cross-Site Request Forgery (CSRF) attacks for enhanced security.
 - [ ] Pending
@@ -166,7 +166,7 @@
 
 ## 4. Testing
 
-### Testing - Akshay & Chirag's ExperiencePreview
+### Testing - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience on Testing.
 - [ ] Pending
@@ -254,7 +254,7 @@
 
 ## 6. Database & Caching
 
-### Database & Caching - Akshay & Chirag's ExperiencePreview
+### Database & Caching - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience with Databases and caching.
 - [ ] Pending
@@ -264,47 +264,47 @@
 - Explore the foundational aspects of databases and caching, pivotal for efficient data storage and retrieval in frontend systems.
 - [ ] Pending
 
-### Local StorageResources
+### Local Storage
 
 - Master local storage techniques for storing persistent data within the user's browser, enhancing offline capabilities.
 - [ ] Pending
 
-### Session StorageResources
+### Session Storage
 
 - Understand session storage mechanisms for storing temporary data within the user's browser session, ensuring data availability during the session.
 - [ ] Pending
 
-### Cookie StorageResources
+### Cookie Storage
 
 - Grasp cookie storage methods for managing and storing small pieces of data in the user's browser, facilitating personalized experiences.
 - [ ] Pending
 
-### Indexed DBResources
+### Indexed DB
 
 - Master Indexed DB, enabling frontend applications to manage large amounts of structured data within the user's browser.
 - [ ] Pending
 
-### NormalizationResources
+### Normalization
 
 - Understand normalization principles for organizing data in databases, optimizing data storage and retrieval efficiency.
 - [ ] Pending
 
-### HTTP CachingResources
+### HTTP Caching
 
 - Grasp HTTP caching methodologies for storing web server responses in browsers, optimizing data retrieval and system performance.
 - [ ] Pending
 
-### Service Working CachingResources
+### Service Working Caching
 
 - Master service working caching techniques for storing static assets and enhancing the offline capabilities of frontend applications.
 - [ ] Pending
 
-### API CachingResources
+### API Caching
 
 - Understand API caching strategies for caching API responses, reducing server load and enhancing frontend application responsiveness.
 - [ ] Pending
 
-### State ManagementResources
+### State Management
 
 - Explore state management techniques for maintaining and managing application states, ensuring seamless user experiences in frontend systems.
 - [ ] Pending
@@ -313,7 +313,7 @@
 
 ## 7. Logging & Monitoring
 
-### Logging And Monitoring - Akshay & Chirag's ExperiencePreview
+### Logging And Monitoring - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience on Logging And Monitoring.
 - [ ] Pending
@@ -395,17 +395,17 @@
 
 ## 10. Low Level Design
 
-### Component DesignResources
+### Component Design
 
 - Grasp modular component-based design techniques for frontend applications.
 - [ ] Pending
 
-### Config driven UIResources
+### Config driven UI
 
 - This lightning talk introduces config-driven UI
 - [ ] Pending
 
-### Shimmer UIResources
+### Shimmer UI
 
 - Shimmer UI: A Better Way to Show Loading States
 - [ ] Pending
@@ -766,6 +766,5 @@
 - [ ] Pending
 
 ### Mastering Accessibility in Frontend System Design
-
 
 ---
