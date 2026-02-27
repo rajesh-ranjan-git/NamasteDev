@@ -1,45 +1,43 @@
 # Namaste Frontend System Design
 
-## Curriculum
-
----
+## 📚 Curriculum
 
 ## 1. Networking
 
 ### Important Guidelines
 
 - Important guidelines for Namaste Frontend System Design
-- [x] Completed
+- [ ] Pending
 
 ### Networking - Akshay & Chirag's ExperiencePreview
 
 - Akshay and Chirag are sharing their experience on Networking.
-- [x] Completed
+- [ ] Pending
 
 ### How the Web Works
 
 - Explore the fundamental mechanics powering the internet, unveiling the intricate workings behind web functionality.
-- [x] Completed
+- [ ] Pending
 
 ### Communication Protocols
 
 - Delve into diverse communication protocols shaping internet interactions, laying the groundwork for efficient data exchange.
-- [x] Completed
+- [ ] Pending
 
 ### REST APIs
 
 - Uncover the principles of REST APIs, mastering the art of building robust and scalable interfaces for web applications.
-- [x] Completed
+- [ ] Pending
 
 ### GraphQL
 
 - Explore the power of GraphQL, enabling efficient data querying and manipulation for modern web applications.
-- [x] Completed
+- [ ] Pending
 
 ### gRPC
 
 - Master gRPC, a high-performance remote procedure call framework, optimizing communication between distributed systems.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -48,37 +46,37 @@
 ### Communication - Akshay & Chirag's ExperiencePreview
 
 - Akshay and Chirag are sharing their experience with Communication.
-- [x] Completed
+- [ ] Pending
 
 ### Communication Overview
 
 - Explore the foundational aspects of communication protocols, shaping seamless data exchange in modern frontend systems.
-- [x] Completed
+- [ ] Pending
 
 ### Short Polling
 
 - Learn the short polling technique to acquire updated data at regular intervals, optimizing real-time updates in frontend applications.
-- [x] Completed
+- [ ] Pending
 
 ### Long Polling
 
 - Understand long polling mechanisms, facilitating continuous connections to servers for real-time data updates in frontend interfaces.
-- [x] Completed
+- [ ] Pending
 
 ### Web Sockets
 
 - Master Web Sockets for establishing persistent, bidirectional communication channels between clients and servers in frontend systems.
-- [x] Completed
+- [ ] Pending
 
 ### Server Side Events
 
 - Explore Server-Sent Events enabling servers to push data to frontend clients, facilitating seamless real-time updates.
-- [x] Completed
+- [ ] Pending
 
 ### WebHooks
 
 - Grasp WebHooks' capabilities in facilitating instant notifications and triggering events in frontend systems, enhancing responsiveness.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -87,82 +85,82 @@
 ### Security - Akshay & Chirag's ExperiencePreview
 
 - Akshay and Chirag are sharing their experience on security.
-- [x] Completed
+- [ ] Pending
 
 ### Security Overview
 
 - Journey through crucial security principles, setting the foundation for a secure frontend. This foundational episode introduces pivotal concepts shaping the security landscape.
-- [x] Completed
+- [ ] Pending
 
 ### Cross-site Scripting (XSS)Resources
 
 - Discover the nuances of XSS vulnerabilities, empowering you to fortify your frontend against malicious script injections that threaten user security.
-- [x] Completed
+- [ ] Pending
 
 ### iFrame ProtectionResources
 
 - Secure your frontend against iFrame-based threats by mastering techniques to safeguard embedded content and prevent potential vulnerabilities.
-- [x] Completed
+- [ ] Pending
 
 ### Security HeadersResources
 
 - Implement security headers effectively to fortify your frontend against various threats, leveraging key configurations for enhanced protection.
-- [x] Completed
+- [ ] Pending
 
 ### Client-side SecurityResources
 
 - Master best practices and tools for ensuring robust client-side security in your frontend architecture.
-- [x] Completed
+- [ ] Pending
 
 ### Secure Communication (HTTPs)Resources
 
 - Safeguard data transfer using advanced HTTP security measures, ensuring secure communication in your frontend applications.
-- [x] Completed
+- [ ] Pending
 
 ### Dependency SecurityResources
 
 - Learn to identify and mitigate vulnerabilities in third-party dependencies, fortifying your frontend against potential risks.
-- [x] Completed
+- [ ] Pending
 
 ### Compliance & RegulationResources
 
 - Navigate complex compliance standards, ensuring your frontend adheres to regulations, mitigating legal and security risks effectively.
-- [x] Completed
+- [ ] Pending
 
 ### Input Validation and SanitizationResources
 
 - Master the art of input validation and sanitization, safeguarding your frontend against various security threats originating from user inputs.
-- [x] Completed
+- [ ] Pending
 
 ### Server-Side Request Forgery (SSRF)Resources
 
 - Identify and counter SSRF threats, ensuring robust security for your frontend servers against unauthorized requests.
-- [x] Completed
+- [ ] Pending
 
 ### Server-side JavaScript Injection (SSJI)Resources
 
 - Protect your frontend against malicious server-side JavaScript injections, preserving system integrity.
-- [x] Completed
+- [ ] Pending
 
 ### Feature Policy | Permissions-PolicyResources
 
 - Leverage feature and permissions policies for strengthened frontend security, managing browser behaviors and permissions effectively.
-- [x] Completed
+- [ ] Pending
 
 ### Subresource Integrity (SRI)Resources
 
 - Ensure resource integrity by implementing SRI, safeguarding resources loaded into your frontend against tampering.
-- [x] Completed
+- [ ] Pending
 
 ### Cross-Origin Resource Sharing (CORS)Resources
 
 - Manage CORS effectively for secure cross-origin data sharing within your frontend applications.
-- [x] Completed
+- [ ] Pending
 
 ### Cross-Site Request Forgery (CSRF)Resources
 
 - Prevent Cross-Site Request Forgery (CSRF) attacks for enhanced security.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -171,47 +169,47 @@
 ### Testing - Akshay & Chirag's ExperiencePreview
 
 - Akshay and Chirag are sharing their experience on Testing.
-- [x] Completed
+- [ ] Pending
 
 ### Testing Overview
 
 - Explore the pivotal role of testing in frontend development, grasping the fundamentals shaping robust testing strategies.
-- [x] Completed
+- [ ] Pending
 
 ### Unit & Integration Testing
 
 - Master the art of unit testing, dissecting individual components to ensure their functionality in isolation.
-- [x] Completed
+- [ ] Pending
 
 ### E2E and Automation Testing
 
 - Master end-to-end testing methodologies to simulate user scenarios, ensuring holistic frontend functionality.
-- [x] Completed
+- [ ] Pending
 
 ### A/B Testing
 
 - Discover A/B testing strategies to compare variations and optimize frontend design and functionality.
-- [x] Completed
+- [ ] Pending
 
 ### Performance Testing
 
 - Performance testing ensures software functions optimally under diverse conditions, simulating scenarios to identify and address bottlenecks, guaranteeing a seamless user experience.
-- [x] Completed
+- [ ] Pending
 
 ### Test-Driven Development Overview
 
 - Understand the principles and advantages of test-driven development (TDD) as a foundational approach in frontend design.
-- [x] Completed
+- [ ] Pending
 
 ### Security Testing
 
 - Security testing safeguards software by detecting and addressing vulnerabilities, ensuring data protection and resistance against cyber threats.
-- [x] Completed
+- [ ] Pending
 
 ### [BONUS] Namaste React - Time for Test
 
 - Reliability is paramount, and in this episode, we cover testing for React components. You'll learn how to ensure your components work as expected and your app remains robust.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -220,37 +218,37 @@
 ### Performance Overview
 
 - Explore the fundamentals of performance optimization crucial for enhancing the speed and efficiency of frontend systems.
-- [x] Completed
+- [ ] Pending
 
 ### Performance Importance
 
 - It is crucial to prioritize performance when developing software or web applications. This can greatly affect the user experience and overall success of the product.
-- [x] Completed
+- [ ] Pending
 
 ### Performance Monitoring
 
 - Grasp the importance of performance monitoring for tracking, analyzing, and optimizing frontend system performance.
-- [x] Completed
+- [ ] Pending
 
 ### Performance Tools
 
 - Explore various tools and utilities dedicated to optimizing and measuring frontend system performance.
-- [x] Completed
+- [ ] Pending
 
 ### Network Optimization
 
 - Understand network optimization strategies for minimizing latency and optimizing data transfer in frontend applications.
-- [x] Completed
+- [ ] Pending
 
 ### Rendering Pattern
 
 - Understand different rendering patterns, enabling efficient rendering and improving user experience in frontend applications.
-- [x] Completed
+- [ ] Pending
 
 ### Build Optimization
 
 - Grasp build optimization techniques for streamlining the build process and reducing load times in frontend systems.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -259,57 +257,57 @@
 ### Database & Caching - Akshay & Chirag's ExperiencePreview
 
 - Akshay and Chirag are sharing their experience with Databases and caching.
-- [x] Completed
+- [ ] Pending
 
 ### Database & Caching Overview
 
 - Explore the foundational aspects of databases and caching, pivotal for efficient data storage and retrieval in frontend systems.
-- [x] Completed
+- [ ] Pending
 
 ### Local StorageResources
 
 - Master local storage techniques for storing persistent data within the user's browser, enhancing offline capabilities.
-- [x] Completed
+- [ ] Pending
 
 ### Session StorageResources
 
 - Understand session storage mechanisms for storing temporary data within the user's browser session, ensuring data availability during the session.
-- [x] Completed
+- [ ] Pending
 
 ### Cookie StorageResources
 
 - Grasp cookie storage methods for managing and storing small pieces of data in the user's browser, facilitating personalized experiences.
-- [x] Completed
+- [ ] Pending
 
 ### Indexed DBResources
 
 - Master Indexed DB, enabling frontend applications to manage large amounts of structured data within the user's browser.
-- [x] Completed
+- [ ] Pending
 
 ### NormalizationResources
 
 - Understand normalization principles for organizing data in databases, optimizing data storage and retrieval efficiency.
-- [x] Completed
+- [ ] Pending
 
 ### HTTP CachingResources
 
 - Grasp HTTP caching methodologies for storing web server responses in browsers, optimizing data retrieval and system performance.
-- [x] Completed
+- [ ] Pending
 
 ### Service Working CachingResources
 
 - Master service working caching techniques for storing static assets and enhancing the offline capabilities of frontend applications.
-- [x] Completed
+- [ ] Pending
 
 ### API CachingResources
 
 - Understand API caching strategies for caching API responses, reducing server load and enhancing frontend application responsiveness.
-- [x] Completed
+- [ ] Pending
 
 ### State ManagementResources
 
 - Explore state management techniques for maintaining and managing application states, ensuring seamless user experiences in frontend systems.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -318,27 +316,27 @@
 ### Logging And Monitoring - Akshay & Chirag's ExperiencePreview
 
 - Akshay and Chirag are sharing their experience on Logging And Monitoring.
-- [x] Completed
+- [ ] Pending
 
 ### Logging & Monitoring Overview
 
 - Explore the foundational principles of logging and monitoring, vital for maintaining the health and performance of frontend systems.
-- [x] Completed
+- [ ] Pending
 
 ### Telemetry
 
 - Master telemetry methodologies for collecting and analyzing frontend system data, enabling informed decision-making.
-- [x] Completed
+- [ ] Pending
 
 ### Alerting
 
 - Understand alerting mechanisms, ensuring timely notifications for potential issues or anomalies in frontend systems.
-- [x] Completed
+- [ ] Pending
 
 ### Fixing
 
 - Grasp effective strategies and best practices for addressing issues and anomalies detected in frontend systems through monitoring.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -347,37 +345,37 @@
 ### Accessibility Overview
 
 - Learn vital accessibility principles for inclusive frontend design.
-- [x] Completed
+- [ ] Pending
 
 ### Keyboard Accessibility
 
 - Optimize frontend interfaces for keyboard navigation.
-- [x] Completed
+- [ ] Pending
 
 ### Screen Reader
 
 - Develop interfaces compatible with screen readers.
-- [x] Completed
+- [ ] Pending
 
 ### Focus Management
 
 - Explore the importance of focus management and colour contrast in front-end design.
-- [x] Completed
+- [ ] Pending
 
 ### Color Contrast
 
 - Explore the importance of colour contrast in front-end design.
-- [x] Completed
+- [ ] Pending
 
 ### Accessibility Tools
 
 - Let's learn about tools to improve accessibility.
-- [x] Completed
+- [ ] Pending
 
 ### How to fix accessibility
 
 - Learn how to improve website accessibility using both manual and automated testing tools.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -386,12 +384,12 @@
 ### Service Workers
 
 - Grasp the role of service workers in enabling offline functionalities and background synchronization for frontend applications.
-- [x] Completed
+- [ ] Pending
 
 ### Progressive Web Applications (PWAs)
 
 - Master PWAs, enabling frontend applications to offer app-like experiences with offline capabilities, enhancing user engagement.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -400,77 +398,77 @@
 ### Component DesignResources
 
 - Grasp modular component-based design techniques for frontend applications.
-- [x] Completed
+- [ ] Pending
 
 ### Config driven UIResources
 
 - This lightning talk introduces config-driven UI
-- [x] Completed
+- [ ] Pending
 
 ### Shimmer UIResources
 
 - Shimmer UI: A Better Way to Show Loading States
-- [x] Completed
+- [ ] Pending
 
 ### Routing & Protected Routes
 
 - Master seamless navigation techniques in frontend interfaces.
-- [x] Completed
+- [ ] Pending
 
 ### State Management + Libraries
 
 - Understand complex state handling in frontend systems.
-- [x] Completed
+- [ ] Pending
 
 ### Multi Language Support
 
 - How does multi-language support work?
-- [x] Completed
+- [ ] Pending
 
 ### Infinite Scroll
 
 - Implement dynamic content loading techniques in frontend interfaces.
-- [x] Completed
+- [ ] Pending
 
 ### Accordion
 
 - A user interface device that’s frequently used in web and mobile applications to arrange and show content in a user-friendly and space-efficient way.
-- [x] Completed
+- [ ] Pending
 
 ### Reddit Nested Comments
 
 - Design threaded discussions for frontend commenting systems.
-- [x] Completed
+- [ ] Pending
 
 ### Image Slider
 
 - LLD Image Slider
-- [x] Completed
+- [ ] Pending
 
 ### Pagination Part-1
 
 - Enable user-friendly content browsing through pagination.
-- [x] Completed
+- [ ] Pending
 
 ### Pagination Part-2
 
 - Coding part of pagination.
-- [x] Completed
+- [ ] Pending
 
 ### Real-Time Updates
 
 - Real-Time Updates
-- [x] Completed
+- [ ] Pending
 
 ### YouTube Live Stream Chat UI
 
 - YouTube Live Stream Chat UI
-- [x] Completed
+- [ ] Pending
 
 ### Autocomplete & Search Bar
 
 - Implement efficient data retrieval with autocomplete and search functionalities.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -479,72 +477,72 @@
 ### HLD Overview
 
 - Grasp essentials of high-level design principles.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - Photo Sharing App (Instagram)
 
 - Design frontend for photo sharing.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - E-commerce App (Amazon, Flipkart)
 
 - Architect frontend for e-commerce platforms.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - News Media Feed (Facebook, Twitter)
 
 - Architect frontend for social media feeds.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - Video Streaming (Netflix)
 
 - Design frontend for video streaming.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - Music Streaming (Spotify)
 
 - Design frontend for music streaming.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - Live Commentary (CricInfo, Crickbuzz)
 
 - Architect frontend for live commentary.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - Email Client
 
 - Learn about the frontend architect for your Gmail or Outlook.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - Diagram Tools (Excalidraw)
 
 - Architect frontend for diagramming.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - Analytics Dashboard (Google Analytics)
 
 - Architect frontend for analytics.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - Google Docs
 
 - Architect frontend for collaborative documents.
-- [x] Completed
+- [ ] Pending
 
 ### HLD - Google Sheets
 
 - Design frontend for collaborative spreadsheets.
-- [x] Completed
+- [ ] Pending
 
 ### Microfrontend
 
 - High-Level Design of Microfrontend architecture.
-- [x] Completed
+- [ ] Pending
 
 ### HLD Kanban Board
 
 - Design a scalable Kanban Board system at a high level.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -553,92 +551,92 @@
 ### Real DOM vs Virtual DOM
 
 - Understand the key differences between Real DOM and Virtual DOM in React.
-- [x] Completed
+- [ ] Pending
 
 ### Real DOM vs Shadow DOM
 
 - Learn how Shadow DOM differs from the Real DOM and why it’s used in Web Components.
-- [x] Completed
+- [ ] Pending
 
 ### Minification vs Compression
 
 - Learn how Minification and Compression optimize your web app’s performance.
-- [x] Completed
+- [ ] Pending
 
 ### SPA vs MPA
 
 - Compare Single Page Applications (SPA) and Multi Page Applications (MPA).
-- [x] Completed
+- [ ] Pending
 
 ### Tree Shaking vs Dead Code Elimination
 
 - Discover how modern bundlers remove unused code to optimize performance.
-- [x] Completed
+- [ ] Pending
 
 ### WebPage Rendering Cycle
 
 - Understand how browsers render a webpage from start to finish.
-- [x] Completed
+- [ ] Pending
 
 ### Reflow & Repaint
 
 - Learn the difference between Reflow and Repaint in the browser.
-- [x] Completed
+- [ ] Pending
 
 ### HTML Parsing vs CSS Parsing
 
 - Compare how browsers parse HTML and CSS files.
-- [x] Completed
+- [ ] Pending
 
 ### DOM vs BOM
 
 - Understand the difference between DOM and BOM in web development.
-- [x] Completed
+- [ ] Pending
 
 ### CSS Positioning
 
 - Master CSS positioning with real-world examples.
-- [x] Completed
+- [ ] Pending
 
 ### Why Most Candidates Get Rejected in LLD Round
 
 - Understand common mistakes in LLD interviews.
-- [x] Completed
+- [ ] Pending
 
 ### Time Breakups in System Design Interview
 
 - Learn how to manage time effectively in System Design interviews.
-- [x] Completed
+- [ ] Pending
 
 ### Radio Framework
 
 - Understand the Radio Framework design and architecture.
-- [x] Completed
+- [ ] Pending
 
 ### How to approach LLD Machine Coding Problems
 
 - Learn a structured approach to crack LLD machine coding rounds.
-- [x] Completed
+- [ ] Pending
 
 ### System Design Expectations from Early in Career Developers
 
 - What interviewers expect from junior developers in system design.
-- [x] Completed
+- [ ] Pending
 
 ### Understanding Quality Check - UT, CT, E2E
 
 - Learn Unit Testing, Component Testing, and End-to-End testing.
-- [x] Completed
+- [ ] Pending
 
 ### System Design Expectations from Senior Developers
 
 - What senior developers are expected to demonstrate in system design.
-- [x] Completed
+- [ ] Pending
 
 ### System Design Skills to Showcase on Your Resume
 
 - Highlight the most impactful system design skills on your resume.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -647,22 +645,22 @@
 ### Bonus - Salary Negotiation Masterclass
 
 - Salary Negotiation Masterclass
-- [x] Completed
+- [ ] Pending
 
 ### Bonus - Resume Masterclass
 
 - Resume Masterclass
-- [x] Completed
+- [ ] Pending
 
 ### Bonus - Personal Branding Masterclass
 
 - Personal Branding Masterclass
-- [x] Completed
+- [ ] Pending
 
 ### Bonus - LinkedIn Masterclass
 
 - LinkedIn Masterclass
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -671,47 +669,47 @@
 ### Networking Interview Questions
 
 - Interview Questions for Networking
-- [x] Completed
+- [ ] Pending
 
 ### Communication Protocol Interview Questions
 
 - Communication Protocol Interview Questions
-- [x] Completed
+- [ ] Pending
 
 ### Security Interview Questions
 
 - Practice interview questions of security.
-- [x] Completed
+- [ ] Pending
 
 ### Testing Interview Questions
 
 - Common testing questions asked in frontend interviews.
-- [x] Completed
+- [ ] Pending
 
 ### Performance Interview Questions
 
 - Top web performance questions asked in interviews.
-- [x] Completed
+- [ ] Pending
 
 ### Database & Caching Interview Questions
 
 - Database & Caching Interview Questions
-- [x] Completed
+- [ ] Pending
 
 ### Logging & Monitoring Interview Questions
 
 - Interview Questions for Logging & Monitoring
-- [x] Completed
+- [ ] Pending
 
 ### Accessibility Interview Questions
 
 - Key accessibility concepts and interview questions.
-- [x] Completed
+- [ ] Pending
 
 ### Offline Support Interview Questions
 
 - Interview questions on offline capabilities and PWAs.
-- [x] Completed
+- [ ] Pending
 
 ---
 
@@ -720,52 +718,52 @@
 ### Live Q&A (January'25)
 
 - A candid discussion addressing early learner questions about system design fundamentals and project planning.
-- [x] Completed
+- [ ] Pending
 
 ### Live Q&A (February'25)
 
 - We deep-dived into component architecture, folder structure, and state management strategies.
-- [x] Completed
+- [ ] Pending
 
 ### Live Q&A (March'25)
 
 - A deep dive into performance optimization, caching, and frontend load strategies.
-- [x] Completed
+- [ ] Pending
 
 ### Live Q&A on Security (April'25)
 
 - Focused on frontend security covering common threats and how to protect your apps.
-- [x] Completed
+- [ ] Pending
 
 ### Live Q&A on Database & Caching (May'25)
 
 - Discussed front-end interaction with databases, caching strategies, and optimizing data access.
-- [x] Completed
+- [ ] Pending
 
 ### Live Q&A on Web Peformance (June'25)
 
 - A focused Live Q&A on Web Performance. We discussed performance optimization techniques, best practices for frontend development, and solved real-world performance bottlenecks raised by learners.
-- [x] Completed
+- [ ] Pending
 
 ### Live Q&A on MicroFrontend (August'25)
 
 - Breaking a large frontend into smaller, independently deployable apps.
-- [x] Completed
+- [ ] Pending
 
 ### Live Q&A (Sep'25)
 
 - Interactive Q&A session from Sep 2025.
-- [x] Completed
+- [ ] Pending
 
 ### Mastering Communication in Frontend System Design [LIVE]
 
 - Mastering Communication in Frontend System Design
-- [x] Completed
+- [ ] Pending
 
 ### Frontend System Design Live Session (Jan'26)
 
 - Frontend System Design Live Session (Jan'26)
-- [x] Completed
+- [ ] Pending
 
 ### Mastering Accessibility in Frontend System Design
 

@@ -3,7 +3,11 @@ import sys
 import os
 
 
-def extract_and_create_readme(html_file_path, target_class="text-lg dark:text-white"):
+def extract_and_create_readme(
+    html_file_path="index.html",
+    heading="README",
+    target_class="text-lg dark:text-white",
+):
     if not os.path.exists(html_file_path):
         print(f"Error: File '{html_file_path}' not found.")
         sys.exit(1)
@@ -54,9 +58,8 @@ def extract_and_create_readme(html_file_path, target_class="text-lg dark:text-wh
         )
 
     readme_lines = []
-    readme_lines.append("# Namaste Frontend System Design\n")
-    readme_lines.append("## Curriculum\n")
-    readme_lines.append("---\n")
+    readme_lines.append(f"# {heading}\n")
+    readme_lines.append("## 📚 Curriculum\n")
 
     for index, section in enumerate(extracted_data):
         readme_lines.append(f"## {section.get('main_heading')}\n")
@@ -65,7 +68,7 @@ def extract_and_create_readme(html_file_path, target_class="text-lg dark:text-wh
             readme_lines.append(f"### {sub.get('title')}\n")
 
             if sub.get("description"):
-                readme_lines.append(f"- {sub.get("description")}\n- [x] Completed")
+                readme_lines.append(f"- {sub.get("description")}\n- [ ] Pending")
 
             readme_lines.append("")
 
@@ -86,11 +89,13 @@ def extract_and_create_readme(html_file_path, target_class="text-lg dark:text-wh
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python readmeHelper.py <html_file_path> <target_class>")
-        print("Example: python readmeHelper.py index.html my-heading-class")
+    if len(sys.argv) < 4:
+        print("Usage: python readmeHelper.py <html_file_path> <readme_heading> <target_class>")
+        print("Example: python readmeHelper.py index.html heading my-heading-class")
         sys.exit(1)
 
     html_file = sys.argv[1]
+    heading = sys.argv[2]
+    target_class = sys.argv[3]
 
-    extract_and_create_readme(html_file)
+    extract_and_create_readme(html_file, heading, target_class)
