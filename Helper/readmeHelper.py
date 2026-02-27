@@ -54,7 +54,8 @@ def extract_and_create_readme(html_file_path, target_class="text-lg dark:text-wh
         )
 
     readme_lines = []
-    readme_lines.append("# README\n")
+    readme_lines.append("# Namaste Frontend System Design\n")
+    readme_lines.append("## Curriculum\n")
     readme_lines.append("---\n")
 
     for index, section in enumerate(extracted_data):
@@ -64,7 +65,7 @@ def extract_and_create_readme(html_file_path, target_class="text-lg dark:text-wh
             readme_lines.append(f"### {sub.get('title')}\n")
 
             if sub.get("description"):
-                readme_lines.append(f"- [x] {sub.get("description")}\n- [x] Completed")
+                readme_lines.append(f"- {sub.get("description")}\n- [x] Completed")
 
             readme_lines.append("")
 
