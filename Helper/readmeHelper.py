@@ -61,7 +61,7 @@ def extract_and_create_readme(html_file_path, target_class="text-lg dark:text-wh
         readme_lines.append(f"## {section.get('main_heading')}\n")
 
         for sub in section["subheadings"]:
-            readme_lines.append(f"- [x] {sub.get('title')}\n")
+            readme_lines.append(f"### [x] {sub.get('title')}\n")
 
             if sub.get("description"):
                 readme_lines.append(f"- {sub.get("description")}\n")
@@ -80,7 +80,7 @@ def extract_and_create_readme(html_file_path, target_class="text-lg dark:text-wh
     print(f"Extracted {len(extracted_data)} main sections.")
     for section in extracted_data:
         print(
-            f"  - {section['main_heading']} ({len(section['subheadings'])} sub-headings)"
+            f"- {section['main_heading']} ({len(section['subheadings'])} sub-headings)"
         )
 
 
