@@ -7,12 +7,12 @@
 ### Important Guidelines
 
 - Important guidelines for Namaste Frontend System Design
-- [x] Pending
+- [x] Completed
 
 ### Networking - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience on Networking.
-- [x] Pending
+- [x] Completed
 
 ### How the Web Works
 
