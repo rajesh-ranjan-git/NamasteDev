@@ -17,17 +17,17 @@
 ### How the Web Works
 
 - Explore the fundamental mechanics powering the internet, unveiling the intricate workings behind web functionality.
-- [ ] Pending
+- [x] Completed
 
 ### Communication Protocols
 
 - Delve into diverse communication protocols shaping internet interactions, laying the groundwork for efficient data exchange.
-- [ ] Pending
+- [x] Completed
 
 ### REST APIs
 
 - Uncover the principles of REST APIs, mastering the art of building robust and scalable interfaces for web applications.
-- [ ] Pending
+- [x] Completed
 
 ### GraphQL
 
