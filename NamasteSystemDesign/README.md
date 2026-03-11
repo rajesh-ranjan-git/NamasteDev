@@ -32,12 +32,12 @@
 ### GraphQL
 
 - Explore the power of GraphQL, enabling efficient data querying and manipulation for modern web applications.
-- [ ] Pending
+- [x] Completed
 
 ### gRPC
 
 - Master gRPC, a high-performance remote procedure call framework, optimizing communication between distributed systems.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -46,12 +46,12 @@
 ### Communication - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience with Communication.
-- [ ] Pending
+- [x] Completed
 
 ### Communication Overview
 
 - Explore the foundational aspects of communication protocols, shaping seamless data exchange in modern frontend systems.
-- [ ] Pending
+- [x] Completed
 
 ### Short Polling
 
