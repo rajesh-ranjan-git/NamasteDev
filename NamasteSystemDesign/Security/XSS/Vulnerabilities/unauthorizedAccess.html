@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XSS - Vulnerabilities</title>
+  </head>
+  <body>
+    <!-- Vulnerable Code -->
+    <div>Welcome, <span id="username"></span>!</div>
+    <div>Timezone: <span id="timezone"></span>!</div>
+
+    <script>
+      function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+      }
+
+      setCookie("exampleCookie", "Hello, Cookie!");
+    </script>
+
+    <!-- Vulnerable Code -->
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const name = params.get("name");
+      document.getElementById("username").innerHTML = name;
+    </script>
+
+    <script>
+      function createPost(title, description) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/post", true);
+        console.log("Cookies: ", document.cookie);
+        xhr.withCredentials = true;
+        xhr.setRequestHeader(
+          "Content-Type",
+          "application/x-www-form-urlencoded",
+        );
+        xhr.send(`txtName=${title}&mtxMessage=${description}`);
+      }
+    </script>
+
+    <!-- encodeURIComponent("<img src=\"error.gif\" onerror=\"createPost(\'HACK_TITLE\', \'HACK_DESCRIPTION\');\" />") -->
+
+    <!-- After encodeURIComponent -->
+    <!-- %3Cimg%20src%3D%22error.gif%22%20onerror%3D%22createPost('HACK_TITLE'%2C%20'HACK_DESCRIPTION')%3B%22%20%2F%3E -->
+  </body>
+</html>

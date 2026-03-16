@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Dynamic JavaScript Injection</h1>
+    <label for="jsCode">Enter JavaScript Code:</label>
+    <input type="text" id="jsCode" placeholder="Enter JavaScript here..." />
+    <button onclick="executeCode()">Execute Code</button>
+
+    <script>
+      function executeCode() {
+        var jsCode = document.getElementById("jsCode").value;
+
+        try {
+          eval(jsCode);
+        } catch (err) {
+          console.error("Error executing JavaScript code: ", err);
+        }
+      }
+    </script>
+  </body>
+</html>

