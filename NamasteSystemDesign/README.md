@@ -56,27 +56,27 @@
 ### Short Polling
 
 - Learn the short polling technique to acquire updated data at regular intervals, optimizing real-time updates in frontend applications.
-- [ ] Pending
+- [x] Completed
 
 ### Long Polling
 
 - Understand long polling mechanisms, facilitating continuous connections to servers for real-time data updates in frontend interfaces.
-- [ ] Pending
+- [x] Completed
 
 ### Web Sockets
 
 - Master Web Sockets for establishing persistent, bidirectional communication channels between clients and servers in frontend systems.
-- [ ] Pending
+- [x] Completed
 
 ### Server Side Events
 
 - Explore Server-Sent Events enabling servers to push data to frontend clients, facilitating seamless real-time updates.
-- [ ] Pending
+- [x] Completed
 
 ### WebHooks
 
 - Grasp WebHooks' capabilities in facilitating instant notifications and triggering events in frontend systems, enhancing responsiveness.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -85,17 +85,17 @@
 ### Security - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience on security.
-- [ ] Pending
+- [x] Completed
 
 ### Security Overview
 
 - Journey through crucial security principles, setting the foundation for a secure frontend. This foundational episode introduces pivotal concepts shaping the security landscape.
-- [ ] Pending
+- [x] Completed
 
 ### Cross-site Scripting (XSS)
 
 - Discover the nuances of XSS vulnerabilities, empowering you to fortify your frontend against malicious script injections that threaten user security.
-- [ ] Pending
+- [x] Completed
 
 ### iFrame Protection
 
