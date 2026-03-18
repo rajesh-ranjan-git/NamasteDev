@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clickjacking iFrame</title>
+  </head>
+  <body>
+    <h1>Child Clickjacking iFrame</h1>
+    <p>iFrame: Click the button below to see Clickjacking demonstration.</p>
+
+    <button
+      style="background-color: red"
+      onclick="alert('Clicked iFrame')"
+      id="overlay-button"
+    >
+      Play Now!
+    </button>
+
+    <script>
+      document
+        .getElementById("overlay-button")
+        .addEventListener("click", () => {
+          alert("Clicked iFrame Button");
+        });
+    </script>
+
+    <script>
+      if (top !== self) {
+        top.location = self.location;
+      }
+    </script>
+  </body>
+</html>

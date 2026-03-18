@@ -1,10 +1,11 @@
 {
-  "name": "mitigation",
+  "name": "vulnerabilities",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./server.js",
+    "server1": "nodemon ./server1/index.js",
+    "server2": "nodemon ./server2/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,7 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.2.1"
   }
 }

@@ -100,7 +100,7 @@
 ### iFrame Protection
 
 - Secure your frontend against iFrame-based threats by mastering techniques to safeguard embedded content and prevent potential vulnerabilities.
-- [ ] Pending
+- [x] Completed
 
 ### Security Headers
 
