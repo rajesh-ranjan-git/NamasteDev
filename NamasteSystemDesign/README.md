@@ -110,12 +110,12 @@
 ### Client-side Security
 
 - Master best practices and tools for ensuring robust client-side security in your frontend architecture.
-- [ ] Pending
+- [x] Completed
 
 ### Secure Communication (HTTPs)
 
 - Safeguard data transfer using advanced HTTP security measures, ensuring secure communication in your frontend applications.
-- [ ] Pending
+- [x] Completed
 
 ### Dependency Security
 
