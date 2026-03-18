@@ -105,7 +105,7 @@
 ### Security Headers
 
 - Implement security headers effectively to fortify your frontend against various threats, leveraging key configurations for enhanced protection.
-- [ ] Pending
+- [x] Completed
 
 ### Client-side Security
 
