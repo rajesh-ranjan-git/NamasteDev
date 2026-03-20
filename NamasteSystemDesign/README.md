@@ -120,27 +120,27 @@
 ### Dependency Security
 
 - Learn to identify and mitigate vulnerabilities in third-party dependencies, fortifying your frontend against potential risks.
-- [ ] Pending
+- [x] Completed
 
 ### Compliance & Regulation
 
 - Navigate complex compliance standards, ensuring your frontend adheres to regulations, mitigating legal and security risks effectively.
-- [ ] Pending
+- [x] Completed
 
 ### Input Validation and Sanitization
 
 - Master the art of input validation and sanitization, safeguarding your frontend against various security threats originating from user inputs.
-- [ ] Pending
+- [x] Completed
 
 ### Server-Side Request Forgery (SSRF)
 
 - Identify and counter SSRF threats, ensuring robust security for your frontend servers against unauthorized requests.
-- [ ] Pending
+- [x] Completed
 
 ### Server-side JavaScript Injection (SSJI)
 
 - Protect your frontend against malicious server-side JavaScript injections, preserving system integrity.
-- [ ] Pending
+- [x] Completed
 
 ### Feature Policy | Permissions-Policy
 
