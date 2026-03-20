@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secure iFrame</title>
+  </head>
+  <body>
+    <h1>Secure iFrame</h1>
+
+    <h3>Latitude: <span id="latitude"></span></h3>
+    <h3>Longitude: <span id="longitude"></span></h3>
+
+    <button id="geo-button" onclick="getGeoLocation()">
+      Click to know your location!
+    </button>
+
+    <script>
+      function getGeoLocation() {
+        // Check if geolocation API is supported by browser
+        if (navigator.geolocation) {
+          // Geolocation is supported
+          navigator.geolocation.getCurrentPosition(
+            function (position) {
+              //Success callback - position object contains user's geolocation
+              const latitude = position.coords.latitude;
+              const longitude = position.coords.longitude;
+
+              console.log("Latitude: ", latitude);
+              console.log("Longitude: ", longitude);
+
+              const latitudeSpan = document.getElementById("latitude");
+              latitudeSpan.innerText = latitude;
+              const longitudeSpan = document.getElementById("longitude");
+              longitudeSpan.innerText = longitude;
+            },
+            function (error) {
+              // Error callback, handle errors
+              switch (error.code) {
+                case error.PERMISSION_DENIED:
+                  console.log("User denied geolocation access.");
+                  break;
+                case error.POSITION_UNAVAILABLE:
+                  console.log("Location not available.");
+                  break;
+                case error.TIMEOUT:
+                  console.log("Timeout");
+                  break;
+                default:
+                  console.log("An unknown error occurred.");
+              }
+            },
+          );
+        }
+      }
+    </script>
+  </body>
+</html>
