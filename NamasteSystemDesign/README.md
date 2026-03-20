@@ -145,7 +145,7 @@
 ### Feature Policy | Permissions-Policy
 
 - Leverage feature and permissions policies for strengthened frontend security, managing browser behaviors and permissions effectively.
-- [ ] Pending
+- [x] Completed
 
 ### Subresource Integrity (SRI)
 
