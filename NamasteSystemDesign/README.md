@@ -150,17 +150,17 @@
 ### Subresource Integrity (SRI)
 
 - Ensure resource integrity by implementing SRI, safeguarding resources loaded into your frontend against tampering.
-- [ ] Pending
+- [x] Completed
 
 ### Cross-Origin Resource Sharing (CORS)
 
 - Manage CORS effectively for secure cross-origin data sharing within your frontend applications.
-- [ ] Pending
+- [x] Completed
 
 ### Cross-Site Request Forgery (CSRF)
 
 - Prevent Cross-Site Request Forgery (CSRF) attacks for enhanced security.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -169,17 +169,17 @@
 ### Testing - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience on Testing.
-- [ ] Pending
+- [x] Completed
 
 ### Testing Overview
 
 - Explore the pivotal role of testing in frontend development, grasping the fundamentals shaping robust testing strategies.
-- [ ] Pending
+- [x] Completed
 
 ### Unit & Integration Testing
 
 - Master the art of unit testing, dissecting individual components to ensure their functionality in isolation.
-- [ ] Pending
+- [x] Completed
 
 ### E2E and Automation Testing
 
