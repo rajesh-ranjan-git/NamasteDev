@@ -194,22 +194,22 @@
 ### Performance Testing
 
 - Performance testing ensures software functions optimally under diverse conditions, simulating scenarios to identify and address bottlenecks, guaranteeing a seamless user experience.
-- [ ] Pending
+- [x] Completed
 
 ### Test-Driven Development Overview
 
 - Understand the principles and advantages of test-driven development (TDD) as a foundational approach in frontend design.
-- [ ] Pending
+- [x] Completed
 
 ### Security Testing
 
 - Security testing safeguards software by detecting and addressing vulnerabilities, ensuring data protection and resistance against cyber threats.
-- [ ] Pending
+- [x] Completed
 
 ### [BONUS] Namaste React - Time for Test
 
 - Reliability is paramount, and in this episode, we cover testing for React components. You'll learn how to ensure your components work as expected and your app remains robust.
-- [ ] Pending
+- [x] Completed
 
 ---
 
