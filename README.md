@@ -11,4 +11,5 @@
 - Done with deployment
 - Done with Namaste Node JS
 - Added Interview Preparation Questions
-- Started with Namaste DSA
+- Started with Namaste DSA - (Paused for now)
+- Started with Namaste Frontend System Design

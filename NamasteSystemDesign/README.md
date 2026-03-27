@@ -238,17 +238,17 @@
 ### Network Optimization
 
 - Understand network optimization strategies for minimizing latency and optimizing data transfer in frontend applications.
-- [ ] Pending
+- [x] Completed
 
 ### Rendering Pattern
 
 - Understand different rendering patterns, enabling efficient rendering and improving user experience in frontend applications.
-- [ ] Pending
+- [x] Completed
 
 ### Build Optimization
 
 - Grasp build optimization techniques for streamlining the build process and reducing load times in frontend systems.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -257,27 +257,27 @@
 ### Database & Caching - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience with Databases and caching.
-- [ ] Pending
+- [x] Completed
 
 ### Database & Caching Overview
 
 - Explore the foundational aspects of databases and caching, pivotal for efficient data storage and retrieval in frontend systems.
-- [ ] Pending
+- [x] Completed
 
 ### Local Storage
 
 - Master local storage techniques for storing persistent data within the user's browser, enhancing offline capabilities.
-- [ ] Pending
+- [x] Completed
 
 ### Session Storage
 
 - Understand session storage mechanisms for storing temporary data within the user's browser session, ensuring data availability during the session.
-- [ ] Pending
+- [x] Completed
 
 ### Cookie Storage
 
 - Grasp cookie storage methods for managing and storing small pieces of data in the user's browser, facilitating personalized experiences.
-- [ ] Pending
+- [x] Completed
 
 ### Indexed DB
 
