@@ -282,32 +282,32 @@
 ### Indexed DB
 
 - Master Indexed DB, enabling frontend applications to manage large amounts of structured data within the user's browser.
-- [ ] Pending
+- [x] Completed
 
 ### Normalization
 
 - Understand normalization principles for organizing data in databases, optimizing data storage and retrieval efficiency.
-- [ ] Pending
+- [x] Completed
 
 ### HTTP Caching
 
 - Grasp HTTP caching methodologies for storing web server responses in browsers, optimizing data retrieval and system performance.
-- [ ] Pending
+- [x] Completed
 
 ### Service Working Caching
 
 - Master service working caching techniques for storing static assets and enhancing the offline capabilities of frontend applications.
-- [ ] Pending
+- [x] Completed
 
 ### API Caching
 
 - Understand API caching strategies for caching API responses, reducing server load and enhancing frontend application responsiveness.
-- [ ] Pending
+- [x] Completed
 
 ### State Management
 
 - Explore state management techniques for maintaining and managing application states, ensuring seamless user experiences in frontend systems.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -316,27 +316,27 @@
 ### Logging And Monitoring - Akshay & Chirag's Experience
 
 - Akshay and Chirag are sharing their experience on Logging And Monitoring.
-- [ ] Pending
+- [x] Completed
 
 ### Logging & Monitoring Overview
 
 - Explore the foundational principles of logging and monitoring, vital for maintaining the health and performance of frontend systems.
-- [ ] Pending
+- [x] Completed
 
 ### Telemetry
 
 - Master telemetry methodologies for collecting and analyzing frontend system data, enabling informed decision-making.
-- [ ] Pending
+- [x] Completed
 
 ### Alerting
 
 - Understand alerting mechanisms, ensuring timely notifications for potential issues or anomalies in frontend systems.
-- [ ] Pending
+- [x] Completed
 
 ### Fixing
 
 - Grasp effective strategies and best practices for addressing issues and anomalies detected in frontend systems through monitoring.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -345,17 +345,17 @@
 ### Accessibility Overview
 
 - Learn vital accessibility principles for inclusive frontend design.
-- [ ] Pending
+- [x] Completed
 
 ### Keyboard Accessibility
 
 - Optimize frontend interfaces for keyboard navigation.
-- [ ] Pending
+- [x] Completed
 
 ### Screen Reader
 
 - Develop interfaces compatible with screen readers.
-- [ ] Pending
+- [x] Completed
 
 ### Focus Management
 
