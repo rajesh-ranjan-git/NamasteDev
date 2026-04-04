@@ -384,7 +384,7 @@
 ### Service Workers
 
 - Grasp the role of service workers in enabling offline functionalities and background synchronization for frontend applications.
-- [ ] Pending
+- [x] Completed
 
 ### Progressive Web Applications (PWAs)
 
