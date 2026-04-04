@@ -360,22 +360,22 @@
 ### Focus Management
 
 - Explore the importance of focus management and colour contrast in front-end design.
-- [ ] Pending
+- [x] Completed
 
 ### Color Contrast
 
 - Explore the importance of colour contrast in front-end design.
-- [ ] Pending
+- [x] Completed
 
 ### Accessibility Tools
 
 - Let's learn about tools to improve accessibility.
-- [ ] Pending
+- [x] Completed
 
 ### How to fix accessibility
 
 - Learn how to improve website accessibility using both manual and automated testing tools.
-- [ ] Pending
+- [x] Completed
 
 ---
 
