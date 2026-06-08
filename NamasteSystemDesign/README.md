@@ -398,77 +398,77 @@
 ### Component Design
 
 - Grasp modular component-based design techniques for frontend applications.
-- [ ] Pending
+- [x] Completed
 
 ### Config driven UI
 
 - This lightning talk introduces config-driven UI
-- [ ] Pending
+- [x] Completed
 
 ### Shimmer UI
 
 - Shimmer UI: A Better Way to Show Loading States
-- [ ] Pending
+- [x] Completed
 
 ### Routing & Protected Routes
 
 - Master seamless navigation techniques in frontend interfaces.
-- [ ] Pending
+- [x] Completed
 
 ### State Management + Libraries
 
 - Understand complex state handling in frontend systems.
-- [ ] Pending
+- [x] Completed
 
 ### Multi Language Support
 
 - How does multi-language support work?
-- [ ] Pending
+- [x] Completed
 
 ### Infinite Scroll
 
 - Implement dynamic content loading techniques in frontend interfaces.
-- [ ] Pending
+- [x] Completed
 
 ### Accordion
 
 - A user interface device that’s frequently used in web and mobile applications to arrange and show content in a user-friendly and space-efficient way.
-- [ ] Pending
+- [x] Completed
 
 ### Reddit Nested Comments
 
 - Design threaded discussions for frontend commenting systems.
-- [ ] Pending
+- [x] Completed
 
 ### Image Slider
 
 - LLD Image Slider
-- [ ] Pending
+- [x] Completed
 
 ### Pagination Part-1
 
 - Enable user-friendly content browsing through pagination.
-- [ ] Pending
+- [x] Completed
 
 ### Pagination Part-2
 
 - Coding part of pagination.
-- [ ] Pending
+- [x] Completed
 
 ### Real-Time Updates
 
 - Real-Time Updates
-- [ ] Pending
+- [x] Completed
 
 ### YouTube Live Stream Chat UI
 
 - YouTube Live Stream Chat UI
-- [ ] Pending
+- [x] Completed
 
 ### Autocomplete & Search Bar
 
 - Implement efficient data retrieval with autocomplete and search functionalities.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -477,17 +477,17 @@
 ### HLD Overview
 
 - Grasp essentials of high-level design principles.
-- [ ] Pending
+- [x] Completed
 
 ### HLD - Photo Sharing App (Instagram)
 
 - Design frontend for photo sharing.
-- [ ] Pending
+- [x] Completed
 
 ### HLD - E-commerce App (Amazon, Flipkart)
 
 - Architect frontend for e-commerce platforms.
-- [ ] Pending
+- [x] Completed
 
 ### HLD - News Media Feed (Facebook, Twitter)
 

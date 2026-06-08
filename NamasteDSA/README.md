@@ -46,32 +46,32 @@
 ### Second Largest
 
 - Find the second largest number in an array efficiently.
-- [ ] Pending
+- [x] Completed
 
 ### Loop in Loop
 
 - Learn how to implement nested loops for complex patterns.
-- [ ] Pending
+- [x] Completed
 
 ### Star Pattern
 
 - Draw star patterns using nested loops for practice.
-- [ ] Pending
+- [x] Completed
 
 ### Count Digit
 
 - Count the number of digits in an integer.
-- [ ] Pending
+- [x] Completed
 
 ### Palindrome
 
 - Check if a string or number is a palindrome.
-- [ ] Pending
+- [x] Completed
 
 ### Reverse Integer
 
 - Reverse the digits of an integer programmatically.
-- [ ] Pending
+- [x] Completed
 
 ---
 
