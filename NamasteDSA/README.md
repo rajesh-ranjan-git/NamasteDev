@@ -80,7 +80,7 @@
 ### Time & Space Complexity
 
 - Understand how to analyze code performance using time complexity.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -89,7 +89,7 @@
 ### Remove Duplicates
 
 - Remove duplicate elements from a sorted array.
-- [ ] Pending
+- [x] Completed
 
 ### Remove Element
 
