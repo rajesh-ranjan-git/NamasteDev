@@ -206,7 +206,7 @@
 ### Introduction to Linked List
 
 - Get started with the basics of Linked Lists.
-- [ ] Pending
+- [x] Completed
 
 ### Design Linked List
 
