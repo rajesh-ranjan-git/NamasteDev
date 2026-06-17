@@ -182,22 +182,22 @@
 ### Bubble Sort
 
 - Sort an array using the bubble sort algorithm.
-- [ ] Pending
+- [x] Completed
 
 ### Selection Sort
 
 - Sort an array using the selection sort algorithm.
-- [ ] Pending
+- [x] Completed
 
 ### Insertion Sort
 
 - Sort an array using the insertion sort algorithm.
-- [ ] Pending
+- [x] Completed
 
 ### Merge Sort
 
 - Learn how Merge Sort works using recursion and divide & conquer.
-- [ ] Pending
+- [x] Completed
 
 ---
 
