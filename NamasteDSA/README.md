@@ -94,42 +94,42 @@
 ### Remove Element
 
 - Remove specific elements from an array.
-- [ ] Pending
+- [x] Completed
 
 ### Reverse String
 
 - Reverse the characters of a string.
-- [ ] Pending
+- [x] Completed
 
 ### Best Time to Buy and Sell Stocks
 
 - Maximize profit from stock prices using smart strategy.
-- [ ] Pending
+- [x] Completed
 
 ### Merge Sorted Arrays
 
 - Merge two sorted arrays into one sorted array.
-- [ ] Pending
+- [x] Completed
 
 ### Move Zeros
 
 - Move all zeros to the end of the array without changing order.
-- [ ] Pending
+- [x] Completed
 
 ### Max Consecutive Ones
 
 - Find the maximum streak of 1s in a binary array.
-- [ ] Pending
+- [x] Completed
 
 ### Missing Number
 
 - Find the missing number in a sequence from 1 to N.
-- [ ] Pending
+- [x] Completed
 
 ### Single Number
 
 - Find the unique element in an array where all others are repeated.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -138,32 +138,32 @@
 ### Recursion 101
 
 - Understand the basics of recursion with clear explanations and examples.
-- [ ] Pending
+- [x] Completed
 
 ### Sum of first n numbers
 
 - Calculate the sum of the first n natural numbers using recursion.
-- [ ] Pending
+- [x] Completed
 
 ### Sum of all numbers in Array
 
 - Find the sum of all elements in an array using simple logic.
-- [ ] Pending
+- [x] Completed
 
 ### Factorial of n
 
 - Learn how to calculate factorials using recursion.
-- [ ] Pending
+- [x] Completed
 
 ### Power of Two
 
 - Solve Power of Two problem with recursion and logic.
-- [ ] Pending
+- [x] Completed
 
 ### Recursion Masterclass
 
 - Master recursion with deep insights, patterns, and examples.
-- [ ] Pending
+- [x] Completed
 
 ---
 
@@ -172,12 +172,12 @@
 ### Linear Search
 
 - Find an element in an array using linear search.
-- [ ] Pending
+- [x] Completed
 
 ### Binary Search
 
 - Find an element in a sorted array using binary search.
-- [ ] Pending
+- [x] Completed
 
 ### Bubble Sort
 
@@ -1427,9 +1427,49 @@
 
 ## 23. Strings - Advanced
 
-### Coming Soon...
+### Minimum Add to Make Parenthesis Valid
 
-- We are working hard to bring you high-quality, content for this section. Stay tuned to dive deeper into amazing topics!
+- Find minimum additions needed to balance parentheses.
+- [ ] Pending
+
+### Reverse Words in a String
+
+- Reverse the order of words in a string.
+- [ ] Pending
+
+### Sum of Beauty of All Substrings
+
+- Calculate the beauty of all substrings.
+- [ ] Pending
+
+### Decode String
+
+- Decode an encoded string using stack or recursion.
+- [ ] Pending
+
+### Count and Say
+
+- Generate the Count and Say sequence.
+- [ ] Pending
+
+### Reorganize String
+
+- Rearrange string so no adjacent characters are the same.
+- [ ] Pending
+
+### Repeated String Match
+
+- Find minimum repetitions of a string to match another.
+- [ ] Pending
+
+### Rabin Karp Algorithm
+
+- Understand the Rabin-Karp string matching algorithm.
+- [ ] Pending
+
+### Rabin Karp - Code
+
+- Implement the Rabin-Karp algorithm in code.
 - [ ] Pending
 
 ---
