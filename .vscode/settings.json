@@ -12,5 +12,6 @@
     "preorder",
     "Subarray",
     "Warshall"
-  ]
+  ],
+  "editor.formatOnSave": true,
 }

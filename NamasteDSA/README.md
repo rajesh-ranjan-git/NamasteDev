@@ -211,17 +211,17 @@
 ### Design Linked List
 
 - Learn how to design and implement your own Linked List.
-- [ ] Pending
+- [x] Completed
 
 ### Adding Nodes to Linked List
 
 - Learn to insert nodes into a Linked List at various positions.
-- [ ] Pending
+- [x] Completed
 
 ### Deleting Nodes in Linked List
 
 - Understand node deletion in a Linked List.
-- [ ] Pending
+- [x] Completed
 
 ### Middle of Linked List
 
