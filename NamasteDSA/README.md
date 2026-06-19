@@ -226,7 +226,7 @@
 ### Middle of Linked List
 
 - Find the middle element in a Linked List efficiently.
-- [ ] Pending
+- [x] Completed
 
 ### Reverse Linked List
 

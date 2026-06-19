@@ -93,3 +93,33 @@ MyLinkedList.prototype.deleteAtIndex = (value, index) => {
 
   this.size--;
 };
+
+MyLinkedList.prototype.getMiddleNodeArray = () => {
+  if (!this.head) return;
+
+  let currentNode = this.head;
+  const array = [];
+
+  while (currentNode.next) {
+    array.push(currentNode);
+    currentNode = currentNode.next;
+  }
+
+  array.push(currentNode);
+
+  return array[Math.floor(array.length / 2)];
+};
+
+MyLinkedList.prototype.getMiddleNode = () => {
+  if (!this.head) return;
+
+  let slowPointer = this.head;
+  let fastPointer = this.head;
+
+  while (fastPointer && fastPointer.next) {
+    slowPointer = slowPointer.next;
+    fastPointer = fastPointer.next.next;
+  }
+
+  return slowPointer;
+};
