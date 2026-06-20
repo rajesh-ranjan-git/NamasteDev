@@ -251,7 +251,7 @@
 ### Intersection of two Linked Lists
 
 - Find the intersection node of two Linked Lists.
-- [ ] Pending
+- [x] Completed
 
 ### Remove Linked List Elements
 
