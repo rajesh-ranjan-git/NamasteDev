@@ -1,6 +1,6 @@
 function Node(value) {
-  this.value = value;
-  this.next = null;
+  this.value = value === undefined ? 0 : value;
+  this.next = next === undefined ? null : next;
 }
 
 var MyLinkedList = () => {
@@ -230,10 +230,10 @@ MyLinkedList.prototype.isPalindrome = () => {
 };
 
 MyLinkedList.prototype.removeElements = (value) => {
-  if (!this.head) return head;
+  if (!this.head) return this.head;
 
   let sentinalNode = new Node();
-  sentinalNode.next = head;
+  sentinalNode.next = this.head;
   let previousNode = sentinalNode;
 
   while (previousNode && previousNode.next) {
@@ -243,6 +243,28 @@ MyLinkedList.prototype.removeElements = (value) => {
       previousNode = previousNode.next;
     }
   }
+
+  return sentinalNode.next;
+};
+
+MyLinkedList.prototype.removeNthNodeFromEnd = (n) => {
+  let sentinalNode = new Node();
+  sentinalNode.next = this.head;
+  let previousNode = sentinalNode;
+  let size = 0;
+
+  while (this.head) {
+    size++;
+    this.head = this.head.next;
+  }
+
+  let nodeToRemove = size - n;
+
+  for (let i = 0; i < nodeToRemove; i++) {
+    previousNode = previousNode.next;
+  }
+
+  previousNode.next = previousNode.next.next;
 
   return sentinalNode.next;
 };

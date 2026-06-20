@@ -261,7 +261,7 @@
 ### Remove nth node from end of List - Two Pass
 
 - Remove the nth node from the end using a two-pass method.
-- [ ] Pending
+- [x] Completed
 
 ### Remove nth Node from end - One Pass
 
