@@ -94,7 +94,7 @@ MyLinkedList.prototype.deleteAtIndex = (value, index) => {
   this.size--;
 };
 
-MyLinkedList.prototype.getMiddleNodeArray = () => {
+MyLinkedList.prototype.getMiddleNodeUsingArray = () => {
   if (!this.head) return;
 
   let currentNode = this.head;
@@ -122,4 +122,109 @@ MyLinkedList.prototype.getMiddleNode = () => {
   }
 
   return slowPointer;
+};
+
+MyLinkedList.prototype.getMiddleNode = () => {
+  if (!this.head || !this.head.next) return this.head;
+
+  let previousNode = null;
+  let currentNode = this.head;
+
+  while (currentNode) {
+    let next = currentNode.next;
+    currentNode.next = previousNode;
+    previousNode = currentNode;
+    currentNode = next;
+  }
+
+  return previousNode;
+};
+
+MyLinkedList.prototype.hasCycleUsingSet = () => {
+  if (!this.head || !this.head.next) return false;
+
+  let hashSet = new Set();
+  let currentNode = this.head;
+
+  while (currentNode) {
+    if (hashSet.has(currentNode)) return true;
+
+    hashSet.add(currentNode);
+    currentNode = currentNode.next;
+  }
+
+  return false;
+};
+
+MyLinkedList.prototype.hasCycle = () => {
+  if (!this.head || !this.head.next) return false;
+
+  let slowPointer = this.head;
+  let fastPointer = this.head.next;
+
+  while (slowPointer != fastPointer) {
+    if (!fastPointer || !fastPointer.next) return false;
+
+    slowPointer = slowPointer.next;
+    fastPointer = fastPointer.next.next;
+  }
+
+  return true;
+};
+
+MyLinkedList.prototype.isPalindromeUsingArray = () => {
+  if (!this.head || !this.head.next) return true;
+
+  let currentNode = this.head;
+  let array = [];
+
+  while (currentNode) {
+    array.push(currentNode.value);
+    currentNode = currentNode.next;
+  }
+
+  let start = 0;
+  let end = array.length - 1;
+
+  while (start <= end) {
+    if (array[start] !== array[end]) return false;
+
+    start++;
+    end--;
+  }
+
+  return true;
+};
+
+MyLinkedList.prototype.isPalindrome = () => {
+  if (!this.head || !this.head.next) return true;
+
+  let slowPointer = this.head;
+  let fastPointer = this.head;
+
+  while (fastPointer && fastPointer.next) {
+    slowPointer = slowPointer.next;
+    fastPointer = fastPointer.next.next;
+  }
+
+  let previousNode = null;
+  let currentNode = slowPointer;
+
+  while (currentNode) {
+    let next = currentNode.next;
+    currentNode.next = previousNode;
+    previousNode = currentNode;
+    currentNode = next;
+  }
+
+  currentNode = this.head;
+
+  while (previousNode) {
+    if (previousNode.value !== currentNode.value) return false;
+
+    previousNode = previousNode.next;
+    currentNode = currentNode.next;
+  }
+
+  return true;
 };

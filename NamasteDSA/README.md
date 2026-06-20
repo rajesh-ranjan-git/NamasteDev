@@ -231,22 +231,22 @@
 ### Reverse Linked List
 
 - Reverse a Linked List in-place using iteration.
-- [ ] Pending
+- [x] Completed
 
 ### Linked List Cycle - Hash Table
 
 - Detect cycles in a Linked List using extra space.
-- [ ] Pending
+- [x] Completed
 
 ### Linked List Cycle - Floyd's Algorithm
 
 - Detect cycles with Floyd’s Tortoise & Hare algorithm.
-- [ ] Pending
+- [x] Completed
 
 ### Palindrome Linked List
 
 - Check if a Linked List is a palindrome.
-- [ ] Pending
+- [x] Completed
 
 ### Intersection of two Linked Lists
 
