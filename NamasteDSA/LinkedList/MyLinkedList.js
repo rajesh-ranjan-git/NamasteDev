@@ -247,7 +247,7 @@ MyLinkedList.prototype.removeElements = (value) => {
   return sentinalNode.next;
 };
 
-MyLinkedList.prototype.removeNthNodeFromEnd = (n) => {
+MyLinkedList.prototype.removeNthNodeFromEndTwoPass = (n) => {
   let sentinalNode = new Node();
   sentinalNode.next = this.head;
   let previousNode = sentinalNode;
@@ -265,6 +265,26 @@ MyLinkedList.prototype.removeNthNodeFromEnd = (n) => {
   }
 
   previousNode.next = previousNode.next.next;
+
+  return sentinalNode.next;
+};
+
+MyLinkedList.prototype.removeNthNodeFromEndOnePass = (n) => {
+  let sentinalNode = new ListNode();
+  sentinalNode.next = this.head;
+  let slowPointer = sentinalNode;
+  let fastPointer = sentinalNode;
+
+  for (let i = 0; i < n; i++) {
+    fastPointer = fastPointer.next;
+  }
+
+  while (fastPointer && fastPointer.next) {
+    slowPointer = slowPointer.next;
+    fastPointer = fastPointer.next;
+  }
+
+  slowPointer.next = slowPointer.next.next;
 
   return sentinalNode.next;
 };

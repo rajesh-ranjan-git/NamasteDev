@@ -266,7 +266,7 @@
 ### Remove nth Node from end - One Pass
 
 - Remove the nth node from the end in one pass using two pointers.
-- [ ] Pending (June 21, 2026)
+- [x] Completed (June 21, 2026)
 
 ### Remove Duplicates from Sorted List
 
