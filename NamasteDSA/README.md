@@ -256,7 +256,7 @@
 ### Remove Linked List Elements
 
 - Remove nodes with a specific value from a Linked List.
-- [ ] Pending
+- [x] Completed
 
 ### Remove nth node from end of List - Two Pass
 

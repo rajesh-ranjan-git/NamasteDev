@@ -228,3 +228,21 @@ MyLinkedList.prototype.isPalindrome = () => {
 
   return true;
 };
+
+MyLinkedList.prototype.removeElements = (value) => {
+  if (!this.head) return head;
+
+  let sentinalNode = new Node();
+  sentinalNode.next = head;
+  let previousNode = sentinalNode;
+
+  while (previousNode && previousNode.next) {
+    if (previousNode.next.val === val) {
+      previousNode.next = previousNode.next.next;
+    } else {
+      previousNode = previousNode.next;
+    }
+  }
+
+  return sentinalNode.next;
+};

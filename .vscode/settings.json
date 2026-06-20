@@ -10,8 +10,9 @@
     "Namaste",
     "postorder",
     "preorder",
+    "sentinal",
     "Subarray",
     "Warshall"
   ],
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": true
 }
