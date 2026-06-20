@@ -266,42 +266,42 @@
 ### Remove nth Node from end - One Pass
 
 - Remove the nth node from the end in one pass using two pointers.
-- [ ] Pending
+- [ ] Pending (June 21, 2026)
 
 ### Remove Duplicates from Sorted List
 
 - Remove consecutive duplicates from a sorted Linked List.
-- [ ] Pending
+- [ ] Pending (June 21, 2026)
 
 ### Odd Even Linked List
 
 - Rearrange nodes based on their position (odd/even index).
-- [ ] Pending
+- [ ] Pending (June 21, 2026)
 
 ### Add Two Numbers
 
 - Add two numbers represented as Linked Lists.
-- [ ] Pending
+- [ ] Pending (June 21, 2026)
 
 ### Merge Two Sorted Lists
 
 - Merge two sorted Linked Lists into one.
-- [ ] Pending
+- [ ] Pending (June 21, 2026)
 
 ### Rotate List
 
 - Rotate a Linked List to the right by k places.
-- [ ] Pending
+- [ ] Pending (June 22, 2026)
 
 ### Swap Nodes in Pairs - Iterative Approach
 
 - Swap every two adjacent nodes in a Linked List iteratively.
-- [ ] Pending
+- [ ] Pending (June 22, 2026)
 
 ### Swap Nodes in Pair - Recursive Approach
 
 - Recursively swap every two adjacent nodes in a Linked List.
-- [ ] Pending
+- [ ] Pending (June 22, 2026)
 
 ---
 
@@ -310,77 +310,77 @@
 ### Length of Last Word - Approach 1 - Two Loops
 
 - Find the length of the last word using a basic loop approach.
-- [ ] Pending
+- [ ] Pending (June 23, 2026)
 
 ### Length of Last Word - Approach 2 - One Loop
 
 - Optimized one-pass solution to find the last word’s length.
-- [ ] Pending
+- [ ] Pending (June 23, 2026)
 
 ### Find Words Containing Character
 
 - Find words from a list that contain a specific character.
-- [ ] Pending
+- [ ] Pending (June 23, 2026)
 
 ### Jewels and Stones
 
 - Count how many stones are also jewels.
-- [ ] Pending
+- [ ] Pending (June 24, 2026)
 
 ### Find Most Frequent Vowel and Consonant
 
 - Identify the most frequent vowel and consonant in a string.
-- [ ] Pending
+- [ ] Pending (June 24, 2026)
 
 ### Split a String in Balanced Strings
 
 - Split a string into maximum balanced substrings.
-- [ ] Pending
+- [ ] Pending (June 24, 2026)
 
 ### Reverse String II
 
 - Reverse parts of a string based on a pattern.
-- [ ] Pending
+- [ ] Pending (June 25, 2026)
 
 ### Valid Palindrome - Approach 1 - Extra Space
 
 - Check palindrome by cleaning and reversing a string.
-- [ ] Pending
+- [ ] Pending (June 25, 2026)
 
 ### Valid Palindrome - Approach 2 - Two Pointers
 
 - Use two-pointer technique to validate palindrome.
-- [ ] Pending
+- [ ] Pending (June 25, 2026)
 
 ### Largest Odd Number in a String
 
 - Find the largest odd number that can be formed from a string.
-- [ ] Pending
+- [ ] Pending (June 26, 2026)
 
 ### Longest Common Prefix
 
 - Find the longest common starting substring among strings.
-- [ ] Pending
+- [ ] Pending (June 26, 2026)
 
 ### Valid Anagram
 
 - Check if two strings are anagrams of each other.
-- [ ] Pending
+- [ ] Pending (June 26, 2026)
 
 ### Isomorphic Strings
 
 - Check if two strings have a one-to-one character mapping.
-- [ ] Pending
+- [ ] Pending (June 27, 2026)
 
 ### Group Anagrams - Approach 1 - Sorted Key
 
 - Group words that are anagrams using sorted string keys.
-- [ ] Pending
+- [ ] Pending (June 27, 2026)
 
 ### Group Anagrams - Approach 2 - Hashed Key
 
 - Group anagrams using character frequency hash as key.
-- [ ] Pending
+- [ ] Pending (June 27, 2026)
 
 ---
 
@@ -389,72 +389,72 @@
 ### Introduction to Stacks & Queues
 
 - Get introduced to the fundamentals of Stacks and Queues.
-- [ ] Pending
+- [ ] Pending (June 27, 2026)
 
 ### Playing with Stacks & Queues
 
 - Explore basic operations on stacks and queues hands-on.
-- [ ] Pending
+- [ ] Pending (June 27, 2026)
 
 ### Implement Stack using Two Queues
 
 - Build a stack using two queues.
-- [ ] Pending
+- [ ] Pending (June 28, 2026)
 
 ### Implement Stack using One Queue
 
 - Implement a stack using a single queue cleverly.
-- [ ] Pending
+- [ ] Pending (June 28, 2026)
 
 ### Implement Queue using Stacks
 
 - Simulate a queue using two stacks.
-- [ ] Pending
+- [ ] Pending (June 28, 2026)
 
 ### Valid Parentheses
 
 - Check if a string of parentheses is valid.
-- [ ] Pending
+- [ ] Pending (June 28, 2026)
 
 ### Min Stack
 
 - Design a stack that supports retrieving the minimum in O(1).
-- [ ] Pending
+- [ ] Pending (June 28, 2026)
 
 ### Remove Outermost Parentheses - Using Stack
 
 - Remove outermost parentheses using a stack-based approach.
-- [ ] Pending
+- [ ] Pending (June 29, 2026)
 
 ### Remove Outermost Parentheses - without Stack
 
 - Remove outer parentheses without using a stack.
-- [ ] Pending
+- [ ] Pending (June 29, 2026)
 
 ### Evaluate Reverse Polish Notation
 
 - Evaluate mathematical expressions in postfix notation.
-- [ ] Pending
+- [ ] Pending (June 29, 2026)
 
 ### Next Greater Element
 
 - Find the next greater element for each number in an array.
-- [ ] Pending
+- [ ] Pending (June 30, 2026)
 
 ### Daily Temperatures
 
 - Find how many days until a warmer temperature.
-- [ ] Pending
+- [ ] Pending (June 30, 2026)
 
 ### Next Greater Element - II
 
 - Solve the circular version of Next Greater Element.
-- [ ] Pending
+- [ ] Pending (June 30, 2026)
 
 ### Rotting Oranges
 
 - Simulate the rotting process of oranges using BFS.
-- [ ] Pending
+- [ ] Pending (July 1, 2026)
 
 ---
 
@@ -463,62 +463,62 @@
 ### Square Root of X
 
 - Find the square root of a number using binary search.
-- [ ] Pending
+- [ ] Pending (July 1, 2026)
 
 ### Best Practice - Finding Middle Element
 
 - Learn the safe and optimal way to find the middle index.
-- [ ] Pending
+- [ ] Pending (July 1, 2026)
 
 ### Guess Higher or Lower
 
 - Use binary search to guess a hidden number.
-- [ ] Pending
+- [ ] Pending (July 2, 2026)
 
 ### Search in Rotated Sorted Array
 
 - Search an element in a rotated sorted array.
-- [ ] Pending
+- [ ] Pending (July 2, 2026)
 
 ### First Bad Version
 
 - Identify the first bad version using binary search.
-- [ ] Pending
+- [ ] Pending (July 2, 2026)
 
 ### Find Peak Element
 
 - Locate a peak element using binary search.
-- [ ] Pending
+- [ ] Pending (July 3, 2026)
 
 ### Find Minimum in Rotated Sorted Array
 
 - Find the smallest element in a rotated sorted array.
-- [ ] Pending
+- [ ] Pending (July 3, 2026)
 
 ### Find First & Last Position in Sorted Array
 
 - Find the first and last index of a target in a sorted array.
-- [ ] Pending
+- [ ] Pending (July 3, 2026)
 
 ### Find First & Last Position in Sorted Array - Approach 2
 
 - Optimized approach for finding first and last index of target.
-- [ ] Pending
+- [ ] Pending (July 4, 2026)
 
 ### Find Peak in a Mountain Array
 
 - Find the peak element in a mountain-shaped array.
-- [ ] Pending
+- [ ] Pending (July 4, 2026)
 
 ### Single Element in a Sorted Array
 
 - Find the single non-duplicate element in a sorted array.
-- [ ] Pending
+- [ ] Pending (July 4, 2026)
 
 ### Find k Closest Elements
 
 - Find the k elements closest to a target in a sorted array.
-- [ ] Pending
+- [ ] Pending (July 4, 2026)
 
 ---
 
@@ -527,67 +527,67 @@
 ### Two Sum
 
 - Find two numbers that add up to a target using hashing.
-- [ ] Pending
+- [ ] Pending (July 4, 2026)
 
 ### Two Sum II - Input Array Is Sorted
 
 - Solve Two Sum with a sorted array using two pointers.
-- [ ] Pending
+- [ ] Pending (July 5, 2026)
 
 ### Is Subsequence
 
 - Check if one string is a subsequence of another.
-- [ ] Pending
+- [ ] Pending (July 5, 2026)
 
 ### Find Index of First Occurrence in String
 
 - Locate the first occurrence of a substring in a string.
-- [ ] Pending
+- [ ] Pending (July 5, 2026)
 
 ### KMP (Knuth-Morris-Pratt) Algorithm
 
 - Efficient substring search using the KMP algorithm.
-- [ ] Pending
+- [ ] Pending (July 5, 2026)
 
 ### Intersection of Two Linked Lists - Two Pointers
 
 - Find the intersection node of two linked lists using two pointers.
-- [ ] Pending
+- [ ] Pending (July 5, 2026)
 
 ### Container with Most Water
 
 - Maximize water between two lines using two pointers.
-- [ ] Pending
+- [ ] Pending (July 6, 2026)
 
 ### Three Sum
 
 - Find all unique triplets that sum to zero.
-- [ ] Pending
+- [ ] Pending (July 6, 2026)
 
 ### Trapping Rain Water
 
 - Calculate how much water can be trapped after rain.
-- [ ] Pending
+- [ ] Pending (July 6, 2026)
 
 ### Longest Substring Without Repeating Characters
 
 - Find the longest substring with all unique characters.
-- [ ] Pending
+- [ ] Pending (July 7, 2026)
 
 ### Longest Repeating Character Replacement
 
 - Maximize the length of a repeating character substring.
-- [ ] Pending
+- [ ] Pending (July 7, 2026)
 
 ### Permutation in String
 
 - Check if one string contains a permutation of another.
-- [ ] Pending
+- [ ] Pending (July 7, 2026)
 
 ### Sliding Window Maximum
 
 - Find the max value in every window of size k.
-- [ ] Pending
+- [ ] Pending (July 8, 2026)
 
 ---
 
@@ -596,132 +596,132 @@
 ### Introduction to Trees
 
 - Understand what trees are and their core properties.
-- [ ] Pending
+- [ ] Pending (July 8, 2026)
 
 ### Binary Tree - Traversals Explained
 
 - Explore preorder, inorder, and postorder tree traversals.
-- [ ] Pending
+- [ ] Pending (July 8, 2026)
 
 ### Preorder Traversal - Recursive Approach
 
 - Perform preorder traversal using recursion.
-- [ ] Pending
+- [ ] Pending (July 9, 2026)
 
 ### Inorder & PostOrder - Recursive Approach
 
 - Implement inorder and postorder recursively.
-- [ ] Pending
+- [ ] Pending (July 9, 2026)
 
 ### Preorder Traversal - Iterative Approach
 
 - Use a stack to perform preorder traversal iteratively.
-- [ ] Pending
+- [ ] Pending (July 9, 2026)
 
 ### Inorder Traversal - Iterative Approach
 
 - Inorder traversal using a stack instead of recursion.
-- [ ] Pending
+- [ ] Pending (July 10, 2026)
 
 ### Postorder - Iterative Approach - 2 Stacks
 
 - Use two stacks for iterative postorder traversal.
-- [ ] Pending
+- [ ] Pending (July 10, 2026)
 
 ### Postorder - Iterative Approach - One Stack
 
 - Efficient postorder traversal using just one stack.
-- [ ] Pending
+- [ ] Pending (July 10, 2026)
 
 ### DFS and BFS in Binary Tree
 
 - Understand DFS vs BFS in binary trees.
-- [ ] Pending
+- [ ] Pending (July 11, 2026)
 
 ### Level Order Traversal - Queue - BFS
 
 - Implement level order traversal using a queue.
-- [ ] Pending
+- [ ] Pending (July 11, 2026)
 
 ### Level Order Traversal - Recursive Approach
 
 - Perform level order traversal recursively.
-- [ ] Pending
+- [ ] Pending (July 11, 2026)
 
 ### Maximum Depth of Binary Tree
 
 - Find the max depth of a binary tree.
-- [ ] Pending
+- [ ] Pending (July 11, 2026)
 
 ### Path Sum
 
 - Check if a path adds up to a target sum.
-- [ ] Pending
+- [ ] Pending (July 11, 2026)
 
 ### Symmetric Tree - Recursive Approach
 
 - Check if a binary tree is symmetric using recursion.
-- [ ] Pending
+- [ ] Pending (July 12, 2026)
 
 ### Symmetric Tree - Iterative Approach
 
 - Check symmetry in a binary tree using BFS.
-- [ ] Pending
+- [ ] Pending (July 12, 2026)
 
 ### Invert a Binary Tree
 
 - Flip a binary tree by swapping left and right nodes.
-- [ ] Pending
+- [ ] Pending (July 12, 2026)
 
 ### Same Tree
 
 - Check if two binary trees are exactly the same.
-- [ ] Pending
+- [ ] Pending (July 12, 2026)
 
 ### Balanced Binary Tree
 
 - Check if a binary tree is height-balanced.
-- [ ] Pending
+- [ ] Pending (July 12, 2026)
 
 ### Diameter of a Binary Tree
 
 - Find the longest path between any two nodes.
-- [ ] Pending
+- [ ] Pending (July 13, 2026)
 
 ### Zigzag Level Order Traversal
 
 - Traverse a binary tree in zigzag order.
-- [ ] Pending
+- [ ] Pending (July 13, 2026)
 
 ### Subtree of another Tree
 
 - Check if one binary tree is a subtree of another.
-- [ ] Pending
+- [ ] Pending (July 13, 2026)
 
 ### Lowest Common Ancestor
 
 - Find the lowest common ancestor of two nodes.
-- [ ] Pending
+- [ ] Pending (July 14, 2026)
 
 ### Binary Tree Right Side View
 
 - Print the nodes visible from the right side.
-- [ ] Pending
+- [ ] Pending (July 14, 2026)
 
 ### Count Good Nodes in Binary Tree
 
 - Count nodes that are greater than all previous nodes on the path.
-- [ ] Pending
+- [ ] Pending (July 14, 2026)
 
 ### Populating Next Right Pointers in Each Node
 
 - Connect each node to its next right node in the same level.
-- [ ] Pending
+- [ ] Pending (July 15, 2026)
 
 ### Binary Tree Maximum Path Sum
 
 - Find the path in a tree with the maximum sum.
-- [ ] Pending
+- [ ] Pending (July 15, 2026)
 
 ---
 
@@ -730,32 +730,32 @@
 ### Binary Search Tree - Introduction
 
 - Learn the basics of Binary Search Trees.
-- [ ] Pending
+- [ ] Pending (July 15, 2026)
 
 ### Valid Binary Search Tree
 
 - Check if a tree is a valid BST.
-- [ ] Pending
+- [ ] Pending (July 16, 2026)
 
 ### Search in a BST
 
 - Search for a value in a Binary Search Tree.
-- [ ] Pending
+- [ ] Pending (July 16, 2026)
 
 ### Insert into a BST
 
 - Insert a new node in a BST.
-- [ ] Pending
+- [ ] Pending (July 16, 2026)
 
 ### Kth Smallest Element
 
 - Find the kth smallest element in BST.
-- [ ] Pending
+- [ ] Pending (July 17, 2026)
 
 ### Lowest Common Ancestor of a BST
 
 - Find the lowest common ancestor in a Binary Search Tree.
-- [ ] Pending
+- [ ] Pending (July 17, 2026)
 
 ---
 
@@ -764,72 +764,72 @@
 ### Introduction to Heaps
 
 - Understand the fundamentals of Heaps.
-- [ ] Pending
+- [ ] Pending (July 17, 2026)
 
 ### Creating a Heap
 
 - Learn how to build a heap from an array.
-- [ ] Pending
+- [ ] Pending (July 18, 2026)
 
 ### Inserting a node in Heap
 
 - Insert an element into a heap and maintain the heap property.
-- [ ] Pending
+- [ ] Pending (July 18, 2026)
 
 ### Extracting Values in Heap & HeapifyDown
 
 - Remove the root and restore heap order.
-- [ ] Pending
+- [ ] Pending (July 18, 2026)
 
 ### Heap Sort Algorithm
 
 - Understand the Heap Sort algorithm step-by-step.
-- [ ] Pending
+- [ ] Pending (July 18, 2026)
 
 ### Heap Sort Code
 
 - Implement Heap Sort in code.
-- [ ] Pending
+- [ ] Pending (July 18, 2026)
 
 ### Heap Sort - Dive Deep
 
 - Explore advanced insights into Heap Sort.
-- [ ] Pending
+- [ ] Pending (July 19, 2026)
 
 ### Priority Queues - Introduction
 
 - Learn how priority queues work using heaps.
-- [ ] Pending
+- [ ] Pending (July 19, 2026)
 
 ### Priority Queue Code
 
 - Implement a priority queue in code.
-- [ ] Pending
+- [ ] Pending (July 19, 2026)
 
 ### Kth Largest Element in an Array
 
 - Find the kth largest element using a heap.
-- [ ] Pending
+- [ ] Pending (July 19, 2026)
 
 ### Kth Largest Element in a Stream
 
 - Maintain the kth largest value as numbers stream in.
-- [ ] Pending
+- [ ] Pending (July 19, 2026)
 
 ### Last Stone Weight
 
 - Simulate a stone smashing game using heaps.
-- [ ] Pending
+- [ ] Pending (July 20, 2026)
 
 ### Top K Frequent Elements
 
 - Find the k most frequent elements in an array.
-- [ ] Pending
+- [ ] Pending (July 20, 2026)
 
 ### Kth Smallest Element in a Sorted Matrix
 
 - Find the kth smallest element in a sorted matrix.
-- [ ] Pending
+- [ ] Pending (July 20, 2026)
 
 ---
 
@@ -838,97 +838,97 @@
 ### Linked List Cycle - Hash Table
 
 - Detect cycles in a Linked List using extra space.
-- [ ] Pending
+- [ ] Pending (July 21, 2026)
 
 ### Palindrome Linked List
 
 - Check if a Linked List is a palindrome.
-- [ ] Pending
+- [ ] Pending (July 21, 2026)
 
 ### Intersection of Two Linked Lists - Two Pointers
 
 - Find the intersection node of two linked lists using two pointers.
-- [ ] Pending
+- [ ] Pending (July 21, 2026)
 
 ### Remove Duplicates from Sorted List
 
 - Remove consecutive duplicates from a sorted Linked List.
-- [ ] Pending
+- [ ] Pending (July 22, 2026)
 
 ### Find Words Containing Character
 
 - Find words from a list that contain a specific character.
-- [ ] Pending
+- [ ] Pending (July 22, 2026)
 
 ### Jewels and Stones
 
 - Count how many stones are also jewels.
-- [ ] Pending
+- [ ] Pending (July 22, 2026)
 
 ### Find Most Frequent Vowel and Consonant
 
 - Identify the most frequent vowel and consonant in a string.
-- [ ] Pending
+- [ ] Pending (July 23, 2026)
 
 ### Valid Palindrome - Approach 1 - Extra Space
 
 - Check palindrome by cleaning and reversing a string.
-- [ ] Pending
+- [ ] Pending (July 23, 2026)
 
 ### Valid Anagram
 
 - Check if two strings are anagrams of each other.
-- [ ] Pending
+- [ ] Pending (July 23, 2026)
 
 ### Isomorphic Strings
 
 - Check if two strings have a one-to-one character mapping.
-- [ ] Pending
+- [ ] Pending (July 24, 2026)
 
 ### Group Anagrams - Approach 1 - Sorted Key
 
 - Group words that are anagrams using sorted string keys.
-- [ ] Pending
+- [ ] Pending (July 24, 2026)
 
 ### Group Anagrams - Approach 2 - Hashed Key
 
 - Group anagrams using character frequency hash as key.
-- [ ] Pending
+- [ ] Pending (July 24, 2026)
 
 ### Next Greater Element
 
 - Find the next greater element for each number in an array.
-- [ ] Pending
+- [ ] Pending (July 25, 2026)
 
 ### Two Sum II - Input Array Is Sorted
 
 - Solve Two Sum with a sorted array using two pointers.
-- [ ] Pending
+- [ ] Pending (July 25, 2026)
 
 ### Find Index of First Occurrence in String
 
 - Locate the first occurrence of a substring in a string.
-- [ ] Pending
+- [ ] Pending (July 25, 2026)
 
 ### KMP (Knuth-Morris-Pratt) Algorithm
 
 - Efficient substring search using the KMP algorithm.
-- [ ] Pending
+- [ ] Pending (July 25, 2026)
 
 ### Permutation in String
 
 - Check if one string contains a permutation of another.
-- [ ] Pending
+- [ ] Pending (July 25, 2026)
 
 ### Longest Substring Without Repeating Characters
 
 - Find the longest substring with all unique characters.
-- [ ] Pending
+- [ ] Pending (July 26, 2026)
 
 ### Sliding Window Maximum
 
 - Find the max value in every window of size k.
-- [ ] Pending
+- [ ] Pending (July 26, 2026)
 
 ---
 
@@ -937,67 +937,67 @@
 ### Introduction to Backtracking
 
 - Understand the core concept of backtracking.
-- [ ] Pending
+- [ ] Pending (July 26, 2026)
 
 ### Subsets - The Power Set
 
 - Generate all subsets of a set.
-- [ ] Pending
+- [ ] Pending (July 26, 2026)
 
 ### Combinations
 
 - Find all combinations of numbers.
-- [ ] Pending
+- [ ] Pending (July 26, 2026)
 
 ### Permutations
 
 - Generate all permutations of a list.
-- [ ] Pending
+- [ ] Pending (July 27, 2026)
 
 ### Subset - II
 
 - Subsets with duplicate elements.
-- [ ] Pending
+- [ ] Pending (July 27, 2026)
 
 ### Combination Sum
 
 - Find all combinations that sum to a target.
-- [ ] Pending
+- [ ] Pending (July 27, 2026)
 
 ### Combination Sum - II
 
 - Combination sum with single-use elements.
-- [ ] Pending
+- [ ] Pending (July 28, 2026)
 
 ### Combination Sum - III
 
 - Find k numbers that sum to n.
-- [ ] Pending
+- [ ] Pending (July 28, 2026)
 
 ### Letter Combinations of a Phone Number
 
 - Generate letter combinations from digits.
-- [ ] Pending
+- [ ] Pending (July 28, 2026)
 
 ### Permutations - II
 
 - Unique permutations with duplicates.
-- [ ] Pending
+- [ ] Pending (July 29, 2026)
 
 ### Palindrome Partitioning
 
 - Partition a string into palindromes.
-- [ ] Pending
+- [ ] Pending (July 29, 2026)
 
 ### Word Search
 
 - Search a word in a grid.
-- [ ] Pending
+- [ ] Pending (July 29, 2026)
 
 ### N Queens
 
 - Place queens safely on a chessboard.
-- [ ] Pending
+- [ ] Pending (July 30, 2026)
 
 ---
 
@@ -1006,72 +1006,72 @@
 ### Introduction to Greedy Algorithm
 
 - Learn the basics of the Greedy Algorithm technique with simple examples.
-- [ ] Pending
+- [ ] Pending (July 30, 2026)
 
 ### Two City Scheduling
 
 - Solve the classic Two City Scheduling problem using a greedy approach.
-- [ ] Pending
+- [ ] Pending (July 30, 2026)
 
 ### Assign Cookies
 
 - Understand how to maximize content children by assigning cookies efficiently.
-- [ ] Pending
+- [ ] Pending (July 31, 2026)
 
 ### Lemonade Change
 
 - Learn how to apply greedy techniques to manage change in the Lemonade Stand problem.
-- [ ] Pending
+- [ ] Pending (July 31, 2026)
 
 ### Best Time to Buy and Sell Stock - II
 
 - Master stock trading with multiple transactions using greedy techniques.
-- [ ] Pending
+- [ ] Pending (July 31, 2026)
 
 ### Insert Interval
 
 - Learn how to insert a new interval into a set of non-overlapping intervals.
-- [ ] Pending
+- [ ] Pending (August 1, 2026)
 
 ### Merge Intervals
 
 - Understand how to merge overlapping intervals into non-overlapping ones.
-- [ ] Pending
+- [ ] Pending (August 1, 2026)
 
 ### Partition Labels
 
 - Split a string into partitions where each character appears in at most one part.
-- [ ] Pending
+- [ ] Pending (August 1, 2026)
 
 ### Non Overlapping Intervals
 
 - Find the minimum number of intervals to remove to avoid overlaps.
-- [ ] Pending
+- [ ] Pending (August 1, 2026)
 
 ### Task Scheduler
 
 - Schedule tasks efficiently with cooldown periods using greedy + heaps.
-- [ ] Pending
+- [ ] Pending (August 1, 2026)
 
 ### Gas Station
 
 - Learn how to find the starting gas station index to complete a circuit.
-- [ ] Pending
+- [ ] Pending (August 2, 2026)
 
 ### Car Pooling
 
 - Check if carpooling is possible given trips and capacity.
-- [ ] Pending
+- [ ] Pending (August 2, 2026)
 
 ### Candy - Two Pass - O(n) Space
 
 - Distribute candies fairly using a two-pass O(n) approach.
-- [ ] Pending
+- [ ] Pending (August 2, 2026)
 
 ### Candy - One Pass - O(1) Space
 
 - Distribute candies fairly using a two-pass O(n) approach.
-- [ ] Pending
+- [ ] Pending (August 2, 2026)
 
 ---
 
@@ -1080,102 +1080,102 @@
 ### Introduction to Dynamic Programming
 
 - Understand the basics of Dynamic Programming and its importance.
-- [ ] Pending
+- [ ] Pending (August 2, 2026)
 
 ### Fibonacci Numbers using DP
 
 - Solve Fibonacci efficiently with Dynamic Programming.
-- [ ] Pending
+- [ ] Pending (August 3, 2026)
 
 ### Top Down & Bottom Up - DP approach
 
 - Compare top-down and bottom-up DP techniques.
-- [ ] Pending
+- [ ] Pending (August 3, 2026)
 
 ### Climbing Stairs
 
 - Learn how to solve the classic Climbing Stairs DP problem.
-- [ ] Pending
+- [ ] Pending (August 3, 2026)
 
 ### Minimum Cost Climbing Stairs
 
 - Solve minimum cost climbing stairs with DP.
-- [ ] Pending
+- [ ] Pending (August 4, 2026)
 
 ### House Robber
 
 - Maximize robbery amount without robbing adjacent houses.
-- [ ] Pending
+- [ ] Pending (August 4, 2026)
 
 ### House Robber II
 
 - Solve House Robber II with circular houses constraint using DP.
-- [ ] Pending
+- [ ] Pending (August 4, 2026)
 
 ### Coin Change - Top Down - Recursive
 
 - Learn recursive top-down DP for the Coin Change problem.
-- [ ] Pending
+- [ ] Pending (August 5, 2026)
 
 ### Coin Change - Bottom Up - Iterative
 
 - Solve Coin Change with bottom-up DP using iteration.
-- [ ] Pending
+- [ ] Pending (August 5, 2026)
 
 ### Palindromic Substrings
 
 - Count palindromic substrings using DP.
-- [ ] Pending
+- [ ] Pending (August 5, 2026)
 
 ### Longest Palindromic Substring
 
 - Find the longest palindromic substring with DP.
-- [ ] Pending
+- [ ] Pending (August 6, 2026)
 
 ### Decode Ways
 
 - Solve Decode Ways problem with recursion and DP.
-- [ ] Pending
+- [ ] Pending (August 6, 2026)
 
 ### Maximum Subarray - Kadane's Algorithm
 
 - Find maximum subarray sum using Kadane’s Algorithm.
-- [ ] Pending
+- [ ] Pending (August 6, 2026)
 
 ### Maximum Product Subarray - Approach 1
 
 - Solve Maximum Product Subarray with DP approach 1.
-- [ ] Pending
+- [ ] Pending (August 7, 2026)
 
 ### Maximum Product Subarray - Approach 2
 
 - Optimize Maximum Product Subarray with approach 2.
-- [ ] Pending
+- [ ] Pending (August 7, 2026)
 
 ### Word Break
 
 - Solve the classic Word Break problem by checking if a given string can be segmented into valid words from a dictionary
-- [ ] Pending
+- [ ] Pending (August 7, 2026)
 
 ### Longest Increasing Subsequence
 
 - Solve the Longest Increasing Subsequence problem by finding the length of the longest strictly increasing sequence in an array.
-- [ ] Pending
+- [ ] Pending (August 8, 2026)
 
 ### Partition Equal Subset Sum
 
 - Tackle the Partition Equal Subset Sum problem by checking if an array can be split into two subsets with the same total sum.
-- [ ] Pending
+- [ ] Pending (August 8, 2026)
 
 ### Coin Change II
 
 - Solve the Coin Change II problem by finding how many ways you can make a given amount using an unlimited supply of coins
-- [ ] Pending
+- [ ] Pending (August 8, 2026)
 
 ### Unique Paths
 
 - Solve the Unique Paths problem by finding the total number of ways to move from the top-left to the bottom-right of a grid.
-- [ ] Pending
+- [ ] Pending (August 8, 2026)
 
 ---
 
@@ -1184,152 +1184,152 @@
 ### Introduction to Graphs
 
 - Understand what graphs are and why they matter in DSA.
-- [ ] Pending
+- [ ] Pending (August 8, 2026)
 
 ### Breadth First Search (BFS)
 
 - Learn the Breadth First Search (BFS) algorithm step by step.
-- [ ] Pending
+- [ ] Pending (August 9, 2026)
 
 ### Depth First Search (DFS)
 
 - Master the Depth First Search (DFS) algorithm for graphs.
-- [ ] Pending
+- [ ] Pending (August 9, 2026)
 
 ### Find if Path Exists - BFS
 
 - Check if a path exists between two nodes using BFS.
-- [ ] Pending
+- [ ] Pending (August 9, 2026)
 
 ### DFS Recursive
 
 - Implement Depth First Search recursively in graphs.
-- [ ] Pending
+- [ ] Pending (August 9, 2026)
 
 ### All Paths from Source to Target
 
 - Find all possible paths from source to target using DFS.
-- [ ] Pending
+- [ ] Pending (August 9, 2026)
 
 ### Reconstruct Itinerary
 
 - Rebuild an itinerary using graph traversal.
-- [ ] Pending
+- [ ] Pending (August 10, 2026)
 
 ### Detect Cycle in Undirected Connected Graph
 
 - Detect if a cycle exists in an undirected graph.
-- [ ] Pending
+- [ ] Pending (August 10, 2026)
 
 ### Topological Sort - DFS
 
 - Perform Topological Sorting using DFS.
-- [ ] Pending
+- [ ] Pending (August 10, 2026)
 
 ### Kahn's Algorithm - Topological Sort - BFS
 
 - Learn Kahn’s Algorithm for Topological Sorting using BFS.
-- [ ] Pending
+- [ ] Pending (August 11, 2026)
 
 ### Shortest Path Algorithms in Graphs
 
 - Overview of shortest path algorithms in graphs.
-- [ ] Pending
+- [ ] Pending (August 11, 2026)
 
 ### Shortest Path in Unweighted Graph - BFS
 
 - Find the shortest path in an unweighted graph using BFS.
-- [ ] Pending
+- [ ] Pending (August 11, 2026)
 
 ### Dijkstra's Algorithm - Shortest Path Weighted Graph
 
 - Understand Dijkstra’s Algorithm for weighted graphs.
-- [ ] Pending
+- [ ] Pending (August 12, 2026)
 
 ### Dijkstra's Algorithm - Code
 
 - Implement Dijkstra’s Algorithm in code.
-- [ ] Pending
+- [ ] Pending (August 12, 2026)
 
 ### Bellman Ford Algorithm - Shortest Path with Negative Weights
 
 - Find shortest paths with negative weights using Bellman-Ford.
-- [ ] Pending
+- [ ] Pending (August 12, 2026)
 
 ### Bellman Ford Algorithm - Code
 
 - Code the Bellman-Ford Algorithm step by step.
-- [ ] Pending
+- [ ] Pending (August 13, 2026)
 
 ### Floyd Warshall Algorithm - All Pairs Shortest Path
 
 - Understand the Floyd-Warshall Algorithm for all-pairs shortest paths.
-- [ ] Pending
+- [ ] Pending (August 13, 2026)
 
 ### Floyd Warshall - Code
 
 - Implement the Floyd-Warshall Algorithm step by step in code.
-- [ ] Pending
+- [ ] Pending (August 13, 2026)
 
 ### Comparing all Shortest Path Graph Algorithms
 
 - Compare Dijkstra, Bellman-Ford, and Floyd-Warshall algorithms.
-- [ ] Pending
+- [ ] Pending (August 14, 2026)
 
 ### Minimum Spanning Tree
 
 - Understand the concept of a Minimum Spanning Tree (MST).
-- [ ] Pending
+- [ ] Pending (August 14, 2026)
 
 ### Prim's Algorithm
 
 - Learn Prim’s Algorithm for building MSTs.
-- [ ] Pending
+- [ ] Pending (August 14, 2026)
 
 ### Prim's Algorithm - Code
 
 - Implement Prim’s Algorithm in code.
-- [ ] Pending
+- [ ] Pending (August 15, 2026)
 
 ### Disjoint Set - Union Find
 
 - Learn the Union-Find data structure for efficient set merging.
-- [ ] Pending
+- [ ] Pending (August 15, 2026)
 
 ### Kruskal's Algorithm
 
 - Understand Kruskal’s Algorithm for MST construction.
-- [ ] Pending
+- [ ] Pending (August 15, 2026)
 
 ### Kruskal + Union Find - Code
 
 - Implement Kruskal’s Algorithm using Union-Find.
-- [ ] Pending
+- [ ] Pending (August 15, 2026)
 
 ### Comparison - Prim’s vs Kruskal Algorithm
 
 - Compare Prim’s and Kruskal’s MST algorithms.
-- [ ] Pending
+- [ ] Pending (August 15, 2026)
 
 ### Number of Operations to Make Network Connected
 
 - Find the minimum operations to connect all computers in a network.
-- [ ] Pending
+- [ ] Pending (August 16, 2026)
 
 ### Cheapest Flight with K Stops
 
 - Find the cheapest flight within a limited number of stops.
-- [ ] Pending
+- [ ] Pending (August 16, 2026)
 
 ### Number of Ways to Arrive at Destination
 
 - Count the number of shortest paths to reach the destination.
-- [ ] Pending
+- [ ] Pending (August 16, 2026)
 
 ### Min Cost to Connect All Points
 
 - Connect all points with minimum total cost.
-- [ ] Pending
+- [ ] Pending (August 16, 2026)
 
 ---
 
@@ -1338,22 +1338,22 @@
 ### Introduction to Tries
 
 - Understand the fundamental concept and purpose of a Trie data structure.
-- [ ] Pending
+- [ ] Pending (August 16, 2026)
 
 ### Trie and TrieNode Structure
 
 - Design the TrieNode class and the overall Trie structure.
-- [ ] Pending
+- [ ] Pending (August 17, 2026)
 
 ### Insert, Search, PrefixFind - Trie Code
 
 - Implement the core operations: Insert, Search, and StartsWith.
-- [ ] Pending
+- [ ] Pending (August 17, 2026)
 
 ### Time & Space Complexity in Tries
 
 - Analyze the efficiency of Trie operations and their memory footprint.
-- [ ] Pending
+- [ ] Pending (August 17, 2026)
 
 ---
 
@@ -1362,37 +1362,37 @@
 ### Quick Sort
 
 - Learn how Quick Sort works using divide and conquer.
-- [ ] Pending
+- [ ] Pending (August 18, 2026)
 
 ### Counting Sort
 
 - Understand the basics of Counting Sort.
-- [ ] Pending
+- [ ] Pending (August 18, 2026)
 
 ### Counting Sort - Stable - Logic
 
 - Learn the logic behind stable Counting Sort.
-- [ ] Pending
+- [ ] Pending (August 18, 2026)
 
 ### Counting Sort - Stable - Code
 
 - Implement stable Counting Sort in code.
-- [ ] Pending
+- [ ] Pending (August 19, 2026)
 
 ### Radix Sort
 
 - Sort numbers digit by digit using Radix Sort.
-- [ ] Pending
+- [ ] Pending (August 19, 2026)
 
 ### Bucket Sort
 
 - Distribute elements into buckets for efficient sorting.
-- [ ] Pending
+- [ ] Pending (August 19, 2026)
 
 ### Interview Cheatsheet
 
 - Quick revision guide for sorting and DSA interviews.
-- [ ] Pending
+- [ ] Pending (August 20, 2026)
 
 ---
 
@@ -1401,27 +1401,27 @@
 ### Jump Game - DP
 
 - Solve Jump Game using Dynamic Programming.
-- [ ] Pending
+- [ ] Pending (August 20, 2026)
 
 ### Jump Game - Greedy
 
 - Optimize Jump Game using a greedy approach.
-- [ ] Pending
+- [ ] Pending (August 20, 2026)
 
 ### Jump Game - II
 
 - Find the minimum number of jumps to reach the end.
-- [ ] Pending
+- [ ] Pending (August 21, 2026)
 
 ### Min Cost to Cut a Stick (Rod Cutting Problem)
 
 - Minimize the cost of cutting a stick using DP.
-- [ ] Pending
+- [ ] Pending (August 21, 2026)
 
 ### Super Egg Drop
 
 - Solve the Super Egg Drop problem using optimized DP.
-- [ ] Pending
+- [ ] Pending (August 21, 2026)
 
 ---
 
@@ -1430,47 +1430,47 @@
 ### Minimum Add to Make Parenthesis Valid
 
 - Find minimum additions needed to balance parentheses.
-- [ ] Pending
+- [ ] Pending (August 22, 2026)
 
 ### Reverse Words in a String
 
 - Reverse the order of words in a string.
-- [ ] Pending
+- [ ] Pending (August 22, 2026)
 
 ### Sum of Beauty of All Substrings
 
 - Calculate the beauty of all substrings.
-- [ ] Pending
+- [ ] Pending (August 22, 2026)
 
 ### Decode String
 
 - Decode an encoded string using stack or recursion.
-- [ ] Pending
+- [ ] Pending (August 22, 2026)
 
 ### Count and Say
 
 - Generate the Count and Say sequence.
-- [ ] Pending
+- [ ] Pending (August 22, 2026)
 
 ### Reorganize String
 
 - Rearrange string so no adjacent characters are the same.
-- [ ] Pending
+- [ ] Pending (August 23, 2026)
 
 ### Repeated String Match
 
 - Find minimum repetitions of a string to match another.
-- [ ] Pending
+- [ ] Pending (August 23, 2026)
 
 ### Rabin Karp Algorithm
 
 - Understand the Rabin-Karp string matching algorithm.
-- [ ] Pending
+- [ ] Pending (August 23, 2026)
 
 ### Rabin Karp - Code
 
 - Implement the Rabin-Karp algorithm in code.
-- [ ] Pending
+- [ ] Pending (August 23, 2026)
 
 ---
 
