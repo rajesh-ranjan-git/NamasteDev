@@ -304,3 +304,22 @@ MyLinkedList.prototype.removeDuplicates = () => {
 
   return this.head;
 };
+
+MyLinkedList.prototype.getOddEvenList = () => {
+  if (!this.head) return this.head;
+
+  let oddPointer = this.head;
+  let evenPointer = this.head.next;
+  let evenPointerStart = evenPointer;
+
+  while (oddPointer && oddPointer.next && evenPointer && evenPointer.next) {
+    oddPointer.next = oddPointer.next.next;
+    evenPointer.next = evenPointer.next.next;
+    oddPointer = oddPointer.next;
+    evenPointer = evenPointer.next;
+  }
+
+  oddPointer.next = evenPointerStart;
+
+  return this.head;
+};

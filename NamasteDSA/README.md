@@ -276,7 +276,7 @@
 ### Odd Even Linked List
 
 - Rearrange nodes based on their position (odd/even index).
-- [ ] Pending (June 21, 2026)
+- [x] Completed (June 21, 2026)
 
 ### Add Two Numbers
 
