@@ -237,7 +237,7 @@ MyLinkedList.prototype.removeElements = (value) => {
   let previousNode = sentinalNode;
 
   while (previousNode && previousNode.next) {
-    if (previousNode.next.val === val) {
+    if (previousNode.next.value === value) {
       previousNode.next = previousNode.next.next;
     } else {
       previousNode = previousNode.next;
@@ -287,4 +287,20 @@ MyLinkedList.prototype.removeNthNodeFromEndOnePass = (n) => {
   slowPointer.next = slowPointer.next.next;
 
   return sentinalNode.next;
+};
+
+MyLinkedList.prototype.removeDuplicates = () => {
+  if (!this.head) return this.head;
+
+  let currentNode = this.head;
+
+  while (currentNode && currentNode.next) {
+    if (currentNode.value === currentNode.next.value) {
+      currentNode.next = currentNode.next.next;
+    } else {
+      currentNode = currentNode.next;
+    }
+  }
+
+  return this.head;
 };

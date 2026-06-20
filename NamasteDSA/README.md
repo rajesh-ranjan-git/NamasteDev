@@ -271,7 +271,7 @@
 ### Remove Duplicates from Sorted List
 
 - Remove consecutive duplicates from a sorted Linked List.
-- [ ] Pending (June 21, 2026)
+- [x] Completed (June 21, 2026)
 
 ### Odd Even Linked List
 
