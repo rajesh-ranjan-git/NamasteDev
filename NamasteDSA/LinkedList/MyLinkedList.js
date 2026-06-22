@@ -323,3 +323,33 @@ MyLinkedList.prototype.getOddEvenList = () => {
 
   return this.head;
 };
+
+MyLinkedList.prototype.rotate = (k) => {
+  if (!this.head || !this.head.next || k < 1) return this.head;
+
+  let currentNode = this.head;
+  let size = 0;
+
+  while (currentNode) {
+    currentNode = currentNode.next;
+    size++;
+  }
+
+  let slowPointer = this.head;
+  let fastPointer = this.head;
+
+  for (let i = 0; i < k % size; i++) {
+    fastPointer = fastPointer.next;
+  }
+
+  while (fastPointer.next) {
+    slowPointer = slowPointer.next;
+    fastPointer = fastPointer.next;
+  }
+
+  fastPointer.next = this.head;
+  this.head = slowPointer.next;
+  slowPointer.next = null;
+
+  return this.head;
+};

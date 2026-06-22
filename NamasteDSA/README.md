@@ -281,17 +281,17 @@
 ### Add Two Numbers
 
 - Add two numbers represented as Linked Lists.
-- [ ] Pending (June 21, 2026)
+- [x] Completed (June 21, 2026)
 
 ### Merge Two Sorted Lists
 
 - Merge two sorted Linked Lists into one.
-- [ ] Pending (June 21, 2026)
+- [x] Completed (June 21, 2026)
 
 ### Rotate List
 
 - Rotate a Linked List to the right by k places.
-- [ ] Pending (June 22, 2026)
+- [x] Completed (June 22, 2026)
 
 ### Swap Nodes in Pairs - Iterative Approach
 
