@@ -296,12 +296,12 @@
 ### Swap Nodes in Pairs - Iterative Approach
 
 - Swap every two adjacent nodes in a Linked List iteratively.
-- [ ] Pending (June 22, 2026)
+- [x] Completed (June 22, 2026)
 
 ### Swap Nodes in Pair - Recursive Approach
 
 - Recursively swap every two adjacent nodes in a Linked List.
-- [ ] Pending (June 22, 2026)
+- [x] Completed (June 22, 2026)
 
 ---
 
