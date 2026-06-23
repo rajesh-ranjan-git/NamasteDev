@@ -353,3 +353,38 @@ MyLinkedList.prototype.rotate = (k) => {
 
   return this.head;
 };
+
+MyLinkedList.prototype.swapInPairs = () => {
+  if (!this.head || !this.head.next) return head;
+
+  let sentinalNode = new Node();
+  sentinalNode.next = this.head;
+
+  let previousNode = sentinalNode;
+  let currentNode = sentinalNode.next;
+  let nextNode = currentNode.next;
+
+  while (currentNode && nextNode) {
+    currentNode.next = nextNode.next;
+    nextNode.next = currentNode;
+    previousNode.next = nextNode;
+
+    previousNode = currentNode;
+    currentNode = currentNode.next;
+    nextNode = currentNode && currentNode.next;
+  }
+
+  return sentinalNode.next;
+};
+
+MyLinkedList.prototype.swapInPairsRecursive = (head) => {
+  if (!head || !head.next) return head;
+
+  let left = head;
+  let right = left.next;
+
+  left.next = MyLinkedList.swapInPairsRecursive(right.next);
+  right.next = left;
+
+  return right;
+};
