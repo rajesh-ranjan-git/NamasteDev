@@ -310,27 +310,27 @@
 ### Length of Last Word - Approach 1 - Two Loops
 
 - Find the length of the last word using a basic loop approach.
-- [ ] Pending (June 23, 2026)
+- [x] Completed (June 23, 2026)
 
 ### Length of Last Word - Approach 2 - One Loop
 
 - Optimized one-pass solution to find the last word’s length.
-- [ ] Pending (June 23, 2026)
+- [x] Completed (June 23, 2026)
 
 ### Find Words Containing Character
 
 - Find words from a list that contain a specific character.
-- [ ] Pending (June 23, 2026)
+- [x] Completed (June 23, 2026)
 
 ### Jewels and Stones
 
 - Count how many stones are also jewels.
-- [ ] Pending (June 24, 2026)
+- [x] Completed (June 24, 2026)
 
 ### Find Most Frequent Vowel and Consonant
 
 - Identify the most frequent vowel and consonant in a string.
-- [ ] Pending (June 24, 2026)
+- [x] Completed (June 24, 2026)
 
 ### Split a String in Balanced Strings
 
