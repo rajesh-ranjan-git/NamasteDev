@@ -266,42 +266,42 @@
 ### Remove nth Node from end - One Pass
 
 - Remove the nth node from the end in one pass using two pointers.
-- [x] Completed (June 21, 2026)
+- [x] Completed
 
 ### Remove Duplicates from Sorted List
 
 - Remove consecutive duplicates from a sorted Linked List.
-- [x] Completed (June 21, 2026)
+- [x] Completed
 
 ### Odd Even Linked List
 
 - Rearrange nodes based on their position (odd/even index).
-- [x] Completed (June 21, 2026)
+- [x] Completed
 
 ### Add Two Numbers
 
 - Add two numbers represented as Linked Lists.
-- [x] Completed (June 21, 2026)
+- [x] Completed
 
 ### Merge Two Sorted Lists
 
 - Merge two sorted Linked Lists into one.
-- [x] Completed (June 21, 2026)
+- [x] Completed
 
 ### Rotate List
 
 - Rotate a Linked List to the right by k places.
-- [x] Completed (June 22, 2026)
+- [x] Completed
 
 ### Swap Nodes in Pairs - Iterative Approach
 
 - Swap every two adjacent nodes in a Linked List iteratively.
-- [x] Completed (June 22, 2026)
+- [x] Completed
 
 ### Swap Nodes in Pair - Recursive Approach
 
 - Recursively swap every two adjacent nodes in a Linked List.
-- [x] Completed (June 22, 2026)
+- [x] Completed
 
 ---
 
@@ -310,62 +310,62 @@
 ### Length of Last Word - Approach 1 - Two Loops
 
 - Find the length of the last word using a basic loop approach.
-- [x] Completed (June 23, 2026)
+- [x] Completed
 
 ### Length of Last Word - Approach 2 - One Loop
 
 - Optimized one-pass solution to find the last word’s length.
-- [x] Completed (June 23, 2026)
+- [x] Completed
 
 ### Find Words Containing Character
 
 - Find words from a list that contain a specific character.
-- [x] Completed (June 23, 2026)
+- [x] Completed
 
 ### Jewels and Stones
 
 - Count how many stones are also jewels.
-- [x] Completed (June 24, 2026)
+- [x] Completed
 
 ### Find Most Frequent Vowel and Consonant
 
 - Identify the most frequent vowel and consonant in a string.
-- [x] Completed (June 24, 2026)
+- [x] Completed
 
 ### Split a String in Balanced Strings
 
 - Split a string into maximum balanced substrings.
-- [ ] Pending (June 24, 2026)
+- [x] Completed
 
 ### Reverse String II
 
 - Reverse parts of a string based on a pattern.
-- [ ] Pending (June 25, 2026)
+- [x] Completed
 
 ### Valid Palindrome - Approach 1 - Extra Space
 
 - Check palindrome by cleaning and reversing a string.
-- [ ] Pending (June 25, 2026)
+- [x] Completed
 
 ### Valid Palindrome - Approach 2 - Two Pointers
 
 - Use two-pointer technique to validate palindrome.
-- [ ] Pending (June 25, 2026)
+- [x] Completed
 
 ### Largest Odd Number in a String
 
 - Find the largest odd number that can be formed from a string.
-- [ ] Pending (June 26, 2026)
+- [x] Completed
 
 ### Longest Common Prefix
 
 - Find the longest common starting substring among strings.
-- [ ] Pending (June 26, 2026)
+- [x] Completed
 
 ### Valid Anagram
 
 - Check if two strings are anagrams of each other.
-- [ ] Pending (June 26, 2026)
+- [x] Completed
 
 ### Isomorphic Strings
 

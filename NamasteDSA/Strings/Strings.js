@@ -102,3 +102,118 @@ function maxFreqVowelsAndConsonant(s) {
 }
 
 console.log(maxFreqVowelsAndConsonant("successes"));
+
+function balancedStringSplit(s) {
+  let balancedCounter = (rlCounter = 0);
+
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === "R") {
+      rlCounter++;
+    } else {
+      rlCounter--;
+    }
+
+    if (rlCounter === 0) {
+      balancedCounter++;
+    }
+  }
+
+  return balancedCounter;
+}
+
+console.log(balancedStringSplit("RLRRLLRLRL"));
+
+function reverseStr(s, k) {
+  s = s.split("");
+
+  for (let i = 0; i < s.length; i = i + 2 * k) {
+    let start = i;
+    let end = i + k - 1;
+
+    while (start < end) {
+      let temp = s[start];
+      s[start] = s[end];
+      s[end] = temp;
+
+      start++;
+      end--;
+    }
+  }
+
+  return s.join("");
+}
+
+console.log(reverseStr("abcdefg", 2));
+
+function isPalindrome(s) {
+  s = s.toLowerCase();
+
+  let start = 0;
+  let end = s.length - 1;
+
+  while (start < end) {
+    if (!s[start].match(/[a-z0-9]/)) {
+      start++;
+    } else if (!s[end].match(/[a-z0-9]/)) {
+      end--;
+    } else if (s[start] !== s[end]) {
+      return false;
+    } else {
+      start++;
+      end--;
+    }
+  }
+
+  return true;
+}
+
+console.log(reverseStr("A man, a plan, a canal: Panama"));
+
+function largestOddNumber(num) {
+  let n = num.length - 1;
+
+  while (n >= 0) {
+    if (Number(num[n]) % 2 !== 0) {
+      return num.substring(0, n + 1);
+    }
+
+    n--;
+  }
+
+  return "";
+}
+
+console.log(reverseStr("52"));
+
+function isAnagram(s, t) {
+  if (s.length !== t.length) return false;
+
+  const hash = {};
+
+  for (let i = 0; i < s.length; i++) {
+    if (!hash[s[i]]) {
+      hash[s[i]] = 1;
+    } else {
+      hash[s[i]]++;
+    }
+  }
+
+  for (let i = 0; i < t.length; i++) {
+    if (!hash[t[i]]) {
+      return false;
+    } else {
+      hash[t[i]]--;
+    }
+  }
+
+  let keys = Object.keys(hash);
+  for (let i = 0; i < keys.length; i++) {
+    if (hash[keys[i]] !== 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+console.log(reverseStr("aacc", "ccac"));
