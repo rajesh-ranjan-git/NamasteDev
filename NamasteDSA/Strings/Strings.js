@@ -217,3 +217,73 @@ function isAnagram(s, t) {
 }
 
 console.log(reverseStr("aacc", "ccac"));
+
+function isIsomorphic(s, t) {
+  if (s.length !== t.length) return false;
+
+  const stot = {};
+  const ttos = {};
+
+  for (let i = 0; i < s.length; i++) {
+    if (!stot[s[i]]) {
+      if (!ttos[t[i]]) {
+        stot[s[i]] = t[i];
+        ttos[t[i]] = s[i];
+      } else if (ttos[t[i]] !== s[i]) {
+        return false;
+      }
+    } else if (stot[s[i]] !== t[i]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+console.log(isIsomorphic("egg", "add"));
+
+function groupAnagrams(strs) {
+  const hash = {};
+
+  for (let i = 0; i < strs.length; i++) {
+    const sorted = strs[i].split("").sort().join("");
+    if (!hash[sorted]) {
+      hash[sorted] = [strs[i]];
+    } else {
+      hash[sorted].push(strs[i]);
+    }
+  }
+
+  return Object.values(hash);
+}
+
+console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
+
+function groupAnagramsBetter(strs) {
+  const hash = {};
+
+  for (let i = 0; i < strs.length; i++) {
+    let freqArray = Array(26).fill(0);
+
+    for (let j = 0; j < strs[i].length; j++) {
+      let index = strs[i][j].charCodeAt() - "a".charCodeAt();
+      freqArray[index]++;
+    }
+
+    let key = "";
+
+    for (let k = 0; k < 26; k++) {
+      key = key + String.fromCharCode(k) + freqArray[k];
+    }
+
+    if (!hash[key]) {
+      hash[key] = [strs[i]];
+    } else {
+      hash[key].push(strs[i]);
+    }
+  }
+
+  return Object.values(hash);
+}
+
+console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
